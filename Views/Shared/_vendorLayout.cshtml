@@ -1,0 +1,201 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/styles.css" />
+    <title>Admin Dashboard</title>
+    <link href="~/css/styles.css" rel="stylesheet" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons+Outlined" rel="stylesheet">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@24,400,0,0" />
+</head>
+<body>
+    <div class="grid-container">
+        <header class="header">
+            <div class="menu-icon" onclick="openSidebar()">
+                <span class="material-icons-outlined">menu</span>
+            </div>
+            <div class="header-left">
+                <span class="material-symbols-outlined">search</span>
+            </div>
+            <div class="header-right">
+                <span class="material-symbols-outlined"> notifications </span>
+                <span class="material-symbols-outlined"> mail </span>
+                <span class="material-symbols-outlined"> account_circle </span>
+            </div>
+        </header>
+
+        <aside id="sidebar">
+            <div class="sidebar-title">
+                <div class="sidebar-brand">
+                    <span class="material-symbols-outlined">inventory</span> Nonamii's inventory
+                </div>
+                <span class="material-symbols-outlined" onclick="closeSidebar()">close</span>
+            </div>
+            <ul class="sidebar-list">
+                <li class="sidebar-list-item"><a href="/Vendor/Index">
+                        <span class="material-symbols-outlined">dashboard</span> Dashboard
+                </a>
+                </li>
+                <li class="sidebar-list-item">
+                    <a href="/Vendor/OrdersNav"><span class="material-symbols-outlined">inventory_2</span> Orders</a>
+                </li>
+                <li class="sidebar-list-item">
+                    <span class="material-symbols-outlined">fact_check</span> Inventory
+                </li>
+                <li class="sidebar-list-item">
+                    <span class="material-symbols-outlined">add_shopping_cart</span> Purchase Orders
+                </li>
+                <li class="sidebar-list-item">
+                    <span class="material-symbols-outlined">shopping_cart</span> Sales Orders
+                </li>
+                <li class="sidebar-list-item">
+                    <span class="material-symbols-outlined">poll</span> Reports
+                </li>
+                <li class="sidebar-list-item">
+                    <span class="material-symbols-outlined">settings</span> Settings
+                </li>
+            </ul>
+
+        </aside>
+
+        <main class="main-container">
+            <div class="main-title">
+                <p class="font-weight-bold">DASHBOARD</p>
+            </div>
+
+            <div class="card">
+                <div class="card-inner">
+                    <p class="text-primary">PRODUCTS</p>
+                    <span class="material-symbols-outlined text-blue">inventory_2</span>
+                </div>
+                <span class="text-primary font-weight-bold"></span>
+            </div>
+
+            <div class="card">
+                <div class="card-inner">
+                    <p class="text-primary">PURCHASE ORDERS</p>
+                    <span class="material-symbols-outlined text-orange">add_shopping_cart</span>
+                </div>
+                <span class="text-primary font-weight-bold"></span>
+            </div>
+
+            <div class="card">
+                <div class="card-inner">
+                    <p class="text-primary">SALES ORDERS</p>
+                    <span class="material-symbols-outlined text-green">shopping_cart</span>
+                </div>
+                <span class="text-primary font-weight-bold"></span>
+            </div>
+
+            <div class="card">
+                <div class="card-inner">
+                    <p class="text-primary">INVENTORY ALERTS</p>
+                    <span class="material-symbols-outlined text-red">notification_important</span>
+                </div>
+                <span class="text-primary font-weight-bold"></span>
+            </div>
+
+        </main>
+    </div>
+
+    <script src="/javascript/scripts.js"></script>
+</body>
+</html>
+
+
+
+
+<div>
+    @RenderBody()
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@* <!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>@ViewData["Title"] Nonamii</title>
+    <link rel="stylesheet" href="~/lib/bootstrap/dist/css/bootstrap.min.css" />
+    <link rel="stylesheet" href="~/css/site.css" asp-append-version="true" />
+    <link rel="stylesheet" href="~/Nonamii.styles.css" asp-append-version="true" />
+</head>
+<body>
+    <header>
+        <nav class="navbar navbar-expand-sm navbar-toggleable-sm navbar-light bg-white border-bottom box-shadow mb-3">
+            <div class="container-fluid">
+                <a class="navbar-brand" asp-area="" asp-controller="Home" asp-action="Index">Nonamii</a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target=".navbar-collapse" aria-controls="navbarSupportedContent"
+                        aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="navbar-collapse collapse d-sm-inline-flex justify-content-between">
+                    <ul class="navbar-nav flex-grow-1">
+                        <li class="nav-item">
+                            <a class="nav-link text-dark" asp-area="" asp-controller="Orders" asp-action="Notifications">
+                                Notifications
+                                <span class="badge rounded-pill text-bg-info text-dark" id="notificationCount">0</span>
+                            </a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link text-dark" asp-area="" asp-controller="Vendor" asp-action="OrdersNav">Orders</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link text-dark" asp-area="" asp-controller="Home" asp-action="Privacy">Menu</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link text-dark" asp-area="" asp-controller="Home" asp-action="Privacy">Stock</a>
+                        </li>
+                    </ul>
+                    <partial name="_LoginPartial" />
+                </div>
+            </div>
+        </nav>
+    </header>
+    <div class="container">
+        <main role="main" class="pb-3">
+            @RenderBody()
+        </main>
+    </div>
+
+    <footer class="border-top footer text-muted">
+        <div class="container">
+            &copy; 2024 - Nonamii - <a asp-area="" asp-controller="Home" asp-action="Privacy">Privacy</a>
+        </div>
+    </footer>
+    <script src="~/lib/jquery/dist/jquery.min.js"></script>
+    <script src="~/lib/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="~/js/site.js" asp-append-version="true"></script>
+    @await RenderSectionAsync("Scripts", required: false)
+    
+</body>
+</html>
+ *@

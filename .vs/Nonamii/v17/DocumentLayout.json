@@ -1,0 +1,135 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\zondi\\source\\repos\\projects\\Nonamii007\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{1C32385C-B204-42D4-AF8A-CD0809C2E71B}|Nonamii.csproj|c:\\users\\zondi\\source\\repos\\projects\\nonamii007\\controllers\\cartcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1C32385C-B204-42D4-AF8A-CD0809C2E71B}|Nonamii.csproj|solutionrelative:controllers\\cartcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1C32385C-B204-42D4-AF8A-CD0809C2E71B}|Nonamii.csproj|c:\\users\\zondi\\source\\repos\\projects\\nonamii007\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{1C32385C-B204-42D4-AF8A-CD0809C2E71B}|Nonamii.csproj|solutionrelative:appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1C32385C-B204-42D4-AF8A-CD0809C2E71B}|Nonamii.csproj|c:\\users\\zondi\\source\\repos\\projects\\nonamii007\\views\\cart\\getusercart.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{1C32385C-B204-42D4-AF8A-CD0809C2E71B}|Nonamii.csproj|solutionrelative:views\\cart\\getusercart.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1C32385C-B204-42D4-AF8A-CD0809C2E71B}|Nonamii.csproj|c:\\users\\zondi\\source\\repos\\projects\\nonamii007\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1C32385C-B204-42D4-AF8A-CD0809C2E71B}|Nonamii.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1C32385C-B204-42D4-AF8A-CD0809C2E71B}|Nonamii.csproj|c:\\users\\zondi\\source\\repos\\projects\\nonamii007\\globalusings.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1C32385C-B204-42D4-AF8A-CD0809C2E71B}|Nonamii.csproj|solutionrelative:globalusings.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1C32385C-B204-42D4-AF8A-CD0809C2E71B}|Nonamii.csproj|c:\\users\\zondi\\source\\repos\\projects\\nonamii007\\views\\cart\\checkoutpage.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{1C32385C-B204-42D4-AF8A-CD0809C2E71B}|Nonamii.csproj|solutionrelative:views\\cart\\checkoutpage.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1C32385C-B204-42D4-AF8A-CD0809C2E71B}|Nonamii.csproj|c:\\users\\zondi\\source\\repos\\projects\\nonamii007\\viewmodels\\checkoutviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1C32385C-B204-42D4-AF8A-CD0809C2E71B}|Nonamii.csproj|solutionrelative:viewmodels\\checkoutviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 5,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "GlobalUsings.cs",
+              "DocumentMoniker": "C:\\Users\\zondi\\source\\repos\\projects\\Nonamii007\\GlobalUsings.cs",
+              "RelativeDocumentMoniker": "GlobalUsings.cs",
+              "ToolTip": "C:\\Users\\zondi\\source\\repos\\projects\\Nonamii007\\GlobalUsings.cs",
+              "RelativeToolTip": "GlobalUsings.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAwAAAAoAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-05T10:52:13.128Z",
+              "IsPinned": true
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "C:\\Users\\zondi\\source\\repos\\projects\\Nonamii007\\appsettings.json",
+              "RelativeDocumentMoniker": "appsettings.json",
+              "ToolTip": "C:\\Users\\zondi\\source\\repos\\projects\\Nonamii007\\appsettings.json",
+              "RelativeToolTip": "appsettings.json",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAIAAAAQAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2024-04-30T12:05:07.793Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\zondi\\source\\repos\\projects\\Nonamii007\\Program.cs",
+              "RelativeDocumentMoniker": "Program.cs",
+              "ToolTip": "C:\\Users\\zondi\\source\\repos\\projects\\Nonamii007\\Program.cs",
+              "RelativeToolTip": "Program.cs",
+              "ViewState": "AQIAAB4AAAAAAAAAAAAAAAUAAAA+AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-30T09:50:30.642Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "GetUserCart.cshtml",
+              "DocumentMoniker": "C:\\Users\\zondi\\source\\repos\\projects\\Nonamii007\\Views\\Cart\\GetUserCart.cshtml",
+              "RelativeDocumentMoniker": "Views\\Cart\\GetUserCart.cshtml",
+              "ToolTip": "C:\\Users\\zondi\\source\\repos\\projects\\Nonamii007\\Views\\Cart\\GetUserCart.cshtml",
+              "RelativeToolTip": "Views\\Cart\\GetUserCart.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAADoAAABJAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-04-29T02:55:55.069Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "CheckoutViewModel.cs",
+              "DocumentMoniker": "C:\\Users\\zondi\\source\\repos\\projects\\Nonamii007\\ViewModels\\CheckoutViewModel.cs",
+              "RelativeDocumentMoniker": "ViewModels\\CheckoutViewModel.cs",
+              "ToolTip": "C:\\Users\\zondi\\source\\repos\\projects\\Nonamii007\\ViewModels\\CheckoutViewModel.cs",
+              "RelativeToolTip": "ViewModels\\CheckoutViewModel.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAUAAAAqAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-29T00:40:46.479Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "CartController.cs",
+              "DocumentMoniker": "C:\\Users\\zondi\\source\\repos\\projects\\Nonamii007\\Controllers\\CartController.cs",
+              "RelativeDocumentMoniker": "Controllers\\CartController.cs",
+              "ToolTip": "C:\\Users\\zondi\\source\\repos\\projects\\Nonamii007\\Controllers\\CartController.cs",
+              "RelativeToolTip": "Controllers\\CartController.cs",
+              "ViewState": "AQIAAFcAAAAAAAAAAAAowEAAAABTAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-28T16:05:29.849Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "CheckoutPage.cshtml",
+              "DocumentMoniker": "C:\\Users\\zondi\\source\\repos\\projects\\Nonamii007\\Views\\Cart\\CheckoutPage.cshtml",
+              "RelativeDocumentMoniker": "Views\\Cart\\CheckoutPage.cshtml",
+              "ToolTip": "C:\\Users\\zondi\\source\\repos\\projects\\Nonamii007\\Views\\Cart\\CheckoutPage.cshtml",
+              "RelativeToolTip": "Views\\Cart\\CheckoutPage.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABAAAAAWAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-04-29T00:50:42.003Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

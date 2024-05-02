@@ -1,0 +1,28 @@
+﻿@model CheckoutViewModel
+
+
+    <table class="table table-striped table-dark table-borderless">
+        <h4 class="mt-4 p-2">Delivery Address</h4>
+        <tr>
+            <div class="card m-2 p-2">
+                <div class="card-body">
+                    <p><strong>Use the saved address?:</strong> </p>
+
+                    <p>@Model.Address.Street</p>
+                    <p>@Model.Address.Building</p>
+                    <p>@Model.Address.City</p>
+                    <p>@Model.Address.ZIP</p>
+                </div>
+                or
+                <br />
+                <br />
+                <a asp-action="Create" asp-controller="Addresses" class="btn btn-info">
+                    Use a different address
+                </a>
+            </div>
+        </tr>
+
+       
+<a asp-controller="Cart" asp-action="CheckoutSession" class="btn btn-primary">
+    Proceeed To Payment
+</a>

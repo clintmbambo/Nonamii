@@ -1,0 +1,15 @@
+﻿@model Order
+
+<div class="bg-danger-subtle bg-body-secondary p-5">
+    <p>Are you sure you want to cancel order <strong>@Model.Id </strong>?</p>
+    <a asp-controller="Orders" asp-action="CancelOrder" asp-route-id="@Model?.Id" class="btn btn-secondary">
+        Yes
+    </a>
+    <a asp-controller="Orders" asp-action="GetPendingUserOrders" class="btn btn-primary">
+        No
+    </a>
+</div>
+
+<a asp-action="GetPendingUserOrders" asp-controller="Orders" class="btn btn-info">
+    Back
+</a>

@@ -1,0 +1,89 @@
+﻿@model CheckoutViewModel
+
+@{
+    ViewData["Title"] = "CheckoutPageEntry";
+}
+
+<h1>CheckoutPageEntry</h1>
+
+<h4>Enter Delivery Address</h4>
+<hr />
+<div class="row">
+    <div class="col-md-4">
+        <form asp-action="CheckoutPageEntry">
+            <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+            <div class="form-group">
+                <label asp-for="Address.Street" class="control-label"></label>
+                <input asp-for="Address.Street" class="form-control" />
+                <span asp-validation-for="Address.Street" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="Address.ZIP" class="control-label"></label>
+                <input asp-for="Address.ZIP" class="form-control" />
+                <span asp-validation-for="Address.ZIP" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="Address.Building" class="control-label"></label>
+                <input asp-for="Address.Building" class="form-control" />
+                <span asp-validation-for="Address.Building" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="Address.City" class="control-label"></label>
+                <input asp-for="Address.City" class="form-control" />
+                <span asp-validation-for="Address.City" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="Address.Region" class="control-label"></label>
+                <input asp-for="Address.Region" class="form-control" />
+                <span asp-validation-for="Address.Region" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <input type="submit" value="Create" class="btn btn-primary" />
+            </div>
+        </form>
+    </div>
+</div>
+
+<br />
+<br />
+<h4>Details</h4>
+<div class="row">
+    <div class="col-md-4">
+        <form asp-action="CheckoutPageEntry">
+            <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+            <div class="form-group">
+                <label asp-for="Address.Street" class="control-label"></label>
+                <input asp-for="Address.Street" class="form-control" />
+                <span asp-validation-for="Address.Street" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="Address.ZIP" class="control-label"></label>
+                <input asp-for="Address.ZIP" class="form-control" />
+                <span asp-validation-for="Address.ZIP" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="Address.Building" class="control-label"></label>
+                <input asp-for="Address.Building" class="form-control" />
+                <span asp-validation-for="Address.Building" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="Address.City" class="control-label"></label>
+                <input asp-for="Address.City" class="form-control" />
+                <span asp-validation-for="Address.City" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="Address.Region" class="control-label"></label>
+                <input asp-for="Address.Region" class="form-control" />
+                <span asp-validation-for="Address.Region" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <input type="submit" value="Create" class="btn btn-primary" />
+            </div>
+        </form>
+    </div>
+</div>
+
+<div>
+    <a asp-action="Index">Back to List</a>
+</div>
+

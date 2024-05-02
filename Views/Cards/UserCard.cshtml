@@ -1,0 +1,51 @@
+﻿@model Nonamii.Models.UserDetails.Card
+
+@{
+    ViewData["Title"] = "Address";
+}
+
+<h1>Address</h1>
+
+<p>
+    <a asp-action="Create" class="btn btn-primary">Create New</a>
+</p>
+<table class="table">
+    <thead>
+        <tr>
+            <th>
+                @Html.DisplayNameFor(model => model.FullName)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.CardNumber)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.CVV)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.ExpiryDate)
+            </th>
+            <th></th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr>
+            <td>
+                @Html.DisplayFor(modelItem => Model.FullName)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => Model.CardNumber)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => Model.CVV)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => Model.ExpiryDate)
+            </td>
+            <td>
+                <a asp-action="Edit" asp-route-id="@Model.Id" class="btn btn-primary">Edit</a> |
+                <a asp-action="Details" asp-route-id="@Model.Id" class="btn btn-info">Details</a> |
+                <a asp-action="Delete" asp-route-id="@Model.Id" class="btn btn-danger">Delete</a>
+            </td>
+        </tr>
+    </tbody>
+</table>

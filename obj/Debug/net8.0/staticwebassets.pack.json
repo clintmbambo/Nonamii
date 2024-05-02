@@ -1,0 +1,553 @@
+{
+  "Files": [
+    {
+      "Id": "C:\\Users\\zondi\\source\\repos\\projects\\Nonamii007\\obj\\Debug\\net8.0\\scopedcss\\projectbundle\\Nonamii.bundle.scp.css",
+      "PackagePath": "staticwebassets\\Nonamii.bundle.scp.css"
+    },
+    {
+      "Id": "C:\\Users\\zondi\\source\\repos\\projects\\Nonamii007\\wwwroot\\Images\\Cheese and Potato Pie.jpeg",
+      "PackagePath": "staticwebassets\\Images\\Cheese and Potato Pie.jpeg"
+    },
+    {
+      "Id": "C:\\Users\\zondi\\source\\repos\\projects\\Nonamii007\\wwwroot\\Images\\Fried Potato and Eggs.jpeg",
+      "PackagePath": "staticwebassets\\Images\\Fried Potato and Eggs.jpeg"
+    },
+    {
+      "Id": "C:\\Users\\zondi\\source\\repos\\projects\\Nonamii007\\wwwroot\\Images\\Fried Potato.jpeg",
+      "PackagePath": "staticwebassets\\Images\\Fried Potato.jpeg"
+    },
+    {
+      "Id": "C:\\Users\\zondi\\source\\repos\\projects\\Nonamii007\\wwwroot\\Images\\Male_couriers_delivering_parce.png",
+      "PackagePath": "staticwebassets\\Images\\Male_couriers_delivering_parce.png"
+    },
+    {
+      "Id": "C:\\Users\\zondi\\source\\repos\\projects\\Nonamii007\\wwwroot\\Images\\Male_couriers_delivering_parce@2x.png",
+      "PackagePath": "staticwebassets\\Images\\Male_couriers_delivering_parce@2x.png"
+    },
+    {
+      "Id": "C:\\Users\\zondi\\source\\repos\\projects\\Nonamii007\\wwwroot\\Images\\Pizza with Potato, Cheese and Eggs.jpeg",
+      "PackagePath": "staticwebassets\\Images\\Pizza with Potato, Cheese and Eggs.jpeg"
+    },
+    {
+      "Id": "C:\\Users\\zondi\\source\\repos\\projects\\Nonamii007\\wwwroot\\Images\\Potato Salad with Sausage and Eggs.jpeg",
+      "PackagePath": "staticwebassets\\Images\\Potato Salad with Sausage and Eggs.jpeg"
+    },
+    {
+      "Id": "C:\\Users\\zondi\\source\\repos\\projects\\Nonamii007\\wwwroot\\Images\\Potato Soup with Sausage.jpeg",
+      "PackagePath": "staticwebassets\\Images\\Potato Soup with Sausage.jpeg"
+    },
+    {
+      "Id": "C:\\Users\\zondi\\source\\repos\\projects\\Nonamii007\\wwwroot\\Images\\Potato and Sausage Bake.jpeg",
+      "PackagePath": "staticwebassets\\Images\\Potato and Sausage Bake.jpeg"
+    },
+    {
+      "Id": "C:\\Users\\zondi\\source\\repos\\projects\\Nonamii007\\wwwroot\\Images\\Untitled-1.png",
+      "PackagePath": "staticwebassets\\Images\\Untitled-1.png"
+    },
+    {
+      "Id": "C:\\Users\\zondi\\source\\repos\\projects\\Nonamii007\\wwwroot\\Images\\Untitled-1@2x.png",
+      "PackagePath": "staticwebassets\\Images\\Untitled-1@2x.png"
+    },
+    {
+      "Id": "C:\\Users\\zondi\\source\\repos\\projects\\Nonamii007\\wwwroot\\Images\\Untitled-1_cu.png",
+      "PackagePath": "staticwebassets\\Images\\Untitled-1_cu.png"
+    },
+    {
+      "Id": "C:\\Users\\zondi\\source\\repos\\projects\\Nonamii007\\wwwroot\\Images\\Untitled-1_cu@2x.png",
+      "PackagePath": "staticwebassets\\Images\\Untitled-1_cu@2x.png"
+    },
+    {
+      "Id": "C:\\Users\\zondi\\source\\repos\\projects\\Nonamii007\\wwwroot\\Images\\Untitled-1_ex.png",
+      "PackagePath": "staticwebassets\\Images\\Untitled-1_ex.png"
+    },
+    {
+      "Id": "C:\\Users\\zondi\\source\\repos\\projects\\Nonamii007\\wwwroot\\Images\\Untitled-1_ex@2x.png",
+      "PackagePath": "staticwebassets\\Images\\Untitled-1_ex@2x.png"
+    },
+    {
+      "Id": "C:\\Users\\zondi\\source\\repos\\projects\\Nonamii007\\wwwroot\\Images\\Untitled2.png",
+      "PackagePath": "staticwebassets\\Images\\Untitled2.png"
+    },
+    {
+      "Id": "C:\\Users\\zondi\\source\\repos\\projects\\Nonamii007\\wwwroot\\Images\\Untitled2@2x.png",
+      "PackagePath": "staticwebassets\\Images\\Untitled2@2x.png"
+    },
+    {
+      "Id": "C:\\Users\\zondi\\source\\repos\\projects\\Nonamii007\\wwwroot\\Images\\Untitled2_cv.png",
+      "PackagePath": "staticwebassets\\Images\\Untitled2_cv.png"
+    },
+    {
+      "Id": "C:\\Users\\zondi\\source\\repos\\projects\\Nonamii007\\wwwroot\\Images\\Untitled2_cv@2x.png",
+      "PackagePath": "staticwebassets\\Images\\Untitled2_cv@2x.png"
+    },
+    {
+      "Id": "C:\\Users\\zondi\\source\\repos\\projects\\Nonamii007\\wwwroot\\Images\\Untitled2_d.png",
+      "PackagePath": "staticwebassets\\Images\\Untitled2_d.png"
+    },
+    {
+      "Id": "C:\\Users\\zondi\\source\\repos\\projects\\Nonamii007\\wwwroot\\Images\\Untitled2_d@2x.png",
+      "PackagePath": "staticwebassets\\Images\\Untitled2_d@2x.png"
+    },
+    {
+      "Id": "C:\\Users\\zondi\\source\\repos\\projects\\Nonamii007\\wwwroot\\Images\\Untitled2_ey.png",
+      "PackagePath": "staticwebassets\\Images\\Untitled2_ey.png"
+    },
+    {
+      "Id": "C:\\Users\\zondi\\source\\repos\\projects\\Nonamii007\\wwwroot\\Images\\Untitled2_ey@2x.png",
+      "PackagePath": "staticwebassets\\Images\\Untitled2_ey@2x.png"
+    },
+    {
+      "Id": "C:\\Users\\zondi\\source\\repos\\projects\\Nonamii007\\wwwroot\\Images\\Untitled2_gh.png",
+      "PackagePath": "staticwebassets\\Images\\Untitled2_gh.png"
+    },
+    {
+      "Id": "C:\\Users\\zondi\\source\\repos\\projects\\Nonamii007\\wwwroot\\Images\\Untitled2_gh@2x.png",
+      "PackagePath": "staticwebassets\\Images\\Untitled2_gh@2x.png"
+    },
+    {
+      "Id": "C:\\Users\\zondi\\source\\repos\\projects\\Nonamii007\\wwwroot\\Images\\Untitled3.png",
+      "PackagePath": "staticwebassets\\Images\\Untitled3.png"
+    },
+    {
+      "Id": "C:\\Users\\zondi\\source\\repos\\projects\\Nonamii007\\wwwroot\\Images\\Untitled3@2x.png",
+      "PackagePath": "staticwebassets\\Images\\Untitled3@2x.png"
+    },
+    {
+      "Id": "C:\\Users\\zondi\\source\\repos\\projects\\Nonamii007\\wwwroot\\Images\\Untitled3_em.png",
+      "PackagePath": "staticwebassets\\Images\\Untitled3_em.png"
+    },
+    {
+      "Id": "C:\\Users\\zondi\\source\\repos\\projects\\Nonamii007\\wwwroot\\Images\\Untitled3_em@2x.png",
+      "PackagePath": "staticwebassets\\Images\\Untitled3_em@2x.png"
+    },
+    {
+      "Id": "C:\\Users\\zondi\\source\\repos\\projects\\Nonamii007\\wwwroot\\Images\\Untitled4.png",
+      "PackagePath": "staticwebassets\\Images\\Untitled4.png"
+    },
+    {
+      "Id": "C:\\Users\\zondi\\source\\repos\\projects\\Nonamii007\\wwwroot\\Images\\Untitled4@2x.png",
+      "PackagePath": "staticwebassets\\Images\\Untitled4@2x.png"
+    },
+    {
+      "Id": "C:\\Users\\zondi\\source\\repos\\projects\\Nonamii007\\wwwroot\\Images\\Untitled4_cx.png",
+      "PackagePath": "staticwebassets\\Images\\Untitled4_cx.png"
+    },
+    {
+      "Id": "C:\\Users\\zondi\\source\\repos\\projects\\Nonamii007\\wwwroot\\Images\\Untitled4_cx@2x.png",
+      "PackagePath": "staticwebassets\\Images\\Untitled4_cx@2x.png"
+    },
+    {
+      "Id": "C:\\Users\\zondi\\source\\repos\\projects\\Nonamii007\\wwwroot\\Images\\Untitled4_ez.png",
+      "PackagePath": "staticwebassets\\Images\\Untitled4_ez.png"
+    },
+    {
+      "Id": "C:\\Users\\zondi\\source\\repos\\projects\\Nonamii007\\wwwroot\\Images\\Untitled4_ez@2x.png",
+      "PackagePath": "staticwebassets\\Images\\Untitled4_ez@2x.png"
+    },
+    {
+      "Id": "C:\\Users\\zondi\\source\\repos\\projects\\Nonamii007\\wwwroot\\Images\\Untitled4_fy.png",
+      "PackagePath": "staticwebassets\\Images\\Untitled4_fy.png"
+    },
+    {
+      "Id": "C:\\Users\\zondi\\source\\repos\\projects\\Nonamii007\\wwwroot\\Images\\Untitled4_fy@2x.png",
+      "PackagePath": "staticwebassets\\Images\\Untitled4_fy@2x.png"
+    },
+    {
+      "Id": "C:\\Users\\zondi\\source\\repos\\projects\\Nonamii007\\wwwroot\\Images\\Untitled5.png",
+      "PackagePath": "staticwebassets\\Images\\Untitled5.png"
+    },
+    {
+      "Id": "C:\\Users\\zondi\\source\\repos\\projects\\Nonamii007\\wwwroot\\Images\\Untitled5@2x.png",
+      "PackagePath": "staticwebassets\\Images\\Untitled5@2x.png"
+    },
+    {
+      "Id": "C:\\Users\\zondi\\source\\repos\\projects\\Nonamii007\\wwwroot\\Images\\Untitled5_fu.png",
+      "PackagePath": "staticwebassets\\Images\\Untitled5_fu.png"
+    },
+    {
+      "Id": "C:\\Users\\zondi\\source\\repos\\projects\\Nonamii007\\wwwroot\\Images\\Untitled5_fu@2x.png",
+      "PackagePath": "staticwebassets\\Images\\Untitled5_fu@2x.png"
+    },
+    {
+      "Id": "C:\\Users\\zondi\\source\\repos\\projects\\Nonamii007\\wwwroot\\Images\\Untitled6.png",
+      "PackagePath": "staticwebassets\\Images\\Untitled6.png"
+    },
+    {
+      "Id": "C:\\Users\\zondi\\source\\repos\\projects\\Nonamii007\\wwwroot\\Images\\Untitled6@2x.png",
+      "PackagePath": "staticwebassets\\Images\\Untitled6@2x.png"
+    },
+    {
+      "Id": "C:\\Users\\zondi\\source\\repos\\projects\\Nonamii007\\wwwroot\\Images\\Untitled6_gg.png",
+      "PackagePath": "staticwebassets\\Images\\Untitled6_gg.png"
+    },
+    {
+      "Id": "C:\\Users\\zondi\\source\\repos\\projects\\Nonamii007\\wwwroot\\Images\\Untitled6_gg@2x.png",
+      "PackagePath": "staticwebassets\\Images\\Untitled6_gg@2x.png"
+    },
+    {
+      "Id": "C:\\Users\\zondi\\source\\repos\\projects\\Nonamii007\\wwwroot\\Images\\Wavy_Tsp-03_Single-08.png",
+      "PackagePath": "staticwebassets\\Images\\Wavy_Tsp-03_Single-08.png"
+    },
+    {
+      "Id": "C:\\Users\\zondi\\source\\repos\\projects\\Nonamii007\\wwwroot\\Images\\Wavy_Tsp-03_Single-08@2x.png",
+      "PackagePath": "staticwebassets\\Images\\Wavy_Tsp-03_Single-08@2x.png"
+    },
+    {
+      "Id": "C:\\Users\\zondi\\source\\repos\\projects\\Nonamii007\\wwwroot\\Images\\bbq nachos.jpeg",
+      "PackagePath": "staticwebassets\\Images\\bbq nachos.jpeg"
+    },
+    {
+      "Id": "C:\\Users\\zondi\\source\\repos\\projects\\Nonamii007\\wwwroot\\Images\\food_box_mockup_02.png",
+      "PackagePath": "staticwebassets\\Images\\food_box_mockup_02.png"
+    },
+    {
+      "Id": "C:\\Users\\zondi\\source\\repos\\projects\\Nonamii007\\wwwroot\\Images\\food_box_mockup_02@2x.png",
+      "PackagePath": "staticwebassets\\Images\\food_box_mockup_02@2x.png"
+    },
+    {
+      "Id": "C:\\Users\\zondi\\source\\repos\\projects\\Nonamii007\\wwwroot\\Images\\payment.png",
+      "PackagePath": "staticwebassets\\Images\\payment.png"
+    },
+    {
+      "Id": "C:\\Users\\zondi\\source\\repos\\projects\\Nonamii007\\wwwroot\\Images\\payment@2x.png",
+      "PackagePath": "staticwebassets\\Images\\payment@2x.png"
+    },
+    {
+      "Id": "C:\\Users\\zondi\\source\\repos\\projects\\Nonamii007\\wwwroot\\Images\\pranjall-kumar-sejqj6Eaqe8-uns.png",
+      "PackagePath": "staticwebassets\\Images\\pranjall-kumar-sejqj6Eaqe8-uns.png"
+    },
+    {
+      "Id": "C:\\Users\\zondi\\source\\repos\\projects\\Nonamii007\\wwwroot\\Images\\pranjall-kumar-sejqj6Eaqe8-uns@2x.png",
+      "PackagePath": "staticwebassets\\Images\\pranjall-kumar-sejqj6Eaqe8-uns@2x.png"
+    },
+    {
+      "Id": "C:\\Users\\zondi\\source\\repos\\projects\\Nonamii007\\wwwroot\\Images\\shopping-cart.png",
+      "PackagePath": "staticwebassets\\Images\\shopping-cart.png"
+    },
+    {
+      "Id": "C:\\Users\\zondi\\source\\repos\\projects\\Nonamii007\\wwwroot\\Images\\shopping-cart@2x.png",
+      "PackagePath": "staticwebassets\\Images\\shopping-cart@2x.png"
+    },
+    {
+      "Id": "C:\\Users\\zondi\\source\\repos\\projects\\Nonamii007\\wwwroot\\Images\\shopping-cart_d.png",
+      "PackagePath": "staticwebassets\\Images\\shopping-cart_d.png"
+    },
+    {
+      "Id": "C:\\Users\\zondi\\source\\repos\\projects\\Nonamii007\\wwwroot\\Images\\shopping-cart_d@2x.png",
+      "PackagePath": "staticwebassets\\Images\\shopping-cart_d@2x.png"
+    },
+    {
+      "Id": "C:\\Users\\zondi\\source\\repos\\projects\\Nonamii007\\wwwroot\\Images\\shopping-cart_dl.png",
+      "PackagePath": "staticwebassets\\Images\\shopping-cart_dl.png"
+    },
+    {
+      "Id": "C:\\Users\\zondi\\source\\repos\\projects\\Nonamii007\\wwwroot\\Images\\shopping-cart_dl@2x.png",
+      "PackagePath": "staticwebassets\\Images\\shopping-cart_dl@2x.png"
+    },
+    {
+      "Id": "C:\\Users\\zondi\\source\\repos\\projects\\Nonamii007\\wwwroot\\Images\\shopping-cart_fs.png",
+      "PackagePath": "staticwebassets\\Images\\shopping-cart_fs.png"
+    },
+    {
+      "Id": "C:\\Users\\zondi\\source\\repos\\projects\\Nonamii007\\wwwroot\\Images\\shopping-cart_fs@2x.png",
+      "PackagePath": "staticwebassets\\Images\\shopping-cart_fs@2x.png"
+    },
+    {
+      "Id": "C:\\Users\\zondi\\source\\repos\\projects\\Nonamii007\\wwwroot\\Images\\shopping-cart_gc.png",
+      "PackagePath": "staticwebassets\\Images\\shopping-cart_gc.png"
+    },
+    {
+      "Id": "C:\\Users\\zondi\\source\\repos\\projects\\Nonamii007\\wwwroot\\Images\\shopping-cart_gc@2x.png",
+      "PackagePath": "staticwebassets\\Images\\shopping-cart_gc@2x.png"
+    },
+    {
+      "Id": "C:\\Users\\zondi\\source\\repos\\projects\\Nonamii007\\wwwroot\\css\\AboutPage.css",
+      "PackagePath": "staticwebassets\\css\\AboutPage.css"
+    },
+    {
+      "Id": "C:\\Users\\zondi\\source\\repos\\projects\\Nonamii007\\wwwroot\\css\\BrowsePage.css",
+      "PackagePath": "staticwebassets\\css\\BrowsePage.css"
+    },
+    {
+      "Id": "C:\\Users\\zondi\\source\\repos\\projects\\Nonamii007\\wwwroot\\css\\ContactPage.css",
+      "PackagePath": "staticwebassets\\css\\ContactPage.css"
+    },
+    {
+      "Id": "C:\\Users\\zondi\\source\\repos\\projects\\Nonamii007\\wwwroot\\css\\WelcomePage.css",
+      "PackagePath": "staticwebassets\\css\\WelcomePage.css"
+    },
+    {
+      "Id": "C:\\Users\\zondi\\source\\repos\\projects\\Nonamii007\\wwwroot\\css\\bootstrap.min.css",
+      "PackagePath": "staticwebassets\\css\\bootstrap.min.css"
+    },
+    {
+      "Id": "C:\\Users\\zondi\\source\\repos\\projects\\Nonamii007\\wwwroot\\css\\site.css",
+      "PackagePath": "staticwebassets\\css\\site.css"
+    },
+    {
+      "Id": "C:\\Users\\zondi\\source\\repos\\projects\\Nonamii007\\wwwroot\\css\\styles.css",
+      "PackagePath": "staticwebassets\\css\\styles.css"
+    },
+    {
+      "Id": "C:\\Users\\zondi\\source\\repos\\projects\\Nonamii007\\wwwroot\\favicon.ico",
+      "PackagePath": "staticwebassets\\favicon.ico"
+    },
+    {
+      "Id": "C:\\Users\\zondi\\source\\repos\\projects\\Nonamii007\\wwwroot\\js\\indes.js",
+      "PackagePath": "staticwebassets\\js\\indes.js"
+    },
+    {
+      "Id": "C:\\Users\\zondi\\source\\repos\\projects\\Nonamii007\\wwwroot\\js\\scripts.js",
+      "PackagePath": "staticwebassets\\js\\scripts.js"
+    },
+    {
+      "Id": "C:\\Users\\zondi\\source\\repos\\projects\\Nonamii007\\wwwroot\\js\\site.js",
+      "PackagePath": "staticwebassets\\js\\site.js"
+    },
+    {
+      "Id": "C:\\Users\\zondi\\source\\repos\\projects\\Nonamii007\\wwwroot\\lib\\bootstrap\\LICENSE",
+      "PackagePath": "staticwebassets\\lib\\bootstrap"
+    },
+    {
+      "Id": "C:\\Users\\zondi\\source\\repos\\projects\\Nonamii007\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css"
+    },
+    {
+      "Id": "C:\\Users\\zondi\\source\\repos\\projects\\Nonamii007\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css.map"
+    },
+    {
+      "Id": "C:\\Users\\zondi\\source\\repos\\projects\\Nonamii007\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css"
+    },
+    {
+      "Id": "C:\\Users\\zondi\\source\\repos\\projects\\Nonamii007\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\zondi\\source\\repos\\projects\\Nonamii007\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css"
+    },
+    {
+      "Id": "C:\\Users\\zondi\\source\\repos\\projects\\Nonamii007\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css.map"
+    },
+    {
+      "Id": "C:\\Users\\zondi\\source\\repos\\projects\\Nonamii007\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css"
+    },
+    {
+      "Id": "C:\\Users\\zondi\\source\\repos\\projects\\Nonamii007\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\zondi\\source\\repos\\projects\\Nonamii007\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css"
+    },
+    {
+      "Id": "C:\\Users\\zondi\\source\\repos\\projects\\Nonamii007\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css.map"
+    },
+    {
+      "Id": "C:\\Users\\zondi\\source\\repos\\projects\\Nonamii007\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css"
+    },
+    {
+      "Id": "C:\\Users\\zondi\\source\\repos\\projects\\Nonamii007\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\zondi\\source\\repos\\projects\\Nonamii007\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css"
+    },
+    {
+      "Id": "C:\\Users\\zondi\\source\\repos\\projects\\Nonamii007\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css.map"
+    },
+    {
+      "Id": "C:\\Users\\zondi\\source\\repos\\projects\\Nonamii007\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css"
+    },
+    {
+      "Id": "C:\\Users\\zondi\\source\\repos\\projects\\Nonamii007\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\zondi\\source\\repos\\projects\\Nonamii007\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css"
+    },
+    {
+      "Id": "C:\\Users\\zondi\\source\\repos\\projects\\Nonamii007\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css.map"
+    },
+    {
+      "Id": "C:\\Users\\zondi\\source\\repos\\projects\\Nonamii007\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css"
+    },
+    {
+      "Id": "C:\\Users\\zondi\\source\\repos\\projects\\Nonamii007\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\zondi\\source\\repos\\projects\\Nonamii007\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css"
+    },
+    {
+      "Id": "C:\\Users\\zondi\\source\\repos\\projects\\Nonamii007\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css.map"
+    },
+    {
+      "Id": "C:\\Users\\zondi\\source\\repos\\projects\\Nonamii007\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css"
+    },
+    {
+      "Id": "C:\\Users\\zondi\\source\\repos\\projects\\Nonamii007\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\zondi\\source\\repos\\projects\\Nonamii007\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.css"
+    },
+    {
+      "Id": "C:\\Users\\zondi\\source\\repos\\projects\\Nonamii007\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.css.map"
+    },
+    {
+      "Id": "C:\\Users\\zondi\\source\\repos\\projects\\Nonamii007\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.min.css"
+    },
+    {
+      "Id": "C:\\Users\\zondi\\source\\repos\\projects\\Nonamii007\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\zondi\\source\\repos\\projects\\Nonamii007\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css"
+    },
+    {
+      "Id": "C:\\Users\\zondi\\source\\repos\\projects\\Nonamii007\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css.map"
+    },
+    {
+      "Id": "C:\\Users\\zondi\\source\\repos\\projects\\Nonamii007\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css"
+    },
+    {
+      "Id": "C:\\Users\\zondi\\source\\repos\\projects\\Nonamii007\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\zondi\\source\\repos\\projects\\Nonamii007\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js"
+    },
+    {
+      "Id": "C:\\Users\\zondi\\source\\repos\\projects\\Nonamii007\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js.map"
+    },
+    {
+      "Id": "C:\\Users\\zondi\\source\\repos\\projects\\Nonamii007\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js"
+    },
+    {
+      "Id": "C:\\Users\\zondi\\source\\repos\\projects\\Nonamii007\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js.map"
+    },
+    {
+      "Id": "C:\\Users\\zondi\\source\\repos\\projects\\Nonamii007\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js"
+    },
+    {
+      "Id": "C:\\Users\\zondi\\source\\repos\\projects\\Nonamii007\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js.map"
+    },
+    {
+      "Id": "C:\\Users\\zondi\\source\\repos\\projects\\Nonamii007\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js"
+    },
+    {
+      "Id": "C:\\Users\\zondi\\source\\repos\\projects\\Nonamii007\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js.map"
+    },
+    {
+      "Id": "C:\\Users\\zondi\\source\\repos\\projects\\Nonamii007\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.js"
+    },
+    {
+      "Id": "C:\\Users\\zondi\\source\\repos\\projects\\Nonamii007\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.js.map"
+    },
+    {
+      "Id": "C:\\Users\\zondi\\source\\repos\\projects\\Nonamii007\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.min.js"
+    },
+    {
+      "Id": "C:\\Users\\zondi\\source\\repos\\projects\\Nonamii007\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.map"
+    },
+    {
+      "Id": "C:\\Users\\zondi\\source\\repos\\projects\\Nonamii007\\wwwroot\\lib\\jquery-validation-unobtrusive\\LICENSE.txt",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation-unobtrusive\\LICENSE.txt"
+    },
+    {
+      "Id": "C:\\Users\\zondi\\source\\repos\\projects\\Nonamii007\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js"
+    },
+    {
+      "Id": "C:\\Users\\zondi\\source\\repos\\projects\\Nonamii007\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js"
+    },
+    {
+      "Id": "C:\\Users\\zondi\\source\\repos\\projects\\Nonamii007\\wwwroot\\lib\\jquery-validation\\LICENSE.md",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\LICENSE.md"
+    },
+    {
+      "Id": "C:\\Users\\zondi\\source\\repos\\projects\\Nonamii007\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\additional-methods.js"
+    },
+    {
+      "Id": "C:\\Users\\zondi\\source\\repos\\projects\\Nonamii007\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\additional-methods.min.js"
+    },
+    {
+      "Id": "C:\\Users\\zondi\\source\\repos\\projects\\Nonamii007\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\jquery.validate.js"
+    },
+    {
+      "Id": "C:\\Users\\zondi\\source\\repos\\projects\\Nonamii007\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\jquery.validate.min.js"
+    },
+    {
+      "Id": "C:\\Users\\zondi\\source\\repos\\projects\\Nonamii007\\wwwroot\\lib\\jquery\\LICENSE.txt",
+      "PackagePath": "staticwebassets\\lib\\jquery\\LICENSE.txt"
+    },
+    {
+      "Id": "C:\\Users\\zondi\\source\\repos\\projects\\Nonamii007\\wwwroot\\lib\\jquery\\dist\\jquery.js",
+      "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.js"
+    },
+    {
+      "Id": "C:\\Users\\zondi\\source\\repos\\projects\\Nonamii007\\wwwroot\\lib\\jquery\\dist\\jquery.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.min.js"
+    },
+    {
+      "Id": "C:\\Users\\zondi\\source\\repos\\projects\\Nonamii007\\wwwroot\\lib\\jquery\\dist\\jquery.min.map",
+      "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.min.map"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.Nonamii.Microsoft.AspNetCore.StaticWebAssets.props",
+      "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssets.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.build.Nonamii.props",
+      "PackagePath": "build\\Nonamii.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.buildMultiTargeting.Nonamii.props",
+      "PackagePath": "buildMultiTargeting\\Nonamii.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.buildTransitive.Nonamii.props",
+      "PackagePath": "buildTransitive\\Nonamii.props"
+    }
+  ],
+  "ElementsToRemove": []
+}

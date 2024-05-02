@@ -1,0 +1,13 @@
+﻿global using System.ComponentModel.DataAnnotations;
+global using Nonamii.Models;
+global using Nonamii.Models.Inventory;
+global using Microsoft.AspNetCore.Identity;
+global using Nonamii.Data;
+global using Nonamii.Services;
+global using Nonamii.ViewModels;
+global using Microsoft.EntityFrameworkCore;
+global using Microsoft.AspNetCore.Authorization;
+global using Microsoft.AspNetCore.Mvc;
+global using Stripe;
+global using Stripe.Checkout;
+global using Nonamii.Models.UserDetails;
