@@ -1,0 +1,26 @@
+﻿@model IEnumerable<Order>
+
+<div class="text-center">
+    <h1>Pending Orders</h1>
+</div>
+
+<div class="w-100 flex-wrap">
+    <table class="table table-boaderless table-striped">
+        <tr>
+            <th>Order Id</th>
+            <th>Created Date</th>
+            <th>Action</th>
+        </tr>
+        @foreach(var order in Model)
+        {
+            <tr>
+                <td>@order.Id</td>
+                <td>@order.DateCreated</td>
+                <td><a class="btn btn-primary" asp-action="Edit" asp-route-id="@order?.Id">Process Order</a></td>
+            </tr>
+        }
+    </table>
+</div>
+<a class="btn btn-primary" asp-controller="Vendor" asp-action="OrdersNav">
+    Back
+</a>

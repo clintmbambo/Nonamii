@@ -1,0 +1,325 @@
+.mediaViewInfo {
+	--web-view-name: About Page;
+	--web-view-id: About_Page;
+	--web-scale-on-resize: true;
+	--web-enable-deep-linking: true;
+}
+
+:root {
+	--web-view-ids: About_Page;
+}
+
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	border: none;
+}
+
+#About_Page {
+	position: absolute;
+	width: 1920px;
+	height: 1080px;
+	background-color: rgba(241,241,241,1);
+	overflow: hidden;
+	--web-view-name: About Page;
+	--web-view-id: About_Page;
+	--web-scale-to-fit: true;
+	--web-scale-to-fit-type: width;
+	--web-scale-on-resize: true;
+	--web-enable-deep-linking: true;
+}
+
+#Nonamii_fi {
+	left: 212px;
+	top: 73px;
+	position: absolute;
+	overflow: visible;
+	width: 243px;
+	height: 80px;
+	line-height: 76px;
+	margin-top: -8px;
+	text-align: center;
+	font-family: Segoe UI;
+	font-style: normal;
+	font-weight: bold;
+	font-size: 60px;
+	letter-spacing: -1.18px;
+}
+	#Nonamii_fi a {
+		text-decoration: none;
+		color: rgba(248,159,13,1);
+	}
+
+#Group_3_fj {
+	position: absolute;
+	width: 516px;
+	height: 32px;
+	left: 702px;
+	top: 96px;
+	overflow: visible;
+}
+
+#HOME_fk {
+	left: 0px;
+	top: 0px;
+	position: absolute;
+	overflow: visible;
+	width: 88px;
+	height: 32px;
+	line-height: 76px;
+	margin-top: -26px;
+	text-align: center;
+	font-family: Segoe UI;
+	font-style: normal;
+	font-weight: lighter;
+	font-size: 24px;
+}
+	#HOME_fk a {
+		text-decoration: none;
+		color: rgba(52,51,49,1);
+	}
+
+/*#MENU_fl {
+	left: 122px;
+	top: 0px;
+	position: absolute;
+	overflow: visible;
+	width: 74px;
+	height: 32px;
+	line-height: 76px;
+	margin-top: -26px;
+	text-align: center;
+	font-family: Segoe UI;
+	font-style: normal;
+	font-weight: lighter;
+	font-size: 24px;
+	color: rgba(52,51,49,1);
+}*/
+
+#ABOUT_US_fm {
+	left: 230px;
+	top: 0px;
+	position: absolute;
+	overflow: visible;
+	width: 133px;
+	height: 32px;
+	line-height: 76px;
+	margin-top: -26px;
+	text-align: center;
+	font-family: Segoe UI;
+	font-style: normal;
+	font-weight: bold;
+	font-size: 24px;
+}
+	#ABOUT_US_fm a {
+		color: rgba(248,159,13,1);
+		text-decoration: none;
+	}
+
+#CONTACT_fn {
+	left: 397px;
+	top: 0px;
+	position: absolute;
+	overflow: visible;
+	width: 120px;
+	height: 32px;
+	line-height: 76px;
+	margin-top: -26px;
+	text-align: center;
+	font-family: Segoe UI;
+	font-style: normal;
+	font-weight: lighter;
+	font-size: 24px;
+}
+	#CONTACT_fn a {
+		text-decoration: none;
+		color: rgba(52,51,49,1);
+	}
+
+#Rectangle_8_fo {
+	fill: rgba(248,159,13,1);
+}
+
+.Rectangle_8_fo {
+	position: absolute;
+	overflow: visible;
+	width: 111px;
+	height: 53px;
+	left: 1444px;
+	top: 86px;
+}
+
+#Sign_Up_fp {
+	left: 1466px;
+	top: 96px;
+	position: absolute;
+	overflow: visible;
+	width: 67px;
+	height: 32px;
+	line-height: 76px;
+	margin-top: -26px;
+	text-align: center;
+	font-family: Segoe UI;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 24px;
+	letter-spacing: -1.18px;
+}
+	#Sign_Up_fp a {
+		text-decoration: none;
+		color: rgba(255,255,255,1);
+	}
+
+#Rectangle_12_fq {
+	fill: rgba(52,51,49,1);
+}
+
+.Rectangle_12_fq {
+	display: none;
+	position: absolute;
+	overflow: visible;
+	width: 111px;
+	height: 53px;
+	left: 1568px;
+	top: 86px;
+}
+
+#Sign_In_fr {
+	left: 1590px;
+	top: 96px;
+	position: absolute;
+	overflow: visible;
+	width: 67px;
+	height: 32px;
+	line-height: 76px;
+	margin-top: -26px;
+	text-align: center;
+	font-family: Segoe UI;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 24px;
+	letter-spacing: -1.18px;
+}
+	#Sign_In_fr a {
+		text-decoration: none;
+		color: rgba(248,159,13,1);
+	}
+
+#shopping-cart_fs {
+	position: absolute;
+	width: 53px;
+	height: 53px;
+	left: 1355px;
+	top: 86px;
+	overflow: visible;
+}
+
+#Ellipse_2_ft {
+	fill: rgba(255,255,255,1);
+	stroke: rgba(112,112,112,1);
+	stroke-width: 1px;
+	stroke-linejoin: miter;
+	stroke-linecap: butt;
+	stroke-miterlimit: 4;
+	shape-rendering: auto;
+}
+
+.Ellipse_2_ft {
+	position: absolute;
+	overflow: visible;
+	width: 400px;
+	height: 400px;
+	left: 133px;
+	top: 340px;
+}
+
+#Untitled5_fu {
+	position: absolute;
+	width: 400px;
+	height: 400px;
+	left: 133px;
+	top: 340px;
+	overflow: visible;
+}
+
+#About_Us {
+	left: 839px;
+	top: 225px;
+	position: absolute;
+	overflow: visible;
+	width: 243px;
+	height: 80px;
+	line-height: 76px;
+	margin-top: -8px;
+	text-align: center;
+	font-family: Segoe UI;
+	font-style: normal;
+	font-weight: bold;
+	font-size: 60px;
+	color: rgba(52,51,49,1);
+	letter-spacing: -1.18px;
+}
+
+#Step_into_our_inviting_dining_ {
+	left: 584px;
+	top: 340px;
+	position: absolute;
+	overflow: visible;
+	width: 753px;
+	height: 615px;
+	line-height: 76px;
+	margin-top: -11px;
+	text-align: center;
+	font-family: Reross Quadratic;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 54px;
+	color: rgba(52,51,49,1);
+	letter-spacing: -1.18px;
+}
+
+#Ellipse_5 {
+	fill: rgba(255,255,255,1);
+	stroke: rgba(112,112,112,1);
+	stroke-width: 1px;
+	stroke-linejoin: miter;
+	stroke-linecap: butt;
+	stroke-miterlimit: 4;
+	shape-rendering: auto;
+}
+
+.Ellipse_5 {
+	position: absolute;
+	overflow: visible;
+	width: 400px;
+	height: 400px;
+	left: 1387px;
+	top: 340px;
+}
+
+#Untitled4_fy {
+	position: absolute;
+	width: 400px;
+	height: 400px;
+	left: 1387px;
+	top: 340px;
+	overflow: visible;
+}
+
+#ITS_NOT_JUST_FOOD_ITS_AN_EXPER_fz {
+	left: 191px;
+	top: 955px;
+	position: absolute;
+	overflow: visible;
+	width: 1540px;
+	height: 79px;
+	line-height: 76px;
+	margin-top: -8px;
+	text-align: center;
+	font-family: Reross Quadratic;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 60px;
+	color: rgba(52,51,49,1);
+}

@@ -1,0 +1,67 @@
+﻿@model CartViewModel
+
+<div style="width:90%;margin:auto;" class="mt-3">
+    @if (Model != null && Model.Cart != null && Model.Cart.Details.Count > 0)
+    {
+        <h4 class="text-primary text-center">Cart</h4>
+
+        <table class="table table-borderless table-dark table-striped" style="width:100%;">
+
+                @using(Html.BeginForm("GetUserCart","Cart", FormMethod.Post))
+                {
+                <tr>
+                    <div class="form-group">
+                        <label asp-for="CollectOrDeliver"></label>
+                        <select asp-for="CollectOrDeliver" class="form-control" asp-items="new SelectList(ViewBag.Options)">
+
+                        </select>
+                    </div>
+                </tr>
+                 <br />
+                @foreach (var item in Model.Cart.Details)
+                {
+                    <tr>
+                    <div class="card mt-2">
+                        <div class="card-body">
+                            <p>@item.MenuItem.Name</p>
+                            <hr />
+                            <p>
+                                <a class="text-decoration-none text-dark mx-3" href="/Cart/AddItem?menuItemId=@item.MenuItemId">+</a>
+                                @item.Quantity
+                                <a class="text-decoration-none text-dark mx-3" href="/Cart/RemoveItem?menuItemId=@item.MenuItemId">-</a>
+                            </p>
+                            <p class="text-lg-end"><strong>R</strong>@(item.MenuItem.Price * item.Quantity)</p>
+                        </div>
+                    </div>
+                    </tr>
+
+                    <tr>
+                        <div class="card mt-2">
+                            <div class="card-body">
+                                <p>Subtotal: @(Model.SubTotal += (item.Price * item.Quantity))</p>
+                                <hr />
+                            </div>
+                        </div>
+                    </tr>
+                }
+
+                <br />
+                <p>
+                @if (Model.CollectOrDeliver == "Delivery")
+                {
+                    @(Model.Total = Model.SubTotal + 10)
+                }
+                else
+                {
+                    @(Model.Total = Model.SubTotal)
+                }
+                </p>
+            <button type="submit" value="submit" class="btn btn-primary">Checkout</button>
+            }
+        </table>
+    }
+    else
+    {
+        <h4>Cart is Empty!</h4>
+    }
+</div>

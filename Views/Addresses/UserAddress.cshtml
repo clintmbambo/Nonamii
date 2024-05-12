@@ -1,0 +1,57 @@
+﻿@model Nonamii.Models.UserDetails.Address
+
+@{
+    ViewData["Title"] = "Address";
+}
+
+<h1>Address</h1>
+
+<p>
+    <a asp-action="Create">Create New</a>
+</p>
+<table class="table">
+    <thead>
+        <tr>
+            <th>
+                @Html.DisplayNameFor(model => model.Street)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.ZIP)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Building)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.City)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Region)
+            </th>
+            <th></th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr>
+                <td>
+                    @Html.DisplayFor(modelItem => Model.Street)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => Model.ZIP)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => Model.Building)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => Model.City)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => Model.Region)
+                </td>
+                <td>
+                    <a asp-action="Edit" asp-route-id="@Model.Id">Edit</a> |
+                    <a asp-action="Details" asp-route-id="@Model.Id">Details</a> |
+                    <a asp-action="Delete" asp-route-id="@Model.Id">Delete</a>
+                </td>
+        </tr>
+    </tbody>
+</table>
