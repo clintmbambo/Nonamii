@@ -3,16 +3,20 @@
   "WorkspaceRootPath": "C:\\Users\\zondi\\Downloads\\Nonamii\\Nonamii\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{1C32385C-B204-42D4-AF8A-CD0809C2E71B}|Nonamii.csproj|c:\\users\\zondi\\downloads\\nonamii\\nonamii\\services\\homerepo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1C32385C-B204-42D4-AF8A-CD0809C2E71B}|Nonamii.csproj|solutionrelative:services\\homerepo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1C32385C-B204-42D4-AF8A-CD0809C2E71B}|Nonamii.csproj|c:\\users\\zondi\\downloads\\nonamii\\nonamii\\services\\cartrepo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1C32385C-B204-42D4-AF8A-CD0809C2E71B}|Nonamii.csproj|solutionrelative:services\\cartrepo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1C32385C-B204-42D4-AF8A-CD0809C2E71B}|Nonamii.csproj|c:\\users\\zondi\\downloads\\nonamii\\nonamii\\services\\ihomerepo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1C32385C-B204-42D4-AF8A-CD0809C2E71B}|Nonamii.csproj|solutionrelative:services\\ihomerepo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{1C32385C-B204-42D4-AF8A-CD0809C2E71B}|Nonamii.csproj|c:\\users\\zondi\\downloads\\nonamii\\nonamii\\globalusings.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{1C32385C-B204-42D4-AF8A-CD0809C2E71B}|Nonamii.csproj|solutionrelative:globalusings.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{1C32385C-B204-42D4-AF8A-CD0809C2E71B}|Nonamii.csproj|c:\\users\\zondi\\downloads\\nonamii\\nonamii\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
-      "RelativeMoniker": "D:0:0:{1C32385C-B204-42D4-AF8A-CD0809C2E71B}|Nonamii.csproj|solutionrelative:appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{1C32385C-B204-42D4-AF8A-CD0809C2E71B}|Nonamii.csproj|c:\\users\\zondi\\downloads\\nonamii\\nonamii\\controllers\\cartcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{1C32385C-B204-42D4-AF8A-CD0809C2E71B}|Nonamii.csproj|solutionrelative:controllers\\cartcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -22,17 +26,17 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 0,
+          "SelectedChildIndex": 2,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 3,
               "Title": "GlobalUsings.cs",
               "DocumentMoniker": "C:\\Users\\zondi\\Downloads\\Nonamii\\Nonamii\\GlobalUsings.cs",
               "RelativeDocumentMoniker": "GlobalUsings.cs",
               "ToolTip": "C:\\Users\\zondi\\Downloads\\Nonamii\\Nonamii\\GlobalUsings.cs",
               "RelativeToolTip": "GlobalUsings.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAwAAAAoAAAA",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAYAAAAgAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-04-05T10:52:13.128Z",
               "IsPinned": true,
@@ -41,27 +45,40 @@
             {
               "$type": "Document",
               "DocumentIndex": 1,
-              "Title": "appsettings.json",
-              "DocumentMoniker": "C:\\Users\\zondi\\Downloads\\Nonamii\\Nonamii\\appsettings.json",
-              "RelativeDocumentMoniker": "appsettings.json",
-              "ToolTip": "C:\\Users\\zondi\\Downloads\\Nonamii\\Nonamii\\appsettings.json",
-              "RelativeToolTip": "appsettings.json",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAABAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
-              "WhenOpened": "2024-04-30T12:05:07.793Z",
+              "Title": "CartRepo.cs",
+              "DocumentMoniker": "C:\\Users\\zondi\\Downloads\\Nonamii\\Nonamii\\Services\\CartRepo.cs",
+              "RelativeDocumentMoniker": "Services\\CartRepo.cs",
+              "ToolTip": "C:\\Users\\zondi\\Downloads\\Nonamii\\Nonamii\\Services\\CartRepo.cs",
+              "RelativeToolTip": "Services\\CartRepo.cs",
+              "ViewState": "AQIAAAMAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-14T17:37:24.548Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "HomeRepo.cs",
+              "DocumentMoniker": "C:\\Users\\zondi\\Downloads\\Nonamii\\Nonamii\\Services\\HomeRepo.cs",
+              "RelativeDocumentMoniker": "Services\\HomeRepo.cs",
+              "ToolTip": "C:\\Users\\zondi\\Downloads\\Nonamii\\Nonamii\\Services\\HomeRepo.cs",
+              "RelativeToolTip": "Services\\HomeRepo.cs",
+              "ViewState": "AQIAAAUAAAAAAAAAAAAAwBIAAABOAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-14T17:23:14.158Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 2,
-              "Title": "CartController.cs",
-              "DocumentMoniker": "C:\\Users\\zondi\\Downloads\\Nonamii\\Nonamii\\Controllers\\CartController.cs",
-              "RelativeDocumentMoniker": "Controllers\\CartController.cs",
-              "ToolTip": "C:\\Users\\zondi\\Downloads\\Nonamii\\Nonamii\\Controllers\\CartController.cs",
-              "RelativeToolTip": "Controllers\\CartController.cs",
-              "ViewState": "AQIAABoAAAAAAAAAAAAYwG8AAAA6AAAA",
+              "Title": "IHomeRepo.cs",
+              "DocumentMoniker": "C:\\Users\\zondi\\Downloads\\Nonamii\\Nonamii\\Services\\IHomeRepo.cs",
+              "RelativeDocumentMoniker": "Services\\IHomeRepo.cs",
+              "ToolTip": "C:\\Users\\zondi\\Downloads\\Nonamii\\Nonamii\\Services\\IHomeRepo.cs",
+              "RelativeToolTip": "Services\\IHomeRepo.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-04-28T16:05:29.849Z",
+              "WhenOpened": "2024-05-14T17:23:08.899Z",
               "EditorCaption": ""
             }
           ]

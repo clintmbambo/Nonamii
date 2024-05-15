@@ -16,7 +16,8 @@
             var menuItems = await (from menuItem in _db.MenuItems
                                    join itemSize in _db.MenuItemSizes
                                    on menuItem.Id equals itemSize.MenuItemId
-                               where (string.IsNullOrWhiteSpace(searchTerm) || (menuItem != null && menuItem.Name.StartsWith(searchTerm))) && itemSize.SizeId == 1
+                               where (string.IsNullOrWhiteSpace(searchTerm) ||
+                               (menuItem != null && menuItem.Name.Contains(searchTerm))) && itemSize.SizeId == 1
 
 
                                select new MenuItem

@@ -116,7 +116,7 @@ namespace Nonamii.Controllers
 
             var options = new SessionCreateOptions()
             {
-                SuccessUrl = domain + $"/Cart/Checkout",
+                SuccessUrl = domain + $"Cart/Checkout",
                 LineItems = new List<SessionLineItemOptions>(),
                 Mode = "payment"
             };

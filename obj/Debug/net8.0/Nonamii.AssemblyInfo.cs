@@ -16,7 +16,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("Nonamii")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+f8d9f45861eedb865100e79eb4f051ca0443bf13")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+bf81564a36f90591b96ba21369c12a509b4c68f4")]
 [assembly: System.Reflection.AssemblyProductAttribute("Nonamii")]
 [assembly: System.Reflection.AssemblyTitleAttribute("Nonamii")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
