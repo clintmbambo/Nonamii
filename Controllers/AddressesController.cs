@@ -25,7 +25,7 @@
             }
         }
 
-        public async Task<IActionResult> UserAddress()
+        public async Task<IActionResult> UserAddress(Models.UserDetails.Address address)
         {
             var userAddress = await _userManagement.GetUserAddress();
             return View(userAddress);

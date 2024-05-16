@@ -1159,3 +1159,4 @@ C:\Users\zondi\Downloads\Nonamii\Nonamii\obj\Debug\net8.0\refint\Nonamii.dll
 C:\Users\zondi\Downloads\Nonamii\Nonamii\obj\Debug\net8.0\Nonamii.pdb
 C:\Users\zondi\Downloads\Nonamii\Nonamii\obj\Debug\net8.0\Nonamii.genruntimeconfig.cache
 C:\Users\zondi\Downloads\Nonamii\Nonamii\obj\Debug\net8.0\ref\Nonamii.dll
+C:\Users\zondi\source\repos\Nonamii\obj\Debug\net8.0\Nonamii.sourcelink.json

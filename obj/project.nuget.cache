@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "BLzlOPBsBj6Rf1AyMbc4TDg+/DHzxGHza59PxZ+DLWCIM4X7gvSxzS4mtJtHFsEkcPrMfQQI9FAMbKg852QEXw==",
+  "dgSpecHash": "8PqiqcO79zm4K+XZauImUPsyi0wtkEM9KKewgV6iULxJ2HwU5ZajPWwSbTq9nRJoqjCAKGrCLJaao1DKbMoO2w==",
   "success": true,
-  "projectFilePath": "C:\\Users\\zondi\\Downloads\\Nonamii\\Nonamii\\Nonamii.csproj",
+  "projectFilePath": "C:\\Users\\zondi\\source\\repos\\Nonamii\\Nonamii.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\zondi\\.nuget\\packages\\azure.core\\1.35.0\\azure.core.1.35.0.nupkg.sha512",
     "C:\\Users\\zondi\\.nuget\\packages\\azure.identity\\1.10.3\\azure.identity.1.10.3.nupkg.sha512",

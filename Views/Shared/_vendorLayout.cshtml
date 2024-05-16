@@ -24,7 +24,9 @@
             <div class="header-right">
                 <span class="material-symbols-outlined"> notifications </span>
                 <span class="material-symbols-outlined"> mail </span>
-                <span class="material-symbols-outlined"> account_circle </span>
+                <form class="form-inline" asp-area="Identity" asp-page="/Account/Logout" asp-route-returnUrl="@Url.Action("Index", "Home", new { area = "" })">
+                    <button type="submit" class="nav-link btn btn-link text-white"><span class="material-symbols-outlined"> account_circle </span></button>
+                </form>
             </div>
         </header>
 

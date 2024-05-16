@@ -8649,11 +8649,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\zondi\\Downloads\\Nonamii\\Nonamii\\Nonamii.csproj",
+      "projectUniqueName": "C:\\Users\\zondi\\source\\repos\\Nonamii\\Nonamii.csproj",
       "projectName": "Nonamii",
-      "projectPath": "C:\\Users\\zondi\\Downloads\\Nonamii\\Nonamii\\Nonamii.csproj",
+      "projectPath": "C:\\Users\\zondi\\source\\repos\\Nonamii\\Nonamii.csproj",
       "packagesPath": "C:\\Users\\zondi\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\zondi\\Downloads\\Nonamii\\Nonamii\\obj\\",
+      "outputPath": "C:\\Users\\zondi\\source\\repos\\Nonamii\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -8746,7 +8746,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.204/PortableRuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.205/PortableRuntimeIdentifierGraph.json"
       }
     }
   }
