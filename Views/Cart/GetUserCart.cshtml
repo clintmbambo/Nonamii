@@ -9,41 +9,40 @@
 
                 @using(Html.BeginForm("GetUserCart","Cart", FormMethod.Post))
                 {
-                <tr>
-                    <div class="form-group">
-                        <label asp-for="CollectOrDeliver"></label>
-                        <select asp-for="CollectOrDeliver" class="form-control" asp-items="new SelectList(ViewBag.Options)">
-
-                        </select>
-                    </div>
-                </tr>
-                 <br />
-                @foreach (var item in Model.Cart.Details)
-                {
                     <tr>
-                    <div class="card mt-2">
-                        <div class="card-body">
-                            <p>@item.MenuItem.Name</p>
-                            <hr />
-                            <p>
-                                <a class="text-decoration-none text-dark mx-3" href="/Cart/AddItem?menuItemId=@item.MenuItemId">+</a>
-                                @item.Quantity
-                                <a class="text-decoration-none text-dark mx-3" href="/Cart/RemoveItem?menuItemId=@item.MenuItemId">-</a>
-                            </p>
-                            <p class="text-lg-end"><strong>R</strong>@(item.MenuItem.Price * item.Quantity)</p>
+                        <div class="form-group">
+                            <label asp-for="CollectOrDeliver"></label>
+                            <select asp-for="CollectOrDeliver" class="form-control" asp-items="new SelectList(ViewBag.Options)">
+                            </select>
                         </div>
-                    </div>
                     </tr>
+                 <br />
+                    @foreach (var item in Model.Cart.Details)
+                    {
+                        <tr>
+                        <div class="card mt-2">
+                            <div class="card-body">
+                                <p>@item.MenuItem.Name</p>
+                                    <hr />
+                                    <p>
+                                    <a class="text-decoration-none text-dark mx-3" href="/Cart/AddItem?menuItemId=@item.MenuItemId">+</a>
+                                        @item.Quantity
+                                    <a class="text-decoration-none text-dark mx-3" href="/Cart/RemoveItem?menuItemId=@item.MenuItemId">-</a>
+                                    </p>
+                                <p class="text-lg-end"><strong>R</strong>@(item.MenuItem.Price * item.Quantity)</p>
+                            </div>
+                        </div>
+                        </tr>
 
-                    <tr>
+                        <tr>
                         <div class="card mt-2">
                             <div class="card-body">
                                 <p>Subtotal: @(Model.SubTotal += (item.Price * item.Quantity))</p>
                                 <hr />
                             </div>
                         </div>
-                    </tr>
-                }
+                        </tr>
+                    }
 
                 <br />
                 <p>

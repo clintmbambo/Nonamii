@@ -10,4 +10,5 @@ global using Microsoft.AspNetCore.Authorization;
 global using Microsoft.AspNetCore.Mvc;
 global using Stripe;
 global using Stripe.Checkout;
+global using Nonamii.Repository;
 global using Nonamii.Models.UserDetails;

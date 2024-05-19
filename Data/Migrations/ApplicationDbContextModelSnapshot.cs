@@ -295,16 +295,22 @@ namespace Nonamii.Data.Migrations
 
                     SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<int>("Id"));
 
-                    b.Property<string>("Amount")
-                        .HasColumnType("nvarchar(max)");
-
-                    b.Property<decimal>("Cost")
+                    b.Property<decimal>("CostPerUnit")
                         .HasColumnType("decimal(18,2)");
 
                     b.Property<string>("Description")
                         .HasColumnType("nvarchar(max)");
 
                     b.Property<string>("Name")
+                        .HasColumnType("nvarchar(max)");
+
+                    b.Property<string>("UnitOfMeasure")
+                        .HasColumnType("nvarchar(max)");
+
+                    b.Property<decimal?>("UnitOfMeasureValue")
+                        .HasColumnType("decimal(18,2)");
+
+                    b.Property<string>("UserId")
                         .HasColumnType("nvarchar(max)");
 
                     b.HasKey("Id");
@@ -331,6 +337,12 @@ namespace Nonamii.Data.Migrations
 
                     b.Property<decimal>("Price")
                         .HasColumnType("decimal(18,2)");
+
+                    b.Property<int>("RecipeId")
+                        .HasColumnType("int");
+
+                    b.Property<string>("UserId")
+                        .HasColumnType("nvarchar(max)");
 
                     b.HasKey("Id");
 
@@ -363,29 +375,6 @@ namespace Nonamii.Data.Migrations
                     b.ToTable("MenuItemExtras");
                 });
 
-            modelBuilder.Entity("Nonamii.Models.Inventory.MenuItemIngredient", b =>
-                {
-                    b.Property<int>("Id")
-                        .ValueGeneratedOnAdd()
-                        .HasColumnType("int");
-
-                    SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<int>("Id"));
-
-                    b.Property<int>("IngredientId")
-                        .HasColumnType("int");
-
-                    b.Property<int>("MenuItemId")
-                        .HasColumnType("int");
-
-                    b.HasKey("Id");
-
-                    b.HasIndex("IngredientId");
-
-                    b.HasIndex("MenuItemId");
-
-                    b.ToTable("MenuItemIngredients");
-                });
-
             modelBuilder.Entity("Nonamii.Models.Inventory.MenuItemSize", b =>
                 {
                     b.Property<int>("Id")
@@ -410,6 +399,65 @@ namespace Nonamii.Data.Migrations
                     b.HasIndex("SizeId");
 
                     b.ToTable("MenuItemSizes");
+                });
+
+            modelBuilder.Entity("Nonamii.Models.Inventory.Recipe", b =>
+                {
+                    b.Property<int>("Id")
+                        .ValueGeneratedOnAdd()
+                        .HasColumnType("int");
+
+                    SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<int>("Id"));
+
+                    b.Property<decimal?>("Cost")
+                        .HasColumnType("decimal(18,2)");
+
+                    b.Property<string>("Instructions")
+                        .HasColumnType("nvarchar(max)");
+
+                    b.Property<int>("MenuItemId")
+                        .HasColumnType("int");
+
+                    b.Property<int?>("MenuItemId1")
+                        .HasColumnType("int");
+
+                    b.Property<string>("Title")
+                        .HasColumnType("nvarchar(max)");
+
+                    b.Property<string>("UserId")
+                        .HasColumnType("nvarchar(max)");
+
+                    b.HasKey("Id");
+
+                    b.HasIndex("MenuItemId1");
+
+                    b.ToTable("Recipes");
+                });
+
+            modelBuilder.Entity("Nonamii.Models.Inventory.RecipeIngredient", b =>
+                {
+                    b.Property<int>("Id")
+                        .ValueGeneratedOnAdd()
+                        .HasColumnType("int");
+
+                    SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<int>("Id"));
+
+                    b.Property<int>("IngredientId")
+                        .HasColumnType("int");
+
+                    b.Property<int>("RecipeId")
+                        .HasColumnType("int");
+
+                    b.Property<string>("UserId")
+                        .HasColumnType("nvarchar(max)");
+
+                    b.HasKey("Id");
+
+                    b.HasIndex("IngredientId");
+
+                    b.HasIndex("RecipeId");
+
+                    b.ToTable("RecipeIngredients");
                 });
 
             modelBuilder.Entity("Nonamii.Models.Inventory.Size", b =>
@@ -705,25 +753,6 @@ namespace Nonamii.Data.Migrations
                     b.Navigation("MenuItem");
                 });
 
-            modelBuilder.Entity("Nonamii.Models.Inventory.MenuItemIngredient", b =>
-                {
-                    b.HasOne("Nonamii.Models.Inventory.Ingredient", "Ingredient")
-                        .WithMany("MenuItems")
-                        .HasForeignKey("IngredientId")
-                        .OnDelete(DeleteBehavior.Cascade)
-                        .IsRequired();
-
-                    b.HasOne("Nonamii.Models.Inventory.MenuItem", "MenuItem")
-                        .WithMany("ItemIngredients")
-                        .HasForeignKey("MenuItemId")
-                        .OnDelete(DeleteBehavior.Cascade)
-                        .IsRequired();
-
-                    b.Navigation("Ingredient");
-
-                    b.Navigation("MenuItem");
-                });
-
             modelBuilder.Entity("Nonamii.Models.Inventory.MenuItemSize", b =>
                 {
                     b.HasOne("Nonamii.Models.Inventory.MenuItem", "MenuItem")
@@ -741,6 +770,30 @@ namespace Nonamii.Data.Migrations
                     b.Navigation("MenuItem");
 
                     b.Navigation("Size");
+                });
+
+            modelBuilder.Entity("Nonamii.Models.Inventory.Recipe", b =>
+                {
+                    b.HasOne("Nonamii.Models.Inventory.MenuItem", "MenuItem")
+                        .WithMany()
+                        .HasForeignKey("MenuItemId1");
+
+                    b.Navigation("MenuItem");
+                });
+
+            modelBuilder.Entity("Nonamii.Models.Inventory.RecipeIngredient", b =>
+                {
+                    b.HasOne("Nonamii.Models.Inventory.Ingredient", null)
+                        .WithMany("Recipes")
+                        .HasForeignKey("IngredientId")
+                        .OnDelete(DeleteBehavior.Cascade)
+                        .IsRequired();
+
+                    b.HasOne("Nonamii.Models.Inventory.Recipe", null)
+                        .WithMany("Ingredients")
+                        .HasForeignKey("RecipeId")
+                        .OnDelete(DeleteBehavior.Cascade)
+                        .IsRequired();
                 });
 
             modelBuilder.Entity("Nonamii.Models.Order", b =>
@@ -794,7 +847,7 @@ namespace Nonamii.Data.Migrations
 
             modelBuilder.Entity("Nonamii.Models.Inventory.Ingredient", b =>
                 {
-                    b.Navigation("MenuItems");
+                    b.Navigation("Recipes");
                 });
 
             modelBuilder.Entity("Nonamii.Models.Inventory.MenuItem", b =>
@@ -803,11 +856,14 @@ namespace Nonamii.Data.Migrations
 
                     b.Navigation("ItemExtras");
 
-                    b.Navigation("ItemIngredients");
-
                     b.Navigation("ItemSizes");
 
                     b.Navigation("MenuItemPromos");
+                });
+
+            modelBuilder.Entity("Nonamii.Models.Inventory.Recipe", b =>
+                {
+                    b.Navigation("Ingredients");
                 });
 
             modelBuilder.Entity("Nonamii.Models.Inventory.Size", b =>

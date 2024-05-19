@@ -11,6 +11,7 @@ builder.Services.AddDatabaseDeveloperPageExceptionFilter();
 builder.Services.AddTransient<IUserOrdersRepo, UserOrdersRepo>();
 builder.Services.AddTransient<IHomeRepo, HomeRepo>();
 builder.Services.AddTransient<ICartRepo, CartRepo>();
+builder.Services.AddTransient<IRecipeRepo, RecipeRepo>();
 builder.Services.AddTransient<IUserManagement, UserManagement>();
 builder.Services.AddTransient<IMenuItemService, MenuItemService>();
 builder.Services.AddIdentity<IdentityUser, IdentityRole>()
@@ -52,7 +53,7 @@ app.UseAuthorization();
 
 app.MapControllerRoute(
     name: "default",
-    pattern: "{controller=Home}/{action=Landing}/{id?}");
+    pattern: "{controller=Home}/{action=Index}/{id?}");
 app.MapRazorPages();
 
 app.Run();

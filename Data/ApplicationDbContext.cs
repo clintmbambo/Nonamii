@@ -12,9 +12,7 @@ namespace Nonamii.Data
         }
 
         public DbSet<Extra> Extras { get; set; }
-        public DbSet<Ingredient> Ingredients { get; set;}
         public DbSet<MenuItem> MenuItems { get; set; }
-        public DbSet<MenuItemIngredient> MenuItemIngredients { get; set; }
         public DbSet<MenuItemExtra> MenuItemExtras { get; set; }
         public DbSet<MenuItemSize> MenuItemSizes { get; set; }
         public DbSet<Size> Sizes { get;set; }
@@ -26,5 +24,8 @@ namespace Nonamii.Data
         public DbSet<PaymentDetails> PaymentDetails { get; set; }
         public DbSet<Nonamii.Models.UserDetails.Address> Address { get; set; } = default!;
         public DbSet<Nonamii.Models.UserDetails.Card> Card { get; set; } = default!;
+        public DbSet<RecipeIngredient> RecipeIngredients { get; set; }
+        public DbSet<Recipe> Recipes { get; set; }
+        public DbSet<Ingredient> Ingredients { get; set; }
     }
 }

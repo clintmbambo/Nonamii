@@ -14,10 +14,14 @@ namespace Nonamii.Controllers
     public class MenuItemsController : Controller
     {
         private readonly ApplicationDbContext _context;
+        private readonly IMenuItemService _menuItemService;
+        private readonly IRecipeRepo _recipeRepo;
 
-        public MenuItemsController(ApplicationDbContext context)
+        public MenuItemsController(ApplicationDbContext context, IMenuItemService menuItemService, IRecipeRepo recipeRepo)
         {
             _context = context;
+            _menuItemService = menuItemService;
+            _recipeRepo = recipeRepo;
         }
 
         // GET: MenuItems
@@ -55,10 +59,11 @@ namespace Nonamii.Controllers
         // For more details, see http://go.microsoft.com/fwlink/?LinkId=317598.
         [HttpPost]
         [ValidateAntiForgeryToken]
-        public async Task<IActionResult> Create([Bind("Id,Image,Name,Description,Price")] MenuItem menuItem)
+        public async Task<IActionResult> Create([Bind("Id,UserId,Image,Name,Description,Price")] MenuItem menuItem)
         {
             if (ModelState.IsValid)
             {
+                menuItem.UserId = _menuItemService.GetUserId();
                 _context.Add(menuItem);
                 await _context.SaveChangesAsync();
                 return RedirectToAction(nameof(Index));
@@ -87,7 +92,7 @@ namespace Nonamii.Controllers
         // For more details, see http://go.microsoft.com/fwlink/?LinkId=317598.
         [HttpPost]
         [ValidateAntiForgeryToken]
-        public async Task<IActionResult> Edit(int id, [Bind("Id,Image,Name,Description,Price")] MenuItem menuItem)
+        public async Task<IActionResult> Edit(int id, [Bind("Id,UserId,RecipeId,Image,Name,Description,Price")] MenuItem menuItem)
         {
             if (id != menuItem.Id)
             {

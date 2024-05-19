@@ -3,52 +3,16 @@
   "WorkspaceRootPath": "C:\\Users\\zondi\\source\\repos\\Nonamii\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{1C32385C-B204-42D4-AF8A-CD0809C2E71B}|Nonamii.csproj|c:\\users\\zondi\\source\\repos\\nonamii\\views\\shared\\_vendorlayout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{1C32385C-B204-42D4-AF8A-CD0809C2E71B}|Nonamii.csproj|solutionrelative:views\\shared\\_vendorlayout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{1C32385C-B204-42D4-AF8A-CD0809C2E71B}|Nonamii.csproj|c:\\users\\zondi\\source\\repos\\nonamii\\views\\shared\\_loginpartial.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{1C32385C-B204-42D4-AF8A-CD0809C2E71B}|Nonamii.csproj|solutionrelative:views\\shared\\_loginpartial.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{1C32385C-B204-42D4-AF8A-CD0809C2E71B}|Nonamii.csproj|c:\\users\\zondi\\source\\repos\\nonamii\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{1C32385C-B204-42D4-AF8A-CD0809C2E71B}|Nonamii.csproj|solutionrelative:views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{1C32385C-B204-42D4-AF8A-CD0809C2E71B}|Nonamii.csproj|c:\\users\\zondi\\source\\repos\\nonamii\\views\\cart\\checkout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{1C32385C-B204-42D4-AF8A-CD0809C2E71B}|Nonamii.csproj|solutionrelative:views\\cart\\checkout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{1C32385C-B204-42D4-AF8A-CD0809C2E71B}|Nonamii.csproj|c:\\users\\zondi\\source\\repos\\nonamii\\controllers\\addressescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{1C32385C-B204-42D4-AF8A-CD0809C2E71B}|Nonamii.csproj|solutionrelative:controllers\\addressescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{1C32385C-B204-42D4-AF8A-CD0809C2E71B}|Nonamii.csproj|c:\\users\\zondi\\source\\repos\\nonamii\\views\\addresses\\useraddress.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{1C32385C-B204-42D4-AF8A-CD0809C2E71B}|Nonamii.csproj|solutionrelative:views\\addresses\\useraddress.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{1C32385C-B204-42D4-AF8A-CD0809C2E71B}|Nonamii.csproj|c:\\users\\zondi\\source\\repos\\nonamii\\wwwroot\\css\\site.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
-      "RelativeMoniker": "D:0:0:{1C32385C-B204-42D4-AF8A-CD0809C2E71B}|Nonamii.csproj|solutionrelative:wwwroot\\css\\site.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{1C32385C-B204-42D4-AF8A-CD0809C2E71B}|Nonamii.csproj|c:\\users\\zondi\\source\\repos\\nonamii\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{1C32385C-B204-42D4-AF8A-CD0809C2E71B}|Nonamii.csproj|solutionrelative:views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{1C32385C-B204-42D4-AF8A-CD0809C2E71B}|Nonamii.csproj|c:\\users\\zondi\\source\\repos\\nonamii\\wwwroot\\css\\welcomepage.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
-      "RelativeMoniker": "D:0:0:{1C32385C-B204-42D4-AF8A-CD0809C2E71B}|Nonamii.csproj|solutionrelative:wwwroot\\css\\welcomepage.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{1C32385C-B204-42D4-AF8A-CD0809C2E71B}|Nonamii.csproj|c:\\users\\zondi\\source\\repos\\nonamii\\views\\home\\landing.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{1C32385C-B204-42D4-AF8A-CD0809C2E71B}|Nonamii.csproj|solutionrelative:views\\home\\landing.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{1C32385C-B204-42D4-AF8A-CD0809C2E71B}|Nonamii.csproj|c:\\users\\zondi\\source\\repos\\nonamii\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{1C32385C-B204-42D4-AF8A-CD0809C2E71B}|Nonamii.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{1C32385C-B204-42D4-AF8A-CD0809C2E71B}|Nonamii.csproj|c:\\users\\zondi\\source\\repos\\nonamii\\globalusings.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{1C32385C-B204-42D4-AF8A-CD0809C2E71B}|Nonamii.csproj|solutionrelative:globalusings.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1C32385C-B204-42D4-AF8A-CD0809C2E71B}|Nonamii.csproj|c:\\users\\zondi\\source\\repos\\nonamii\\models\\inventory\\recipe.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1C32385C-B204-42D4-AF8A-CD0809C2E71B}|Nonamii.csproj|solutionrelative:models\\inventory\\recipe.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -62,13 +26,13 @@
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 11,
+              "DocumentIndex": 1,
               "Title": "GlobalUsings.cs",
               "DocumentMoniker": "C:\\Users\\zondi\\source\\repos\\Nonamii\\GlobalUsings.cs",
               "RelativeDocumentMoniker": "GlobalUsings.cs",
               "ToolTip": "C:\\Users\\zondi\\source\\repos\\Nonamii\\GlobalUsings.cs",
               "RelativeToolTip": "GlobalUsings.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAYAAAAgAAAA",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA0AAAAoAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-04-05T10:52:13.128Z",
               "IsPinned": true
@@ -76,144 +40,27 @@
             {
               "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "_vendorLayout.cshtml",
-              "DocumentMoniker": "C:\\Users\\zondi\\source\\repos\\Nonamii\\Views\\Shared\\_vendorLayout.cshtml",
-              "RelativeDocumentMoniker": "Views\\Shared\\_vendorLayout.cshtml",
-              "ToolTip": "C:\\Users\\zondi\\source\\repos\\Nonamii\\Views\\Shared\\_vendorLayout.cshtml",
-              "RelativeToolTip": "Views\\Shared\\_vendorLayout.cshtml",
-              "ViewState": "AQIAAA8AAAAAAAAAAAAAAB0AAAASAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-05-16T07:46:24.283Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "Checkout.cshtml",
-              "DocumentMoniker": "C:\\Users\\zondi\\source\\repos\\Nonamii\\Views\\Cart\\Checkout.cshtml",
-              "RelativeDocumentMoniker": "Views\\Cart\\Checkout.cshtml",
-              "ToolTip": "C:\\Users\\zondi\\source\\repos\\Nonamii\\Views\\Cart\\Checkout.cshtml",
-              "RelativeToolTip": "Views\\Cart\\Checkout.cshtml",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAIAAABHAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-05-16T07:37:16.29Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "AddressesController.cs",
-              "DocumentMoniker": "C:\\Users\\zondi\\source\\repos\\Nonamii\\Controllers\\AddressesController.cs",
-              "RelativeDocumentMoniker": "Controllers\\AddressesController.cs",
-              "ToolTip": "C:\\Users\\zondi\\source\\repos\\Nonamii\\Controllers\\AddressesController.cs",
-              "RelativeToolTip": "Controllers\\AddressesController.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAB4AAAAMAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-16T07:21:47.093Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "UserAddress.cshtml",
-              "DocumentMoniker": "C:\\Users\\zondi\\source\\repos\\Nonamii\\Views\\Addresses\\UserAddress.cshtml",
-              "RelativeDocumentMoniker": "Views\\Addresses\\UserAddress.cshtml",
-              "ToolTip": "C:\\Users\\zondi\\source\\repos\\Nonamii\\Views\\Addresses\\UserAddress.cshtml",
-              "RelativeToolTip": "Views\\Addresses\\UserAddress.cshtml",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAkAAAAxAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-05-16T07:18:31.951Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "_LoginPartial.cshtml",
-              "DocumentMoniker": "C:\\Users\\zondi\\source\\repos\\Nonamii\\Views\\Shared\\_LoginPartial.cshtml",
-              "RelativeDocumentMoniker": "Views\\Shared\\_LoginPartial.cshtml",
-              "ToolTip": "C:\\Users\\zondi\\source\\repos\\Nonamii\\Views\\Shared\\_LoginPartial.cshtml",
-              "RelativeToolTip": "Views\\Shared\\_LoginPartial.cshtml",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAABoAAAAMAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-05-16T06:48:28.666Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 6,
-              "Title": "site.css",
-              "DocumentMoniker": "C:\\Users\\zondi\\source\\repos\\Nonamii\\wwwroot\\css\\site.css",
-              "RelativeDocumentMoniker": "wwwroot\\css\\site.css",
-              "ToolTip": "C:\\Users\\zondi\\source\\repos\\Nonamii\\wwwroot\\css\\site.css",
-              "RelativeToolTip": "wwwroot\\css\\site.css",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAB4AAAAFAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
-              "WhenOpened": "2024-05-16T06:24:05.944Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "_Layout.cshtml",
-              "DocumentMoniker": "C:\\Users\\zondi\\source\\repos\\Nonamii\\Views\\Shared\\_Layout.cshtml",
-              "RelativeDocumentMoniker": "Views\\Shared\\_Layout.cshtml",
-              "ToolTip": "C:\\Users\\zondi\\source\\repos\\Nonamii\\Views\\Shared\\_Layout.cshtml",
-              "RelativeToolTip": "Views\\Shared\\_Layout.cshtml",
-              "ViewState": "AQIAAAYAAAAAAAAAAAAAADcAAAAmAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-05-16T06:23:02.752Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 7,
-              "Title": "Index.cshtml",
-              "DocumentMoniker": "C:\\Users\\zondi\\source\\repos\\Nonamii\\Views\\Home\\Index.cshtml",
-              "RelativeDocumentMoniker": "Views\\Home\\Index.cshtml",
-              "ToolTip": "C:\\Users\\zondi\\source\\repos\\Nonamii\\Views\\Home\\Index.cshtml",
-              "RelativeToolTip": "Views\\Home\\Index.cshtml",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAQAAAAVAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-05-16T06:22:45.026Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 8,
-              "Title": "WelcomePage.css",
-              "DocumentMoniker": "C:\\Users\\zondi\\source\\repos\\Nonamii\\wwwroot\\css\\WelcomePage.css",
-              "RelativeDocumentMoniker": "wwwroot\\css\\WelcomePage.css",
-              "ToolTip": "C:\\Users\\zondi\\source\\repos\\Nonamii\\wwwroot\\css\\WelcomePage.css",
-              "RelativeToolTip": "wwwroot\\css\\WelcomePage.css",
-              "ViewState": "AQIAAC0AAAAAAAAAAAAAADIAAAAKAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
-              "WhenOpened": "2024-05-16T06:21:23.428Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 9,
-              "Title": "Landing.cshtml",
-              "DocumentMoniker": "C:\\Users\\zondi\\source\\repos\\Nonamii\\Views\\Home\\Landing.cshtml",
-              "RelativeDocumentMoniker": "Views\\Home\\Landing.cshtml",
-              "ToolTip": "C:\\Users\\zondi\\source\\repos\\Nonamii\\Views\\Home\\Landing.cshtml",
-              "RelativeToolTip": "Views\\Home\\Landing.cshtml",
-              "ViewState": "AQIAAAYAAAAAAAAAAAAAABcAAAAHAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-05-15T18:54:22.728Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 10,
               "Title": "Program.cs",
               "DocumentMoniker": "C:\\Users\\zondi\\source\\repos\\Nonamii\\Program.cs",
               "RelativeDocumentMoniker": "Program.cs",
               "ToolTip": "C:\\Users\\zondi\\source\\repos\\Nonamii\\Program.cs",
               "RelativeToolTip": "Program.cs",
-              "ViewState": "AQIAACoAAAAAAAAAAAAAADoAAAAAAAAA",
+              "ViewState": "AQIAABsAAAAAAAAAAAAAADcAAAAtAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-15T18:53:54.277Z"
+              "WhenOpened": "2024-05-19T07:26:53.136Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Recipe.cs",
+              "DocumentMoniker": "C:\\Users\\zondi\\source\\repos\\Nonamii\\Models\\Inventory\\Recipe.cs",
+              "RelativeDocumentMoniker": "Models\\Inventory\\Recipe.cs",
+              "ToolTip": "C:\\Users\\zondi\\source\\repos\\Nonamii\\Models\\Inventory\\Recipe.cs",
+              "RelativeToolTip": "Models\\Inventory\\Recipe.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAwAAAAqAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-19T06:58:37.995Z"
             }
           ]
         }

@@ -1,4 +1,5 @@
-﻿namespace Nonamii.Services
+﻿
+namespace Nonamii.Services
 {
     public class MenuItemService : IMenuItemService
     {
@@ -19,5 +20,21 @@
             string? userId = _userManager.GetUserId(principal);
             return userId;
         }
+        public async Task<MenuItem> GetMenuItem(string name)
+        {
+            var menuItem = await _db.MenuItems.
+                Where(x => x.Name == name).FirstOrDefaultAsync();
+
+            return menuItem;
+        }
+
+        public async Task<IList<MenuItem>> GetMenuItems()
+        {
+            var menuItems = await _db.MenuItems.ToListAsync();
+
+            return menuItems;
+        }
+
+
     }
 }

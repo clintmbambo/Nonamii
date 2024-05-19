@@ -86,11 +86,6 @@ namespace Nonamii.Controllers
             return result;
         }
 
-        public async Task<IActionResult> CheckoutPageEntry()
-        {
-            return View();
-        }
-
         public async Task<IActionResult> GetTotalItemsInCart()
         {
             var cartItemCount = await _cartRepo.GetCartItemCount();

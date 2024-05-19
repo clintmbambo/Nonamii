@@ -306,26 +306,6 @@ build_metadata.AdditionalFiles.CssScope =
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxVc2VyUmVnaXN0cmF0aW9uLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/zondi/source/repos/Nonamii/Views/Ingredients/Create.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSW5ncmVkaWVudHNcQ3JlYXRlLmNzaHRtbA==
-build_metadata.AdditionalFiles.CssScope = 
-
-[C:/Users/zondi/source/repos/Nonamii/Views/Ingredients/Delete.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSW5ncmVkaWVudHNcRGVsZXRlLmNzaHRtbA==
-build_metadata.AdditionalFiles.CssScope = 
-
-[C:/Users/zondi/source/repos/Nonamii/Views/Ingredients/Details.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSW5ncmVkaWVudHNcRGV0YWlscy5jc2h0bWw=
-build_metadata.AdditionalFiles.CssScope = 
-
-[C:/Users/zondi/source/repos/Nonamii/Views/Ingredients/Edit.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSW5ncmVkaWVudHNcRWRpdC5jc2h0bWw=
-build_metadata.AdditionalFiles.CssScope = 
-
-[C:/Users/zondi/source/repos/Nonamii/Views/Ingredients/Index.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSW5ncmVkaWVudHNcSW5kZXguY3NodG1s
-build_metadata.AdditionalFiles.CssScope = 
-
 [C:/Users/zondi/source/repos/Nonamii/Views/MenuItemExtras/Create.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTWVudUl0ZW1FeHRyYXNcQ3JlYXRlLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
@@ -344,26 +324,6 @@ build_metadata.AdditionalFiles.CssScope =
 
 [C:/Users/zondi/source/repos/Nonamii/Views/MenuItemExtras/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTWVudUl0ZW1FeHRyYXNcSW5kZXguY3NodG1s
-build_metadata.AdditionalFiles.CssScope = 
-
-[C:/Users/zondi/source/repos/Nonamii/Views/MenuItemIngredients/Create.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTWVudUl0ZW1JbmdyZWRpZW50c1xDcmVhdGUuY3NodG1s
-build_metadata.AdditionalFiles.CssScope = 
-
-[C:/Users/zondi/source/repos/Nonamii/Views/MenuItemIngredients/Delete.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTWVudUl0ZW1JbmdyZWRpZW50c1xEZWxldGUuY3NodG1s
-build_metadata.AdditionalFiles.CssScope = 
-
-[C:/Users/zondi/source/repos/Nonamii/Views/MenuItemIngredients/Details.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTWVudUl0ZW1JbmdyZWRpZW50c1xEZXRhaWxzLmNzaHRtbA==
-build_metadata.AdditionalFiles.CssScope = 
-
-[C:/Users/zondi/source/repos/Nonamii/Views/MenuItemIngredients/Edit.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTWVudUl0ZW1JbmdyZWRpZW50c1xFZGl0LmNzaHRtbA==
-build_metadata.AdditionalFiles.CssScope = 
-
-[C:/Users/zondi/source/repos/Nonamii/Views/MenuItemIngredients/Index.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTWVudUl0ZW1JbmdyZWRpZW50c1xJbmRleC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
 [C:/Users/zondi/source/repos/Nonamii/Views/MenuItemSizes/Create.cshtml]
@@ -508,6 +468,26 @@ build_metadata.AdditionalFiles.CssScope =
 
 [C:/Users/zondi/source/repos/Nonamii/Views/PaymentDetails/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUGF5bWVudERldGFpbHNcSW5kZXguY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/zondi/source/repos/Nonamii/Views/Recipes/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUmVjaXBlc1xDcmVhdGUuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/zondi/source/repos/Nonamii/Views/Recipes/Delete.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUmVjaXBlc1xEZWxldGUuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/zondi/source/repos/Nonamii/Views/Recipes/Details.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUmVjaXBlc1xEZXRhaWxzLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/zondi/source/repos/Nonamii/Views/Recipes/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUmVjaXBlc1xFZGl0LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/zondi/source/repos/Nonamii/Views/Recipes/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUmVjaXBlc1xJbmRleC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
 [C:/Users/zondi/source/repos/Nonamii/Views/Shared/Error.cshtml]
