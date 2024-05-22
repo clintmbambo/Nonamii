@@ -1,7 +1,7 @@
 ﻿
 namespace Nonamii.Controllers
 {
-    [Authorize]
+    [Authorize(Roles = "Restaurant, Admin")]
     public class CartController : Controller
     {
         private readonly ICartRepo _cartRepo;

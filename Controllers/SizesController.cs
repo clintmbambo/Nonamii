@@ -10,19 +10,24 @@ using Nonamii.Models.Inventory;
 
 namespace Nonamii.Controllers
 {
+    [Authorize(Roles = "Restaurant")]
     public class SizesController : Controller
     {
         private readonly ApplicationDbContext _context;
+        private readonly IMenuItemExtrasRepo _menuItemExtrasRepo;
 
-        public SizesController(ApplicationDbContext context)
+        public SizesController(ApplicationDbContext context, IMenuItemExtrasRepo menuItemExtrasRepo)
         {
             _context = context;
+            _menuItemExtrasRepo = menuItemExtrasRepo;
         }
 
         // GET: Sizes
         public async Task<IActionResult> Index()
         {
-            return View(await _context.Sizes.ToListAsync());
+            return View(await _context.Sizes
+                .Where(m => m.UserId == _menuItemExtrasRepo.GetUserId())
+                .ToListAsync());
         }
 
         // GET: Sizes/Details/5

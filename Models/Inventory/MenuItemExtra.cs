@@ -3,6 +3,7 @@
     public class MenuItemExtra
     {
         public int Id { get; set; }
+        public string? UserId { get; set; }
         public int ExtraId { get; set; }
         public int MenuItemId { get; set; }
         public bool IsActive { get; set; } = true;

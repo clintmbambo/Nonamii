@@ -9,7 +9,7 @@ using Nonamii.Data;
 
 namespace Nonamii.Controllers
 {
-    [Authorize(Roles = "Admin")]
+    [Authorize(Roles = "Restaurant")]
     public class OrderStatusController : Controller
     {
         private readonly ApplicationDbContext _context;
@@ -22,7 +22,8 @@ namespace Nonamii.Controllers
         // GET: OrderStatus
         public async Task<IActionResult> Index()
         {
-            return View(await _context.OrderStatuses.ToListAsync());
+            return View(await _context.OrderStatuses
+                .ToListAsync());
         }
 
         // GET: OrderStatus/Details/5

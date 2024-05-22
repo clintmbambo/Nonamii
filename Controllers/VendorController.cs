@@ -2,7 +2,7 @@
 
 namespace Nonamii.Controllers
 {
-    [Authorize(Roles = "Admin")]
+    [Authorize(Roles = "Restaurant, Admin")]
     public class VendorController : Controller
     {
         public IActionResult Index()

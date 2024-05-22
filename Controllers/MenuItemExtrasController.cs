@@ -10,23 +10,22 @@ using Nonamii.Models.Inventory;
 
 namespace Nonamii.Controllers
 {
-    [Authorize(Roles = "Admin")]
+    [Authorize(Roles = "Restaurant")]
     public class MenuItemExtrasController : Controller
     {
         private readonly ApplicationDbContext _context;
+        private readonly IMenuItemExtrasRepo _menuItemExtrasRepo;
 
-        public MenuItemExtrasController(ApplicationDbContext context)
+        public MenuItemExtrasController(ApplicationDbContext context, IMenuItemExtrasRepo menuItemExtrasRepo)
         {
             _context = context;
+            _menuItemExtrasRepo = menuItemExtrasRepo;
         }
 
         // GET: MenuItemExtras
         public async Task<IActionResult> Index()
         {
-            var applicationDbContext = _context.MenuItemExtras
-                .Include(m => m.Extra)
-                .Include(m => m.MenuItem);
-            return View(await applicationDbContext.ToListAsync());
+            return View(await _menuItemExtrasRepo.GetMenuItemExtrasAsync());
         }
 
         // GET: MenuItemExtras/Details/5

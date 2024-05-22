@@ -16,9 +16,8 @@ namespace Nonamii.Controllers.MenuControllers
         // GET: Menus
         public async Task<IActionResult> Index()
         {
-            var applicationDbContext = _context.Menu
-                .Include(m => m.Type);
-            return View(await applicationDbContext.ToListAsync());
+            var menus = await _menuRepo.GetAllMenusAsync();
+            return View(menus);
         }
 
         // GET: Menus/Details/5

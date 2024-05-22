@@ -1,5 +1,6 @@
 ﻿namespace Nonamii.Controllers
 {
+    [Authorize(Roles = "Restaurant, Admin")]
     public class CardsController : Controller
     {
         private readonly ApplicationDbContext _context;

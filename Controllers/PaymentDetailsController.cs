@@ -10,6 +10,7 @@ using Nonamii.Models;
 
 namespace Nonamii.Controllers
 {
+    [Authorize]
     public class PaymentDetailsController : Controller
     {
         private readonly ApplicationDbContext _context;

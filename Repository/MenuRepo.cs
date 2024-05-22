@@ -19,5 +19,18 @@
 
             return userId;
         }
+
+        public async Task<IEnumerable<Menu>> GetAllMenusAsync()
+        {
+            string? userId = GetUserId();
+
+            var menus = await _db.Menu
+                .Include(x => x.Type)
+                .Include(m => m.Categories)
+                .Where(m => m.UserId == userId)
+                .ToListAsync();
+
+            return menus;
+        }
     }
 }

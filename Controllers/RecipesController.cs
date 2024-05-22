@@ -10,6 +10,7 @@ using Nonamii.Models.Inventory;
 
 namespace Nonamii.Controllers
 {
+    [Authorize(Roles = "Restaurant")]
     public class RecipesController : Controller
     {
         private readonly ApplicationDbContext _context;

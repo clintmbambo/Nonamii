@@ -21,6 +21,14 @@
                 {
                     <span>(Admin)</span>
                 }
+                else if (User.IsInRole("Restaurant"))
+                {
+                    <span>(Restaurant)</span>
+                }
+                else if (User.IsInRole("Driver"))
+                {
+                    <span>(Driver)</span>
+                }
             </a>
         </li>
         <li class="nav-item">
@@ -32,7 +40,10 @@
     else
     {
         <li class="nav-item">
-            <a class="nav-link text-white" asp-area="Identity" asp-page="/Account/RegisterVendor">Become a Partner</a>
+            <a class="nav-link text-white" asp-area="Identity" asp-page="/Account/RegisterRestaurant">Restaurant</a>
+        </li>
+        <li class="nav-item">
+            <a class="nav-link text-white" asp-area="Identity" asp-page="/Account/RegisterDriver">Driver</a>
         </li>
         <li class="nav-item">
             <a class="nav-link text-white" asp-area="Identity" asp-page="/Account/Register">Register</a>

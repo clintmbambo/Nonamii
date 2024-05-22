@@ -10,20 +10,24 @@ using Nonamii.Models.Inventory;
 
 namespace Nonamii.Controllers
 {
-    [Authorize(Roles = "Admin")]
+    [Authorize(Roles = "Restaurant")]
     public class ExtrasController : Controller
     {
         private readonly ApplicationDbContext _context;
+        private readonly IUserManagement _userManagement;
 
-        public ExtrasController(ApplicationDbContext context)
+        public ExtrasController(ApplicationDbContext context, IUserManagement userManagement)
         {
             _context = context;
+            _userManagement = userManagement;
         }
 
         // GET: Extras
         public async Task<IActionResult> Index()
         {
-            return View(await _context.Extras.ToListAsync());
+            return View(await _context.Extras
+                .Where(m => m.UserId == _userManagement.GetUserId())
+                .ToListAsync());
         }
 
         // GET: Extras/Details/5

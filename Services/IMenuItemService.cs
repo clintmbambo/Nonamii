@@ -3,7 +3,7 @@
     public interface IMenuItemService
     {
         string GetUserId();
-        Task<IList<MenuItem>> GetMenuItems();
+        Task<IEnumerable<MenuItem>> GetMenuItemsAsync();
         Task<MenuItem> GetMenuItem(string name);
     }
 }

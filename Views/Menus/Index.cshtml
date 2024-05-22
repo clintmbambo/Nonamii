@@ -39,18 +39,21 @@
         <aside id="sidebar">
             <div class="sidebar-title">
                 <div class="sidebar-brand">
-                    <span class="material-symbols-outlined"></span> MenuItem Sizes
+                    <span class="material-symbols-outlined"></span> Menu
                 </div>
                 <span class="material-symbols-outlined" onclick="closeSidebar()">close</span>
             </div>
             <ul class="sidebar-list">
                 <li class="sidebar-list-item">
-                    <p>
-                        <a asp-action="Index" asp-controller="Menus" class="btn btn-dark bg-transparent"
+                        <a class="btn btn-dark bg-transparent"
                            style="width:100%;">
                             Menu
                         </a>
-                    </p>
+                </li>
+                <li class="sidebar-list-item">
+                    <a href="/MenuTypes/Index" class="btn btn-transparent bg-transparent" style="width:100%;">
+                        <span class="material-symbols-outlined"></span> Menu Types
+                    </a>
                 </li>
                 <li class="sidebar-list-item">
                     <a href="/MenuItems/Index" class="btn btn-transparent bg-transparent" style="width:100%;">
@@ -103,7 +106,7 @@
 
         <main class="main-container">
             <div class="main-title">
-                <p class="font-weight-bold"> Menu Categories</p>
+                <p class="font-weight-bold"> Menus</p>
             </div>
 
 
@@ -111,6 +114,9 @@
             <table class="table table-dark table-striped table-borderless">
                 <thead>
                     <tr>
+                        <th>
+                            @Html.DisplayNameFor(model => model.UserId)
+                        </th>
                         <th>
                             @Html.DisplayNameFor(model => model.TypeId)
                         </th>
@@ -127,6 +133,9 @@
                     @foreach (var item in Model)
                     {
                         <tr>
+                            <td>
+                                @Html.DisplayFor(modelItem => item.UserId)
+                            </td>
                             <td>
                                 @Html.DisplayFor(modelItem => item.Type)
                             </td>

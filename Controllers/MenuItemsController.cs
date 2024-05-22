@@ -10,7 +10,7 @@ using Nonamii.Models.Inventory;
 
 namespace Nonamii.Controllers
 {
-    [Authorize(Roles = "Admin")]
+    [Authorize(Roles = "Restaurant")]
     public class MenuItemsController : Controller
     {
         private readonly ApplicationDbContext _context;
@@ -27,7 +27,7 @@ namespace Nonamii.Controllers
         // GET: MenuItems
         public async Task<IActionResult> Index()
         {
-            return View(await _context.MenuItems.ToListAsync());
+            return View(await _menuItemService.GetMenuItemsAsync());
         }
 
         // GET: MenuItems/Details/5

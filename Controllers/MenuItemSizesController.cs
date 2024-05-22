@@ -10,14 +10,16 @@ using Nonamii.Models.Inventory;
 
 namespace Nonamii.Controllers
 {
-    [Authorize(Roles = "Admin")]
+    [Authorize(Roles = "Restaurant")]
     public class MenuItemSizesController : Controller
     {
         private readonly ApplicationDbContext _context;
+        private readonly IMenuItemExtrasRepo _menuItemExtrasRepo;
 
-        public MenuItemSizesController(ApplicationDbContext context)
+        public MenuItemSizesController(ApplicationDbContext context, IMenuItemExtrasRepo menuItemExtrasRepo)
         {
             _context = context;
+            _menuItemExtrasRepo = menuItemExtrasRepo;
         }
 
         // GET: MenuItemSizes
@@ -25,7 +27,9 @@ namespace Nonamii.Controllers
         {
             var applicationDbContext = _context.MenuItemSizes
                 .Include(m => m.MenuItem)
-                .Include(m => m.Size);
+                .Include(m => m.Size)
+                .Where(m => m.UserId == _menuItemExtrasRepo.GetUserId());
+
             return View(await applicationDbContext.ToListAsync());
         }
 

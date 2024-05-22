@@ -13,18 +13,19 @@ namespace Nonamii.Controllers.MenuControllers
     public class MenuTypesController : Controller
     {
         private readonly ApplicationDbContext _context;
-        private readonly IMenuRepo _menuRepo;
+        private readonly IMenuTypesRepo _menuTypesRepo;
 
-        public MenuTypesController(ApplicationDbContext context, IMenuRepo menuRepo)
+        public MenuTypesController(ApplicationDbContext context, IMenuTypesRepo menuTypesRepo)
         {
             _context = context;
-            _menuRepo = menuRepo;
+            _menuTypesRepo = menuTypesRepo;
         }
 
         // GET: MenuTypes
         public async Task<IActionResult> Index()
         {
-            return View(await _context.MenuType.ToListAsync());
+            var menuTypes = await _menuTypesRepo.GetMenuTypesAsync();
+            return View(menuTypes);
         }
 
         // GET: MenuTypes/Details/5
@@ -60,7 +61,7 @@ namespace Nonamii.Controllers.MenuControllers
         {
             if (ModelState.IsValid)
             {
-                menuType.UserId = _menuRepo.GetUserId();
+                menuType.UserId = _menuTypesRepo.GetUserId();
                 _context.Add(menuType);
                 await _context.SaveChangesAsync();
                 return RedirectToAction(nameof(Index));

@@ -9,6 +9,8 @@ builder.Services.AddDbContext<ApplicationDbContext>(options =>
 builder.Services.AddDatabaseDeveloperPageExceptionFilter();
 
 builder.Services.AddTransient<IUserOrdersRepo, UserOrdersRepo>();
+builder.Services.AddTransient<IMenuItemExtrasRepo, MenuItemExtrasRepo>();
+builder.Services.AddTransient<IMenuTypesRepo, MenuTypesRepo>();
 builder.Services.AddTransient<IMenuRepo, MenuRepo>();
 builder.Services.AddTransient<IHomeRepo, HomeRepo>();
 builder.Services.AddTransient<ICartRepo, CartRepo>();

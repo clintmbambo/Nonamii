@@ -7,7 +7,7 @@
             var userManager = service.GetService<UserManager<IdentityUser>>();
             var roleManager = service.GetService<RoleManager<IdentityRole>>();
 
-            var roles = new[] { "Admin", "Vendor", "Deliveryperson", "User" };
+            var roles = new[] { "Admin", "Restaurant", "Driver", "User" };
             foreach(var role in roles)
             {
                 if(!await roleManager.RoleExistsAsync(role))

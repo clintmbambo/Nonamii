@@ -28,9 +28,16 @@ namespace Nonamii.Services
             return menuItem;
         }
 
-        public async Task<IList<MenuItem>> GetMenuItems()
+        public async Task<IEnumerable<MenuItem>> GetMenuItemsAsync()
         {
-            var menuItems = await _db.MenuItems.ToListAsync();
+            string? userId = GetUserId();
+            var menuItems = await _db.MenuItems
+                .Include(x => x.CartDetails)
+                .Include(m => m.MenuItemPromos)
+                .Include(m => m.ItemExtras)
+                .Include(m => m.ItemSizes)
+                .Where(x => x.UserId == userId)
+                .ToListAsync();
 
             return menuItems;
         }

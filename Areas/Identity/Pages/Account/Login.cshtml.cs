@@ -114,8 +114,16 @@ namespace Nonamii.Areas.Identity.Pages.Account
                 var result = await _signInManager.PasswordSignInAsync(Input.Email, Input.Password, Input.RememberMe, lockoutOnFailure: false);
                 if (result.Succeeded)
                 {
-                    if (User.IsInRole("Admin")){
+                    if (User.IsInRole("Restaurant") || User.IsInRole("Admin")){
                         returnUrl = Url.Content("~/Vendor/Index");
+                    }
+                    else if (User.IsInRole("Driver"))
+                    {
+                        returnUrl = Url.Content("~/Driver/Index");
+                    }
+                    else
+                    {
+                        returnUrl = Url.Content("~/");
                     }
                     _logger.LogInformation("User logged in.");
                     return LocalRedirect(returnUrl);
