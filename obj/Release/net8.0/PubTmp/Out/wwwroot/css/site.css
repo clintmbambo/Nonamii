@@ -18,5 +18,15 @@ html {
 }
 
 body {
-  margin-bottom: 60px;
+    margin-bottom: 60px;
+    background-color: rgba(241,241,241,1);
 }
+
+nav {
+    background-color: rgba(52,51,49,1);
+}
+    nav a {
+        text-decoration: none;
+        color: rgba(248,159,13,1);
+    }
+

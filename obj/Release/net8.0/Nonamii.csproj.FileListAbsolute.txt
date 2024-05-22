@@ -868,3 +868,4 @@ C:\Users\zondi\source\repos\projects\Nonamii007\obj\Release\net8.0\refint\Nonami
 C:\Users\zondi\source\repos\projects\Nonamii007\obj\Release\net8.0\Nonamii.pdb
 C:\Users\zondi\source\repos\projects\Nonamii007\obj\Release\net8.0\Nonamii.genruntimeconfig.cache
 C:\Users\zondi\source\repos\projects\Nonamii007\obj\Release\net8.0\ref\Nonamii.dll
+C:\Users\zondi\source\repos\Nonamii\obj\Release\net8.0\Nonamii.sourcelink.json

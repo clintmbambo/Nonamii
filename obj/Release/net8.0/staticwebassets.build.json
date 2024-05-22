@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "P4DcF3z7rnwoBQReFSbxhdquavmlr7GyIHlV9GBcVuY=",
+  "Hash": "vcfTIo6vIp+lklI3UibQsrsmemcdEmCdeRyi0uo6g/Q=",
   "Source": "Nonamii",
   "BasePath": "_content/Nonamii",
   "Mode": "Default",
@@ -10,7 +10,7 @@
     {
       "Name": "Nonamii\\wwwroot",
       "Source": "Nonamii",
-      "ContentRoot": "C:\\Users\\zondi\\source\\repos\\projects\\Nonamii007\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\zondi\\source\\repos\\Nonamii\\wwwroot\\",
       "BasePath": "_content/Nonamii",
       "Pattern": "**"
     }
@@ -1157,10 +1157,10 @@
       "OriginalItemSpec": "C:\\Users\\zondi\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\8.0.3\\staticwebassets\\V5\\lib\\jquery-validation-unobtrusive\\LICENSE.txt"
     },
     {
-      "Identity": "C:\\Users\\zondi\\source\\repos\\projects\\Nonamii007\\obj\\Release\\net8.0\\scopedcss\\bundle\\Nonamii.styles.css",
+      "Identity": "C:\\Users\\zondi\\source\\repos\\Nonamii\\obj\\Release\\net8.0\\scopedcss\\bundle\\Nonamii.styles.css",
       "SourceId": "Nonamii",
       "SourceType": "Computed",
-      "ContentRoot": "C:\\Users\\zondi\\source\\repos\\projects\\Nonamii007\\obj\\Release\\net8.0\\scopedcss\\bundle\\",
+      "ContentRoot": "C:\\Users\\zondi\\source\\repos\\Nonamii\\obj\\Release\\net8.0\\scopedcss\\bundle\\",
       "BasePath": "_content/Nonamii",
       "RelativePath": "Nonamii.styles.css",
       "AssetKind": "All",
@@ -1173,13 +1173,13 @@
       "AssetTraitValue": "ApplicationBundle",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "C:\\Users\\zondi\\source\\repos\\projects\\Nonamii007\\obj\\Release\\net8.0\\scopedcss\\bundle\\Nonamii.styles.css"
+      "OriginalItemSpec": "C:\\Users\\zondi\\source\\repos\\Nonamii\\obj\\Release\\net8.0\\scopedcss\\bundle\\Nonamii.styles.css"
     },
     {
-      "Identity": "C:\\Users\\zondi\\source\\repos\\projects\\Nonamii007\\obj\\Release\\net8.0\\scopedcss\\projectbundle\\Nonamii.bundle.scp.css",
+      "Identity": "C:\\Users\\zondi\\source\\repos\\Nonamii\\obj\\Release\\net8.0\\scopedcss\\projectbundle\\Nonamii.bundle.scp.css",
       "SourceId": "Nonamii",
       "SourceType": "Computed",
-      "ContentRoot": "C:\\Users\\zondi\\source\\repos\\projects\\Nonamii007\\obj\\Release\\net8.0\\scopedcss\\projectbundle\\",
+      "ContentRoot": "C:\\Users\\zondi\\source\\repos\\Nonamii\\obj\\Release\\net8.0\\scopedcss\\projectbundle\\",
       "BasePath": "_content/Nonamii",
       "RelativePath": "Nonamii.bundle.scp.css",
       "AssetKind": "All",
@@ -1192,13 +1192,13 @@
       "AssetTraitValue": "ProjectBundle",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "C:\\Users\\zondi\\source\\repos\\projects\\Nonamii007\\obj\\Release\\net8.0\\scopedcss\\projectbundle\\Nonamii.bundle.scp.css"
+      "OriginalItemSpec": "C:\\Users\\zondi\\source\\repos\\Nonamii\\obj\\Release\\net8.0\\scopedcss\\projectbundle\\Nonamii.bundle.scp.css"
     },
     {
-      "Identity": "C:\\Users\\zondi\\source\\repos\\projects\\Nonamii007\\wwwroot\\css\\AboutPage.css",
+      "Identity": "C:\\Users\\zondi\\source\\repos\\Nonamii\\wwwroot\\css\\AboutPage.css",
       "SourceId": "Nonamii",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\zondi\\source\\repos\\projects\\Nonamii007\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\zondi\\source\\repos\\Nonamii\\wwwroot\\",
       "BasePath": "_content/Nonamii",
       "RelativePath": "css/AboutPage.css",
       "AssetKind": "All",
@@ -1214,10 +1214,10 @@
       "OriginalItemSpec": "wwwroot\\css\\AboutPage.css"
     },
     {
-      "Identity": "C:\\Users\\zondi\\source\\repos\\projects\\Nonamii007\\wwwroot\\css\\bootstrap.min.css",
+      "Identity": "C:\\Users\\zondi\\source\\repos\\Nonamii\\wwwroot\\css\\bootstrap.min.css",
       "SourceId": "Nonamii",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\zondi\\source\\repos\\projects\\Nonamii007\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\zondi\\source\\repos\\Nonamii\\wwwroot\\",
       "BasePath": "_content/Nonamii",
       "RelativePath": "css/bootstrap.min.css",
       "AssetKind": "All",
@@ -1233,10 +1233,10 @@
       "OriginalItemSpec": "wwwroot\\css\\bootstrap.min.css"
     },
     {
-      "Identity": "C:\\Users\\zondi\\source\\repos\\projects\\Nonamii007\\wwwroot\\css\\BrowsePage.css",
+      "Identity": "C:\\Users\\zondi\\source\\repos\\Nonamii\\wwwroot\\css\\BrowsePage.css",
       "SourceId": "Nonamii",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\zondi\\source\\repos\\projects\\Nonamii007\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\zondi\\source\\repos\\Nonamii\\wwwroot\\",
       "BasePath": "_content/Nonamii",
       "RelativePath": "css/BrowsePage.css",
       "AssetKind": "All",
@@ -1252,10 +1252,10 @@
       "OriginalItemSpec": "wwwroot\\css\\BrowsePage.css"
     },
     {
-      "Identity": "C:\\Users\\zondi\\source\\repos\\projects\\Nonamii007\\wwwroot\\css\\ContactPage.css",
+      "Identity": "C:\\Users\\zondi\\source\\repos\\Nonamii\\wwwroot\\css\\ContactPage.css",
       "SourceId": "Nonamii",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\zondi\\source\\repos\\projects\\Nonamii007\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\zondi\\source\\repos\\Nonamii\\wwwroot\\",
       "BasePath": "_content/Nonamii",
       "RelativePath": "css/ContactPage.css",
       "AssetKind": "All",
@@ -1271,10 +1271,10 @@
       "OriginalItemSpec": "wwwroot\\css\\ContactPage.css"
     },
     {
-      "Identity": "C:\\Users\\zondi\\source\\repos\\projects\\Nonamii007\\wwwroot\\css\\site.css",
+      "Identity": "C:\\Users\\zondi\\source\\repos\\Nonamii\\wwwroot\\css\\site.css",
       "SourceId": "Nonamii",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\zondi\\source\\repos\\projects\\Nonamii007\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\zondi\\source\\repos\\Nonamii\\wwwroot\\",
       "BasePath": "_content/Nonamii",
       "RelativePath": "css/site.css",
       "AssetKind": "All",
@@ -1290,10 +1290,10 @@
       "OriginalItemSpec": "wwwroot\\css\\site.css"
     },
     {
-      "Identity": "C:\\Users\\zondi\\source\\repos\\projects\\Nonamii007\\wwwroot\\css\\styles.css",
+      "Identity": "C:\\Users\\zondi\\source\\repos\\Nonamii\\wwwroot\\css\\styles.css",
       "SourceId": "Nonamii",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\zondi\\source\\repos\\projects\\Nonamii007\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\zondi\\source\\repos\\Nonamii\\wwwroot\\",
       "BasePath": "_content/Nonamii",
       "RelativePath": "css/styles.css",
       "AssetKind": "All",
@@ -1309,10 +1309,10 @@
       "OriginalItemSpec": "wwwroot\\css\\styles.css"
     },
     {
-      "Identity": "C:\\Users\\zondi\\source\\repos\\projects\\Nonamii007\\wwwroot\\css\\WelcomePage.css",
+      "Identity": "C:\\Users\\zondi\\source\\repos\\Nonamii\\wwwroot\\css\\WelcomePage.css",
       "SourceId": "Nonamii",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\zondi\\source\\repos\\projects\\Nonamii007\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\zondi\\source\\repos\\Nonamii\\wwwroot\\",
       "BasePath": "_content/Nonamii",
       "RelativePath": "css/WelcomePage.css",
       "AssetKind": "All",
@@ -1328,10 +1328,10 @@
       "OriginalItemSpec": "wwwroot\\css\\WelcomePage.css"
     },
     {
-      "Identity": "C:\\Users\\zondi\\source\\repos\\projects\\Nonamii007\\wwwroot\\favicon.ico",
+      "Identity": "C:\\Users\\zondi\\source\\repos\\Nonamii\\wwwroot\\favicon.ico",
       "SourceId": "Nonamii",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\zondi\\source\\repos\\projects\\Nonamii007\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\zondi\\source\\repos\\Nonamii\\wwwroot\\",
       "BasePath": "_content/Nonamii",
       "RelativePath": "favicon.ico",
       "AssetKind": "All",
@@ -1347,10 +1347,10 @@
       "OriginalItemSpec": "wwwroot\\favicon.ico"
     },
     {
-      "Identity": "C:\\Users\\zondi\\source\\repos\\projects\\Nonamii007\\wwwroot\\Images\\bbq nachos.jpeg",
+      "Identity": "C:\\Users\\zondi\\source\\repos\\Nonamii\\wwwroot\\Images\\bbq nachos.jpeg",
       "SourceId": "Nonamii",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\zondi\\source\\repos\\projects\\Nonamii007\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\zondi\\source\\repos\\Nonamii\\wwwroot\\",
       "BasePath": "_content/Nonamii",
       "RelativePath": "Images/bbq nachos.jpeg",
       "AssetKind": "All",
@@ -1366,10 +1366,10 @@
       "OriginalItemSpec": "wwwroot\\Images\\bbq nachos.jpeg"
     },
     {
-      "Identity": "C:\\Users\\zondi\\source\\repos\\projects\\Nonamii007\\wwwroot\\Images\\Cheese and Potato Pie.jpeg",
+      "Identity": "C:\\Users\\zondi\\source\\repos\\Nonamii\\wwwroot\\Images\\Cheese and Potato Pie.jpeg",
       "SourceId": "Nonamii",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\zondi\\source\\repos\\projects\\Nonamii007\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\zondi\\source\\repos\\Nonamii\\wwwroot\\",
       "BasePath": "_content/Nonamii",
       "RelativePath": "Images/Cheese and Potato Pie.jpeg",
       "AssetKind": "All",
@@ -1385,10 +1385,10 @@
       "OriginalItemSpec": "wwwroot\\Images\\Cheese and Potato Pie.jpeg"
     },
     {
-      "Identity": "C:\\Users\\zondi\\source\\repos\\projects\\Nonamii007\\wwwroot\\Images\\food_box_mockup_02.png",
+      "Identity": "C:\\Users\\zondi\\source\\repos\\Nonamii\\wwwroot\\Images\\food_box_mockup_02.png",
       "SourceId": "Nonamii",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\zondi\\source\\repos\\projects\\Nonamii007\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\zondi\\source\\repos\\Nonamii\\wwwroot\\",
       "BasePath": "_content/Nonamii",
       "RelativePath": "Images/food_box_mockup_02.png",
       "AssetKind": "All",
@@ -1404,10 +1404,10 @@
       "OriginalItemSpec": "wwwroot\\Images\\food_box_mockup_02.png"
     },
     {
-      "Identity": "C:\\Users\\zondi\\source\\repos\\projects\\Nonamii007\\wwwroot\\Images\\food_box_mockup_02@2x.png",
+      "Identity": "C:\\Users\\zondi\\source\\repos\\Nonamii\\wwwroot\\Images\\food_box_mockup_02@2x.png",
       "SourceId": "Nonamii",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\zondi\\source\\repos\\projects\\Nonamii007\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\zondi\\source\\repos\\Nonamii\\wwwroot\\",
       "BasePath": "_content/Nonamii",
       "RelativePath": "Images/food_box_mockup_02@2x.png",
       "AssetKind": "All",
@@ -1423,10 +1423,10 @@
       "OriginalItemSpec": "wwwroot\\Images\\food_box_mockup_02@2x.png"
     },
     {
-      "Identity": "C:\\Users\\zondi\\source\\repos\\projects\\Nonamii007\\wwwroot\\Images\\Fried Potato and Eggs.jpeg",
+      "Identity": "C:\\Users\\zondi\\source\\repos\\Nonamii\\wwwroot\\Images\\Fried Potato and Eggs.jpeg",
       "SourceId": "Nonamii",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\zondi\\source\\repos\\projects\\Nonamii007\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\zondi\\source\\repos\\Nonamii\\wwwroot\\",
       "BasePath": "_content/Nonamii",
       "RelativePath": "Images/Fried Potato and Eggs.jpeg",
       "AssetKind": "All",
@@ -1442,10 +1442,10 @@
       "OriginalItemSpec": "wwwroot\\Images\\Fried Potato and Eggs.jpeg"
     },
     {
-      "Identity": "C:\\Users\\zondi\\source\\repos\\projects\\Nonamii007\\wwwroot\\Images\\Fried Potato.jpeg",
+      "Identity": "C:\\Users\\zondi\\source\\repos\\Nonamii\\wwwroot\\Images\\Fried Potato.jpeg",
       "SourceId": "Nonamii",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\zondi\\source\\repos\\projects\\Nonamii007\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\zondi\\source\\repos\\Nonamii\\wwwroot\\",
       "BasePath": "_content/Nonamii",
       "RelativePath": "Images/Fried Potato.jpeg",
       "AssetKind": "All",
@@ -1461,10 +1461,10 @@
       "OriginalItemSpec": "wwwroot\\Images\\Fried Potato.jpeg"
     },
     {
-      "Identity": "C:\\Users\\zondi\\source\\repos\\projects\\Nonamii007\\wwwroot\\Images\\Male_couriers_delivering_parce.png",
+      "Identity": "C:\\Users\\zondi\\source\\repos\\Nonamii\\wwwroot\\Images\\Male_couriers_delivering_parce.png",
       "SourceId": "Nonamii",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\zondi\\source\\repos\\projects\\Nonamii007\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\zondi\\source\\repos\\Nonamii\\wwwroot\\",
       "BasePath": "_content/Nonamii",
       "RelativePath": "Images/Male_couriers_delivering_parce.png",
       "AssetKind": "All",
@@ -1480,10 +1480,10 @@
       "OriginalItemSpec": "wwwroot\\Images\\Male_couriers_delivering_parce.png"
     },
     {
-      "Identity": "C:\\Users\\zondi\\source\\repos\\projects\\Nonamii007\\wwwroot\\Images\\Male_couriers_delivering_parce@2x.png",
+      "Identity": "C:\\Users\\zondi\\source\\repos\\Nonamii\\wwwroot\\Images\\Male_couriers_delivering_parce@2x.png",
       "SourceId": "Nonamii",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\zondi\\source\\repos\\projects\\Nonamii007\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\zondi\\source\\repos\\Nonamii\\wwwroot\\",
       "BasePath": "_content/Nonamii",
       "RelativePath": "Images/Male_couriers_delivering_parce@2x.png",
       "AssetKind": "All",
@@ -1499,10 +1499,10 @@
       "OriginalItemSpec": "wwwroot\\Images\\Male_couriers_delivering_parce@2x.png"
     },
     {
-      "Identity": "C:\\Users\\zondi\\source\\repos\\projects\\Nonamii007\\wwwroot\\Images\\payment.png",
+      "Identity": "C:\\Users\\zondi\\source\\repos\\Nonamii\\wwwroot\\Images\\payment.png",
       "SourceId": "Nonamii",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\zondi\\source\\repos\\projects\\Nonamii007\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\zondi\\source\\repos\\Nonamii\\wwwroot\\",
       "BasePath": "_content/Nonamii",
       "RelativePath": "Images/payment.png",
       "AssetKind": "All",
@@ -1518,10 +1518,10 @@
       "OriginalItemSpec": "wwwroot\\Images\\payment.png"
     },
     {
-      "Identity": "C:\\Users\\zondi\\source\\repos\\projects\\Nonamii007\\wwwroot\\Images\\payment@2x.png",
+      "Identity": "C:\\Users\\zondi\\source\\repos\\Nonamii\\wwwroot\\Images\\payment@2x.png",
       "SourceId": "Nonamii",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\zondi\\source\\repos\\projects\\Nonamii007\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\zondi\\source\\repos\\Nonamii\\wwwroot\\",
       "BasePath": "_content/Nonamii",
       "RelativePath": "Images/payment@2x.png",
       "AssetKind": "All",
@@ -1537,10 +1537,10 @@
       "OriginalItemSpec": "wwwroot\\Images\\payment@2x.png"
     },
     {
-      "Identity": "C:\\Users\\zondi\\source\\repos\\projects\\Nonamii007\\wwwroot\\Images\\Pizza with Potato, Cheese and Eggs.jpeg",
+      "Identity": "C:\\Users\\zondi\\source\\repos\\Nonamii\\wwwroot\\Images\\Pizza with Potato, Cheese and Eggs.jpeg",
       "SourceId": "Nonamii",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\zondi\\source\\repos\\projects\\Nonamii007\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\zondi\\source\\repos\\Nonamii\\wwwroot\\",
       "BasePath": "_content/Nonamii",
       "RelativePath": "Images/Pizza with Potato, Cheese and Eggs.jpeg",
       "AssetKind": "All",
@@ -1556,10 +1556,10 @@
       "OriginalItemSpec": "wwwroot\\Images\\Pizza with Potato, Cheese and Eggs.jpeg"
     },
     {
-      "Identity": "C:\\Users\\zondi\\source\\repos\\projects\\Nonamii007\\wwwroot\\Images\\Potato and Sausage Bake.jpeg",
+      "Identity": "C:\\Users\\zondi\\source\\repos\\Nonamii\\wwwroot\\Images\\Potato and Sausage Bake.jpeg",
       "SourceId": "Nonamii",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\zondi\\source\\repos\\projects\\Nonamii007\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\zondi\\source\\repos\\Nonamii\\wwwroot\\",
       "BasePath": "_content/Nonamii",
       "RelativePath": "Images/Potato and Sausage Bake.jpeg",
       "AssetKind": "All",
@@ -1575,10 +1575,10 @@
       "OriginalItemSpec": "wwwroot\\Images\\Potato and Sausage Bake.jpeg"
     },
     {
-      "Identity": "C:\\Users\\zondi\\source\\repos\\projects\\Nonamii007\\wwwroot\\Images\\Potato Salad with Sausage and Eggs.jpeg",
+      "Identity": "C:\\Users\\zondi\\source\\repos\\Nonamii\\wwwroot\\Images\\Potato Salad with Sausage and Eggs.jpeg",
       "SourceId": "Nonamii",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\zondi\\source\\repos\\projects\\Nonamii007\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\zondi\\source\\repos\\Nonamii\\wwwroot\\",
       "BasePath": "_content/Nonamii",
       "RelativePath": "Images/Potato Salad with Sausage and Eggs.jpeg",
       "AssetKind": "All",
@@ -1594,10 +1594,10 @@
       "OriginalItemSpec": "wwwroot\\Images\\Potato Salad with Sausage and Eggs.jpeg"
     },
     {
-      "Identity": "C:\\Users\\zondi\\source\\repos\\projects\\Nonamii007\\wwwroot\\Images\\Potato Soup with Sausage.jpeg",
+      "Identity": "C:\\Users\\zondi\\source\\repos\\Nonamii\\wwwroot\\Images\\Potato Soup with Sausage.jpeg",
       "SourceId": "Nonamii",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\zondi\\source\\repos\\projects\\Nonamii007\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\zondi\\source\\repos\\Nonamii\\wwwroot\\",
       "BasePath": "_content/Nonamii",
       "RelativePath": "Images/Potato Soup with Sausage.jpeg",
       "AssetKind": "All",
@@ -1613,10 +1613,10 @@
       "OriginalItemSpec": "wwwroot\\Images\\Potato Soup with Sausage.jpeg"
     },
     {
-      "Identity": "C:\\Users\\zondi\\source\\repos\\projects\\Nonamii007\\wwwroot\\Images\\pranjall-kumar-sejqj6Eaqe8-uns.png",
+      "Identity": "C:\\Users\\zondi\\source\\repos\\Nonamii\\wwwroot\\Images\\pranjall-kumar-sejqj6Eaqe8-uns.png",
       "SourceId": "Nonamii",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\zondi\\source\\repos\\projects\\Nonamii007\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\zondi\\source\\repos\\Nonamii\\wwwroot\\",
       "BasePath": "_content/Nonamii",
       "RelativePath": "Images/pranjall-kumar-sejqj6Eaqe8-uns.png",
       "AssetKind": "All",
@@ -1632,10 +1632,10 @@
       "OriginalItemSpec": "wwwroot\\Images\\pranjall-kumar-sejqj6Eaqe8-uns.png"
     },
     {
-      "Identity": "C:\\Users\\zondi\\source\\repos\\projects\\Nonamii007\\wwwroot\\Images\\pranjall-kumar-sejqj6Eaqe8-uns@2x.png",
+      "Identity": "C:\\Users\\zondi\\source\\repos\\Nonamii\\wwwroot\\Images\\pranjall-kumar-sejqj6Eaqe8-uns@2x.png",
       "SourceId": "Nonamii",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\zondi\\source\\repos\\projects\\Nonamii007\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\zondi\\source\\repos\\Nonamii\\wwwroot\\",
       "BasePath": "_content/Nonamii",
       "RelativePath": "Images/pranjall-kumar-sejqj6Eaqe8-uns@2x.png",
       "AssetKind": "All",
@@ -1651,10 +1651,10 @@
       "OriginalItemSpec": "wwwroot\\Images\\pranjall-kumar-sejqj6Eaqe8-uns@2x.png"
     },
     {
-      "Identity": "C:\\Users\\zondi\\source\\repos\\projects\\Nonamii007\\wwwroot\\Images\\shopping-cart.png",
+      "Identity": "C:\\Users\\zondi\\source\\repos\\Nonamii\\wwwroot\\Images\\shopping-cart.png",
       "SourceId": "Nonamii",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\zondi\\source\\repos\\projects\\Nonamii007\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\zondi\\source\\repos\\Nonamii\\wwwroot\\",
       "BasePath": "_content/Nonamii",
       "RelativePath": "Images/shopping-cart.png",
       "AssetKind": "All",
@@ -1670,10 +1670,10 @@
       "OriginalItemSpec": "wwwroot\\Images\\shopping-cart.png"
     },
     {
-      "Identity": "C:\\Users\\zondi\\source\\repos\\projects\\Nonamii007\\wwwroot\\Images\\shopping-cart@2x.png",
+      "Identity": "C:\\Users\\zondi\\source\\repos\\Nonamii\\wwwroot\\Images\\shopping-cart@2x.png",
       "SourceId": "Nonamii",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\zondi\\source\\repos\\projects\\Nonamii007\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\zondi\\source\\repos\\Nonamii\\wwwroot\\",
       "BasePath": "_content/Nonamii",
       "RelativePath": "Images/shopping-cart@2x.png",
       "AssetKind": "All",
@@ -1689,10 +1689,10 @@
       "OriginalItemSpec": "wwwroot\\Images\\shopping-cart@2x.png"
     },
     {
-      "Identity": "C:\\Users\\zondi\\source\\repos\\projects\\Nonamii007\\wwwroot\\Images\\shopping-cart_d.png",
+      "Identity": "C:\\Users\\zondi\\source\\repos\\Nonamii\\wwwroot\\Images\\shopping-cart_d.png",
       "SourceId": "Nonamii",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\zondi\\source\\repos\\projects\\Nonamii007\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\zondi\\source\\repos\\Nonamii\\wwwroot\\",
       "BasePath": "_content/Nonamii",
       "RelativePath": "Images/shopping-cart_d.png",
       "AssetKind": "All",
@@ -1708,10 +1708,10 @@
       "OriginalItemSpec": "wwwroot\\Images\\shopping-cart_d.png"
     },
     {
-      "Identity": "C:\\Users\\zondi\\source\\repos\\projects\\Nonamii007\\wwwroot\\Images\\shopping-cart_d@2x.png",
+      "Identity": "C:\\Users\\zondi\\source\\repos\\Nonamii\\wwwroot\\Images\\shopping-cart_d@2x.png",
       "SourceId": "Nonamii",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\zondi\\source\\repos\\projects\\Nonamii007\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\zondi\\source\\repos\\Nonamii\\wwwroot\\",
       "BasePath": "_content/Nonamii",
       "RelativePath": "Images/shopping-cart_d@2x.png",
       "AssetKind": "All",
@@ -1727,10 +1727,10 @@
       "OriginalItemSpec": "wwwroot\\Images\\shopping-cart_d@2x.png"
     },
     {
-      "Identity": "C:\\Users\\zondi\\source\\repos\\projects\\Nonamii007\\wwwroot\\Images\\shopping-cart_dl.png",
+      "Identity": "C:\\Users\\zondi\\source\\repos\\Nonamii\\wwwroot\\Images\\shopping-cart_dl.png",
       "SourceId": "Nonamii",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\zondi\\source\\repos\\projects\\Nonamii007\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\zondi\\source\\repos\\Nonamii\\wwwroot\\",
       "BasePath": "_content/Nonamii",
       "RelativePath": "Images/shopping-cart_dl.png",
       "AssetKind": "All",
@@ -1746,10 +1746,10 @@
       "OriginalItemSpec": "wwwroot\\Images\\shopping-cart_dl.png"
     },
     {
-      "Identity": "C:\\Users\\zondi\\source\\repos\\projects\\Nonamii007\\wwwroot\\Images\\shopping-cart_dl@2x.png",
+      "Identity": "C:\\Users\\zondi\\source\\repos\\Nonamii\\wwwroot\\Images\\shopping-cart_dl@2x.png",
       "SourceId": "Nonamii",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\zondi\\source\\repos\\projects\\Nonamii007\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\zondi\\source\\repos\\Nonamii\\wwwroot\\",
       "BasePath": "_content/Nonamii",
       "RelativePath": "Images/shopping-cart_dl@2x.png",
       "AssetKind": "All",
@@ -1765,10 +1765,10 @@
       "OriginalItemSpec": "wwwroot\\Images\\shopping-cart_dl@2x.png"
     },
     {
-      "Identity": "C:\\Users\\zondi\\source\\repos\\projects\\Nonamii007\\wwwroot\\Images\\shopping-cart_fs.png",
+      "Identity": "C:\\Users\\zondi\\source\\repos\\Nonamii\\wwwroot\\Images\\shopping-cart_fs.png",
       "SourceId": "Nonamii",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\zondi\\source\\repos\\projects\\Nonamii007\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\zondi\\source\\repos\\Nonamii\\wwwroot\\",
       "BasePath": "_content/Nonamii",
       "RelativePath": "Images/shopping-cart_fs.png",
       "AssetKind": "All",
@@ -1784,10 +1784,10 @@
       "OriginalItemSpec": "wwwroot\\Images\\shopping-cart_fs.png"
     },
     {
-      "Identity": "C:\\Users\\zondi\\source\\repos\\projects\\Nonamii007\\wwwroot\\Images\\shopping-cart_fs@2x.png",
+      "Identity": "C:\\Users\\zondi\\source\\repos\\Nonamii\\wwwroot\\Images\\shopping-cart_fs@2x.png",
       "SourceId": "Nonamii",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\zondi\\source\\repos\\projects\\Nonamii007\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\zondi\\source\\repos\\Nonamii\\wwwroot\\",
       "BasePath": "_content/Nonamii",
       "RelativePath": "Images/shopping-cart_fs@2x.png",
       "AssetKind": "All",
@@ -1803,10 +1803,10 @@
       "OriginalItemSpec": "wwwroot\\Images\\shopping-cart_fs@2x.png"
     },
     {
-      "Identity": "C:\\Users\\zondi\\source\\repos\\projects\\Nonamii007\\wwwroot\\Images\\shopping-cart_gc.png",
+      "Identity": "C:\\Users\\zondi\\source\\repos\\Nonamii\\wwwroot\\Images\\shopping-cart_gc.png",
       "SourceId": "Nonamii",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\zondi\\source\\repos\\projects\\Nonamii007\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\zondi\\source\\repos\\Nonamii\\wwwroot\\",
       "BasePath": "_content/Nonamii",
       "RelativePath": "Images/shopping-cart_gc.png",
       "AssetKind": "All",
@@ -1822,10 +1822,10 @@
       "OriginalItemSpec": "wwwroot\\Images\\shopping-cart_gc.png"
     },
     {
-      "Identity": "C:\\Users\\zondi\\source\\repos\\projects\\Nonamii007\\wwwroot\\Images\\shopping-cart_gc@2x.png",
+      "Identity": "C:\\Users\\zondi\\source\\repos\\Nonamii\\wwwroot\\Images\\shopping-cart_gc@2x.png",
       "SourceId": "Nonamii",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\zondi\\source\\repos\\projects\\Nonamii007\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\zondi\\source\\repos\\Nonamii\\wwwroot\\",
       "BasePath": "_content/Nonamii",
       "RelativePath": "Images/shopping-cart_gc@2x.png",
       "AssetKind": "All",
@@ -1841,10 +1841,10 @@
       "OriginalItemSpec": "wwwroot\\Images\\shopping-cart_gc@2x.png"
     },
     {
-      "Identity": "C:\\Users\\zondi\\source\\repos\\projects\\Nonamii007\\wwwroot\\Images\\Untitled-1.png",
+      "Identity": "C:\\Users\\zondi\\source\\repos\\Nonamii\\wwwroot\\Images\\Untitled-1.png",
       "SourceId": "Nonamii",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\zondi\\source\\repos\\projects\\Nonamii007\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\zondi\\source\\repos\\Nonamii\\wwwroot\\",
       "BasePath": "_content/Nonamii",
       "RelativePath": "Images/Untitled-1.png",
       "AssetKind": "All",
@@ -1860,10 +1860,10 @@
       "OriginalItemSpec": "wwwroot\\Images\\Untitled-1.png"
     },
     {
-      "Identity": "C:\\Users\\zondi\\source\\repos\\projects\\Nonamii007\\wwwroot\\Images\\Untitled-1@2x.png",
+      "Identity": "C:\\Users\\zondi\\source\\repos\\Nonamii\\wwwroot\\Images\\Untitled-1@2x.png",
       "SourceId": "Nonamii",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\zondi\\source\\repos\\projects\\Nonamii007\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\zondi\\source\\repos\\Nonamii\\wwwroot\\",
       "BasePath": "_content/Nonamii",
       "RelativePath": "Images/Untitled-1@2x.png",
       "AssetKind": "All",
@@ -1879,10 +1879,10 @@
       "OriginalItemSpec": "wwwroot\\Images\\Untitled-1@2x.png"
     },
     {
-      "Identity": "C:\\Users\\zondi\\source\\repos\\projects\\Nonamii007\\wwwroot\\Images\\Untitled-1_cu.png",
+      "Identity": "C:\\Users\\zondi\\source\\repos\\Nonamii\\wwwroot\\Images\\Untitled-1_cu.png",
       "SourceId": "Nonamii",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\zondi\\source\\repos\\projects\\Nonamii007\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\zondi\\source\\repos\\Nonamii\\wwwroot\\",
       "BasePath": "_content/Nonamii",
       "RelativePath": "Images/Untitled-1_cu.png",
       "AssetKind": "All",
@@ -1898,10 +1898,10 @@
       "OriginalItemSpec": "wwwroot\\Images\\Untitled-1_cu.png"
     },
     {
-      "Identity": "C:\\Users\\zondi\\source\\repos\\projects\\Nonamii007\\wwwroot\\Images\\Untitled-1_cu@2x.png",
+      "Identity": "C:\\Users\\zondi\\source\\repos\\Nonamii\\wwwroot\\Images\\Untitled-1_cu@2x.png",
       "SourceId": "Nonamii",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\zondi\\source\\repos\\projects\\Nonamii007\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\zondi\\source\\repos\\Nonamii\\wwwroot\\",
       "BasePath": "_content/Nonamii",
       "RelativePath": "Images/Untitled-1_cu@2x.png",
       "AssetKind": "All",
@@ -1917,10 +1917,10 @@
       "OriginalItemSpec": "wwwroot\\Images\\Untitled-1_cu@2x.png"
     },
     {
-      "Identity": "C:\\Users\\zondi\\source\\repos\\projects\\Nonamii007\\wwwroot\\Images\\Untitled-1_ex.png",
+      "Identity": "C:\\Users\\zondi\\source\\repos\\Nonamii\\wwwroot\\Images\\Untitled-1_ex.png",
       "SourceId": "Nonamii",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\zondi\\source\\repos\\projects\\Nonamii007\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\zondi\\source\\repos\\Nonamii\\wwwroot\\",
       "BasePath": "_content/Nonamii",
       "RelativePath": "Images/Untitled-1_ex.png",
       "AssetKind": "All",
@@ -1936,10 +1936,10 @@
       "OriginalItemSpec": "wwwroot\\Images\\Untitled-1_ex.png"
     },
     {
-      "Identity": "C:\\Users\\zondi\\source\\repos\\projects\\Nonamii007\\wwwroot\\Images\\Untitled-1_ex@2x.png",
+      "Identity": "C:\\Users\\zondi\\source\\repos\\Nonamii\\wwwroot\\Images\\Untitled-1_ex@2x.png",
       "SourceId": "Nonamii",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\zondi\\source\\repos\\projects\\Nonamii007\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\zondi\\source\\repos\\Nonamii\\wwwroot\\",
       "BasePath": "_content/Nonamii",
       "RelativePath": "Images/Untitled-1_ex@2x.png",
       "AssetKind": "All",
@@ -1955,10 +1955,10 @@
       "OriginalItemSpec": "wwwroot\\Images\\Untitled-1_ex@2x.png"
     },
     {
-      "Identity": "C:\\Users\\zondi\\source\\repos\\projects\\Nonamii007\\wwwroot\\Images\\Untitled2.png",
+      "Identity": "C:\\Users\\zondi\\source\\repos\\Nonamii\\wwwroot\\Images\\Untitled2.png",
       "SourceId": "Nonamii",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\zondi\\source\\repos\\projects\\Nonamii007\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\zondi\\source\\repos\\Nonamii\\wwwroot\\",
       "BasePath": "_content/Nonamii",
       "RelativePath": "Images/Untitled2.png",
       "AssetKind": "All",
@@ -1974,10 +1974,10 @@
       "OriginalItemSpec": "wwwroot\\Images\\Untitled2.png"
     },
     {
-      "Identity": "C:\\Users\\zondi\\source\\repos\\projects\\Nonamii007\\wwwroot\\Images\\Untitled2@2x.png",
+      "Identity": "C:\\Users\\zondi\\source\\repos\\Nonamii\\wwwroot\\Images\\Untitled2@2x.png",
       "SourceId": "Nonamii",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\zondi\\source\\repos\\projects\\Nonamii007\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\zondi\\source\\repos\\Nonamii\\wwwroot\\",
       "BasePath": "_content/Nonamii",
       "RelativePath": "Images/Untitled2@2x.png",
       "AssetKind": "All",
@@ -1993,10 +1993,10 @@
       "OriginalItemSpec": "wwwroot\\Images\\Untitled2@2x.png"
     },
     {
-      "Identity": "C:\\Users\\zondi\\source\\repos\\projects\\Nonamii007\\wwwroot\\Images\\Untitled2_cv.png",
+      "Identity": "C:\\Users\\zondi\\source\\repos\\Nonamii\\wwwroot\\Images\\Untitled2_cv.png",
       "SourceId": "Nonamii",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\zondi\\source\\repos\\projects\\Nonamii007\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\zondi\\source\\repos\\Nonamii\\wwwroot\\",
       "BasePath": "_content/Nonamii",
       "RelativePath": "Images/Untitled2_cv.png",
       "AssetKind": "All",
@@ -2012,10 +2012,10 @@
       "OriginalItemSpec": "wwwroot\\Images\\Untitled2_cv.png"
     },
     {
-      "Identity": "C:\\Users\\zondi\\source\\repos\\projects\\Nonamii007\\wwwroot\\Images\\Untitled2_cv@2x.png",
+      "Identity": "C:\\Users\\zondi\\source\\repos\\Nonamii\\wwwroot\\Images\\Untitled2_cv@2x.png",
       "SourceId": "Nonamii",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\zondi\\source\\repos\\projects\\Nonamii007\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\zondi\\source\\repos\\Nonamii\\wwwroot\\",
       "BasePath": "_content/Nonamii",
       "RelativePath": "Images/Untitled2_cv@2x.png",
       "AssetKind": "All",
@@ -2031,10 +2031,10 @@
       "OriginalItemSpec": "wwwroot\\Images\\Untitled2_cv@2x.png"
     },
     {
-      "Identity": "C:\\Users\\zondi\\source\\repos\\projects\\Nonamii007\\wwwroot\\Images\\Untitled2_d.png",
+      "Identity": "C:\\Users\\zondi\\source\\repos\\Nonamii\\wwwroot\\Images\\Untitled2_d.png",
       "SourceId": "Nonamii",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\zondi\\source\\repos\\projects\\Nonamii007\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\zondi\\source\\repos\\Nonamii\\wwwroot\\",
       "BasePath": "_content/Nonamii",
       "RelativePath": "Images/Untitled2_d.png",
       "AssetKind": "All",
@@ -2050,10 +2050,10 @@
       "OriginalItemSpec": "wwwroot\\Images\\Untitled2_d.png"
     },
     {
-      "Identity": "C:\\Users\\zondi\\source\\repos\\projects\\Nonamii007\\wwwroot\\Images\\Untitled2_d@2x.png",
+      "Identity": "C:\\Users\\zondi\\source\\repos\\Nonamii\\wwwroot\\Images\\Untitled2_d@2x.png",
       "SourceId": "Nonamii",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\zondi\\source\\repos\\projects\\Nonamii007\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\zondi\\source\\repos\\Nonamii\\wwwroot\\",
       "BasePath": "_content/Nonamii",
       "RelativePath": "Images/Untitled2_d@2x.png",
       "AssetKind": "All",
@@ -2069,10 +2069,10 @@
       "OriginalItemSpec": "wwwroot\\Images\\Untitled2_d@2x.png"
     },
     {
-      "Identity": "C:\\Users\\zondi\\source\\repos\\projects\\Nonamii007\\wwwroot\\Images\\Untitled2_ey.png",
+      "Identity": "C:\\Users\\zondi\\source\\repos\\Nonamii\\wwwroot\\Images\\Untitled2_ey.png",
       "SourceId": "Nonamii",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\zondi\\source\\repos\\projects\\Nonamii007\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\zondi\\source\\repos\\Nonamii\\wwwroot\\",
       "BasePath": "_content/Nonamii",
       "RelativePath": "Images/Untitled2_ey.png",
       "AssetKind": "All",
@@ -2088,10 +2088,10 @@
       "OriginalItemSpec": "wwwroot\\Images\\Untitled2_ey.png"
     },
     {
-      "Identity": "C:\\Users\\zondi\\source\\repos\\projects\\Nonamii007\\wwwroot\\Images\\Untitled2_ey@2x.png",
+      "Identity": "C:\\Users\\zondi\\source\\repos\\Nonamii\\wwwroot\\Images\\Untitled2_ey@2x.png",
       "SourceId": "Nonamii",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\zondi\\source\\repos\\projects\\Nonamii007\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\zondi\\source\\repos\\Nonamii\\wwwroot\\",
       "BasePath": "_content/Nonamii",
       "RelativePath": "Images/Untitled2_ey@2x.png",
       "AssetKind": "All",
@@ -2107,10 +2107,10 @@
       "OriginalItemSpec": "wwwroot\\Images\\Untitled2_ey@2x.png"
     },
     {
-      "Identity": "C:\\Users\\zondi\\source\\repos\\projects\\Nonamii007\\wwwroot\\Images\\Untitled2_gh.png",
+      "Identity": "C:\\Users\\zondi\\source\\repos\\Nonamii\\wwwroot\\Images\\Untitled2_gh.png",
       "SourceId": "Nonamii",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\zondi\\source\\repos\\projects\\Nonamii007\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\zondi\\source\\repos\\Nonamii\\wwwroot\\",
       "BasePath": "_content/Nonamii",
       "RelativePath": "Images/Untitled2_gh.png",
       "AssetKind": "All",
@@ -2126,10 +2126,10 @@
       "OriginalItemSpec": "wwwroot\\Images\\Untitled2_gh.png"
     },
     {
-      "Identity": "C:\\Users\\zondi\\source\\repos\\projects\\Nonamii007\\wwwroot\\Images\\Untitled2_gh@2x.png",
+      "Identity": "C:\\Users\\zondi\\source\\repos\\Nonamii\\wwwroot\\Images\\Untitled2_gh@2x.png",
       "SourceId": "Nonamii",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\zondi\\source\\repos\\projects\\Nonamii007\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\zondi\\source\\repos\\Nonamii\\wwwroot\\",
       "BasePath": "_content/Nonamii",
       "RelativePath": "Images/Untitled2_gh@2x.png",
       "AssetKind": "All",
@@ -2145,10 +2145,10 @@
       "OriginalItemSpec": "wwwroot\\Images\\Untitled2_gh@2x.png"
     },
     {
-      "Identity": "C:\\Users\\zondi\\source\\repos\\projects\\Nonamii007\\wwwroot\\Images\\Untitled3.png",
+      "Identity": "C:\\Users\\zondi\\source\\repos\\Nonamii\\wwwroot\\Images\\Untitled3.png",
       "SourceId": "Nonamii",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\zondi\\source\\repos\\projects\\Nonamii007\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\zondi\\source\\repos\\Nonamii\\wwwroot\\",
       "BasePath": "_content/Nonamii",
       "RelativePath": "Images/Untitled3.png",
       "AssetKind": "All",
@@ -2164,10 +2164,10 @@
       "OriginalItemSpec": "wwwroot\\Images\\Untitled3.png"
     },
     {
-      "Identity": "C:\\Users\\zondi\\source\\repos\\projects\\Nonamii007\\wwwroot\\Images\\Untitled3@2x.png",
+      "Identity": "C:\\Users\\zondi\\source\\repos\\Nonamii\\wwwroot\\Images\\Untitled3@2x.png",
       "SourceId": "Nonamii",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\zondi\\source\\repos\\projects\\Nonamii007\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\zondi\\source\\repos\\Nonamii\\wwwroot\\",
       "BasePath": "_content/Nonamii",
       "RelativePath": "Images/Untitled3@2x.png",
       "AssetKind": "All",
@@ -2183,10 +2183,10 @@
       "OriginalItemSpec": "wwwroot\\Images\\Untitled3@2x.png"
     },
     {
-      "Identity": "C:\\Users\\zondi\\source\\repos\\projects\\Nonamii007\\wwwroot\\Images\\Untitled3_em.png",
+      "Identity": "C:\\Users\\zondi\\source\\repos\\Nonamii\\wwwroot\\Images\\Untitled3_em.png",
       "SourceId": "Nonamii",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\zondi\\source\\repos\\projects\\Nonamii007\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\zondi\\source\\repos\\Nonamii\\wwwroot\\",
       "BasePath": "_content/Nonamii",
       "RelativePath": "Images/Untitled3_em.png",
       "AssetKind": "All",
@@ -2202,10 +2202,10 @@
       "OriginalItemSpec": "wwwroot\\Images\\Untitled3_em.png"
     },
     {
-      "Identity": "C:\\Users\\zondi\\source\\repos\\projects\\Nonamii007\\wwwroot\\Images\\Untitled3_em@2x.png",
+      "Identity": "C:\\Users\\zondi\\source\\repos\\Nonamii\\wwwroot\\Images\\Untitled3_em@2x.png",
       "SourceId": "Nonamii",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\zondi\\source\\repos\\projects\\Nonamii007\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\zondi\\source\\repos\\Nonamii\\wwwroot\\",
       "BasePath": "_content/Nonamii",
       "RelativePath": "Images/Untitled3_em@2x.png",
       "AssetKind": "All",
@@ -2221,10 +2221,10 @@
       "OriginalItemSpec": "wwwroot\\Images\\Untitled3_em@2x.png"
     },
     {
-      "Identity": "C:\\Users\\zondi\\source\\repos\\projects\\Nonamii007\\wwwroot\\Images\\Untitled4.png",
+      "Identity": "C:\\Users\\zondi\\source\\repos\\Nonamii\\wwwroot\\Images\\Untitled4.png",
       "SourceId": "Nonamii",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\zondi\\source\\repos\\projects\\Nonamii007\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\zondi\\source\\repos\\Nonamii\\wwwroot\\",
       "BasePath": "_content/Nonamii",
       "RelativePath": "Images/Untitled4.png",
       "AssetKind": "All",
@@ -2240,10 +2240,10 @@
       "OriginalItemSpec": "wwwroot\\Images\\Untitled4.png"
     },
     {
-      "Identity": "C:\\Users\\zondi\\source\\repos\\projects\\Nonamii007\\wwwroot\\Images\\Untitled4@2x.png",
+      "Identity": "C:\\Users\\zondi\\source\\repos\\Nonamii\\wwwroot\\Images\\Untitled4@2x.png",
       "SourceId": "Nonamii",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\zondi\\source\\repos\\projects\\Nonamii007\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\zondi\\source\\repos\\Nonamii\\wwwroot\\",
       "BasePath": "_content/Nonamii",
       "RelativePath": "Images/Untitled4@2x.png",
       "AssetKind": "All",
@@ -2259,10 +2259,10 @@
       "OriginalItemSpec": "wwwroot\\Images\\Untitled4@2x.png"
     },
     {
-      "Identity": "C:\\Users\\zondi\\source\\repos\\projects\\Nonamii007\\wwwroot\\Images\\Untitled4_cx.png",
+      "Identity": "C:\\Users\\zondi\\source\\repos\\Nonamii\\wwwroot\\Images\\Untitled4_cx.png",
       "SourceId": "Nonamii",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\zondi\\source\\repos\\projects\\Nonamii007\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\zondi\\source\\repos\\Nonamii\\wwwroot\\",
       "BasePath": "_content/Nonamii",
       "RelativePath": "Images/Untitled4_cx.png",
       "AssetKind": "All",
@@ -2278,10 +2278,10 @@
       "OriginalItemSpec": "wwwroot\\Images\\Untitled4_cx.png"
     },
     {
-      "Identity": "C:\\Users\\zondi\\source\\repos\\projects\\Nonamii007\\wwwroot\\Images\\Untitled4_cx@2x.png",
+      "Identity": "C:\\Users\\zondi\\source\\repos\\Nonamii\\wwwroot\\Images\\Untitled4_cx@2x.png",
       "SourceId": "Nonamii",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\zondi\\source\\repos\\projects\\Nonamii007\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\zondi\\source\\repos\\Nonamii\\wwwroot\\",
       "BasePath": "_content/Nonamii",
       "RelativePath": "Images/Untitled4_cx@2x.png",
       "AssetKind": "All",
@@ -2297,10 +2297,10 @@
       "OriginalItemSpec": "wwwroot\\Images\\Untitled4_cx@2x.png"
     },
     {
-      "Identity": "C:\\Users\\zondi\\source\\repos\\projects\\Nonamii007\\wwwroot\\Images\\Untitled4_ez.png",
+      "Identity": "C:\\Users\\zondi\\source\\repos\\Nonamii\\wwwroot\\Images\\Untitled4_ez.png",
       "SourceId": "Nonamii",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\zondi\\source\\repos\\projects\\Nonamii007\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\zondi\\source\\repos\\Nonamii\\wwwroot\\",
       "BasePath": "_content/Nonamii",
       "RelativePath": "Images/Untitled4_ez.png",
       "AssetKind": "All",
@@ -2316,10 +2316,10 @@
       "OriginalItemSpec": "wwwroot\\Images\\Untitled4_ez.png"
     },
     {
-      "Identity": "C:\\Users\\zondi\\source\\repos\\projects\\Nonamii007\\wwwroot\\Images\\Untitled4_ez@2x.png",
+      "Identity": "C:\\Users\\zondi\\source\\repos\\Nonamii\\wwwroot\\Images\\Untitled4_ez@2x.png",
       "SourceId": "Nonamii",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\zondi\\source\\repos\\projects\\Nonamii007\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\zondi\\source\\repos\\Nonamii\\wwwroot\\",
       "BasePath": "_content/Nonamii",
       "RelativePath": "Images/Untitled4_ez@2x.png",
       "AssetKind": "All",
@@ -2335,10 +2335,10 @@
       "OriginalItemSpec": "wwwroot\\Images\\Untitled4_ez@2x.png"
     },
     {
-      "Identity": "C:\\Users\\zondi\\source\\repos\\projects\\Nonamii007\\wwwroot\\Images\\Untitled4_fy.png",
+      "Identity": "C:\\Users\\zondi\\source\\repos\\Nonamii\\wwwroot\\Images\\Untitled4_fy.png",
       "SourceId": "Nonamii",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\zondi\\source\\repos\\projects\\Nonamii007\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\zondi\\source\\repos\\Nonamii\\wwwroot\\",
       "BasePath": "_content/Nonamii",
       "RelativePath": "Images/Untitled4_fy.png",
       "AssetKind": "All",
@@ -2354,10 +2354,10 @@
       "OriginalItemSpec": "wwwroot\\Images\\Untitled4_fy.png"
     },
     {
-      "Identity": "C:\\Users\\zondi\\source\\repos\\projects\\Nonamii007\\wwwroot\\Images\\Untitled4_fy@2x.png",
+      "Identity": "C:\\Users\\zondi\\source\\repos\\Nonamii\\wwwroot\\Images\\Untitled4_fy@2x.png",
       "SourceId": "Nonamii",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\zondi\\source\\repos\\projects\\Nonamii007\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\zondi\\source\\repos\\Nonamii\\wwwroot\\",
       "BasePath": "_content/Nonamii",
       "RelativePath": "Images/Untitled4_fy@2x.png",
       "AssetKind": "All",
@@ -2373,10 +2373,10 @@
       "OriginalItemSpec": "wwwroot\\Images\\Untitled4_fy@2x.png"
     },
     {
-      "Identity": "C:\\Users\\zondi\\source\\repos\\projects\\Nonamii007\\wwwroot\\Images\\Untitled5.png",
+      "Identity": "C:\\Users\\zondi\\source\\repos\\Nonamii\\wwwroot\\Images\\Untitled5.png",
       "SourceId": "Nonamii",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\zondi\\source\\repos\\projects\\Nonamii007\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\zondi\\source\\repos\\Nonamii\\wwwroot\\",
       "BasePath": "_content/Nonamii",
       "RelativePath": "Images/Untitled5.png",
       "AssetKind": "All",
@@ -2392,10 +2392,10 @@
       "OriginalItemSpec": "wwwroot\\Images\\Untitled5.png"
     },
     {
-      "Identity": "C:\\Users\\zondi\\source\\repos\\projects\\Nonamii007\\wwwroot\\Images\\Untitled5@2x.png",
+      "Identity": "C:\\Users\\zondi\\source\\repos\\Nonamii\\wwwroot\\Images\\Untitled5@2x.png",
       "SourceId": "Nonamii",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\zondi\\source\\repos\\projects\\Nonamii007\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\zondi\\source\\repos\\Nonamii\\wwwroot\\",
       "BasePath": "_content/Nonamii",
       "RelativePath": "Images/Untitled5@2x.png",
       "AssetKind": "All",
@@ -2411,10 +2411,10 @@
       "OriginalItemSpec": "wwwroot\\Images\\Untitled5@2x.png"
     },
     {
-      "Identity": "C:\\Users\\zondi\\source\\repos\\projects\\Nonamii007\\wwwroot\\Images\\Untitled5_fu.png",
+      "Identity": "C:\\Users\\zondi\\source\\repos\\Nonamii\\wwwroot\\Images\\Untitled5_fu.png",
       "SourceId": "Nonamii",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\zondi\\source\\repos\\projects\\Nonamii007\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\zondi\\source\\repos\\Nonamii\\wwwroot\\",
       "BasePath": "_content/Nonamii",
       "RelativePath": "Images/Untitled5_fu.png",
       "AssetKind": "All",
@@ -2430,10 +2430,10 @@
       "OriginalItemSpec": "wwwroot\\Images\\Untitled5_fu.png"
     },
     {
-      "Identity": "C:\\Users\\zondi\\source\\repos\\projects\\Nonamii007\\wwwroot\\Images\\Untitled5_fu@2x.png",
+      "Identity": "C:\\Users\\zondi\\source\\repos\\Nonamii\\wwwroot\\Images\\Untitled5_fu@2x.png",
       "SourceId": "Nonamii",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\zondi\\source\\repos\\projects\\Nonamii007\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\zondi\\source\\repos\\Nonamii\\wwwroot\\",
       "BasePath": "_content/Nonamii",
       "RelativePath": "Images/Untitled5_fu@2x.png",
       "AssetKind": "All",
@@ -2449,10 +2449,10 @@
       "OriginalItemSpec": "wwwroot\\Images\\Untitled5_fu@2x.png"
     },
     {
-      "Identity": "C:\\Users\\zondi\\source\\repos\\projects\\Nonamii007\\wwwroot\\Images\\Untitled6.png",
+      "Identity": "C:\\Users\\zondi\\source\\repos\\Nonamii\\wwwroot\\Images\\Untitled6.png",
       "SourceId": "Nonamii",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\zondi\\source\\repos\\projects\\Nonamii007\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\zondi\\source\\repos\\Nonamii\\wwwroot\\",
       "BasePath": "_content/Nonamii",
       "RelativePath": "Images/Untitled6.png",
       "AssetKind": "All",
@@ -2468,10 +2468,10 @@
       "OriginalItemSpec": "wwwroot\\Images\\Untitled6.png"
     },
     {
-      "Identity": "C:\\Users\\zondi\\source\\repos\\projects\\Nonamii007\\wwwroot\\Images\\Untitled6@2x.png",
+      "Identity": "C:\\Users\\zondi\\source\\repos\\Nonamii\\wwwroot\\Images\\Untitled6@2x.png",
       "SourceId": "Nonamii",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\zondi\\source\\repos\\projects\\Nonamii007\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\zondi\\source\\repos\\Nonamii\\wwwroot\\",
       "BasePath": "_content/Nonamii",
       "RelativePath": "Images/Untitled6@2x.png",
       "AssetKind": "All",
@@ -2487,10 +2487,10 @@
       "OriginalItemSpec": "wwwroot\\Images\\Untitled6@2x.png"
     },
     {
-      "Identity": "C:\\Users\\zondi\\source\\repos\\projects\\Nonamii007\\wwwroot\\Images\\Untitled6_gg.png",
+      "Identity": "C:\\Users\\zondi\\source\\repos\\Nonamii\\wwwroot\\Images\\Untitled6_gg.png",
       "SourceId": "Nonamii",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\zondi\\source\\repos\\projects\\Nonamii007\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\zondi\\source\\repos\\Nonamii\\wwwroot\\",
       "BasePath": "_content/Nonamii",
       "RelativePath": "Images/Untitled6_gg.png",
       "AssetKind": "All",
@@ -2506,10 +2506,10 @@
       "OriginalItemSpec": "wwwroot\\Images\\Untitled6_gg.png"
     },
     {
-      "Identity": "C:\\Users\\zondi\\source\\repos\\projects\\Nonamii007\\wwwroot\\Images\\Untitled6_gg@2x.png",
+      "Identity": "C:\\Users\\zondi\\source\\repos\\Nonamii\\wwwroot\\Images\\Untitled6_gg@2x.png",
       "SourceId": "Nonamii",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\zondi\\source\\repos\\projects\\Nonamii007\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\zondi\\source\\repos\\Nonamii\\wwwroot\\",
       "BasePath": "_content/Nonamii",
       "RelativePath": "Images/Untitled6_gg@2x.png",
       "AssetKind": "All",
@@ -2525,10 +2525,10 @@
       "OriginalItemSpec": "wwwroot\\Images\\Untitled6_gg@2x.png"
     },
     {
-      "Identity": "C:\\Users\\zondi\\source\\repos\\projects\\Nonamii007\\wwwroot\\Images\\Wavy_Tsp-03_Single-08.png",
+      "Identity": "C:\\Users\\zondi\\source\\repos\\Nonamii\\wwwroot\\Images\\Wavy_Tsp-03_Single-08.png",
       "SourceId": "Nonamii",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\zondi\\source\\repos\\projects\\Nonamii007\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\zondi\\source\\repos\\Nonamii\\wwwroot\\",
       "BasePath": "_content/Nonamii",
       "RelativePath": "Images/Wavy_Tsp-03_Single-08.png",
       "AssetKind": "All",
@@ -2544,10 +2544,10 @@
       "OriginalItemSpec": "wwwroot\\Images\\Wavy_Tsp-03_Single-08.png"
     },
     {
-      "Identity": "C:\\Users\\zondi\\source\\repos\\projects\\Nonamii007\\wwwroot\\Images\\Wavy_Tsp-03_Single-08@2x.png",
+      "Identity": "C:\\Users\\zondi\\source\\repos\\Nonamii\\wwwroot\\Images\\Wavy_Tsp-03_Single-08@2x.png",
       "SourceId": "Nonamii",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\zondi\\source\\repos\\projects\\Nonamii007\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\zondi\\source\\repos\\Nonamii\\wwwroot\\",
       "BasePath": "_content/Nonamii",
       "RelativePath": "Images/Wavy_Tsp-03_Single-08@2x.png",
       "AssetKind": "All",
@@ -2563,10 +2563,10 @@
       "OriginalItemSpec": "wwwroot\\Images\\Wavy_Tsp-03_Single-08@2x.png"
     },
     {
-      "Identity": "C:\\Users\\zondi\\source\\repos\\projects\\Nonamii007\\wwwroot\\js\\indes.js",
+      "Identity": "C:\\Users\\zondi\\source\\repos\\Nonamii\\wwwroot\\js\\indes.js",
       "SourceId": "Nonamii",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\zondi\\source\\repos\\projects\\Nonamii007\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\zondi\\source\\repos\\Nonamii\\wwwroot\\",
       "BasePath": "_content/Nonamii",
       "RelativePath": "js/indes.js",
       "AssetKind": "All",
@@ -2582,10 +2582,10 @@
       "OriginalItemSpec": "wwwroot\\js\\indes.js"
     },
     {
-      "Identity": "C:\\Users\\zondi\\source\\repos\\projects\\Nonamii007\\wwwroot\\js\\scripts.js",
+      "Identity": "C:\\Users\\zondi\\source\\repos\\Nonamii\\wwwroot\\js\\scripts.js",
       "SourceId": "Nonamii",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\zondi\\source\\repos\\projects\\Nonamii007\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\zondi\\source\\repos\\Nonamii\\wwwroot\\",
       "BasePath": "_content/Nonamii",
       "RelativePath": "js/scripts.js",
       "AssetKind": "All",
@@ -2601,10 +2601,10 @@
       "OriginalItemSpec": "wwwroot\\js\\scripts.js"
     },
     {
-      "Identity": "C:\\Users\\zondi\\source\\repos\\projects\\Nonamii007\\wwwroot\\js\\site.js",
+      "Identity": "C:\\Users\\zondi\\source\\repos\\Nonamii\\wwwroot\\js\\site.js",
       "SourceId": "Nonamii",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\zondi\\source\\repos\\projects\\Nonamii007\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\zondi\\source\\repos\\Nonamii\\wwwroot\\",
       "BasePath": "_content/Nonamii",
       "RelativePath": "js/site.js",
       "AssetKind": "All",
@@ -2620,10 +2620,10 @@
       "OriginalItemSpec": "wwwroot\\js\\site.js"
     },
     {
-      "Identity": "C:\\Users\\zondi\\source\\repos\\projects\\Nonamii007\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css",
+      "Identity": "C:\\Users\\zondi\\source\\repos\\Nonamii\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css",
       "SourceId": "Nonamii",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\zondi\\source\\repos\\projects\\Nonamii007\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\zondi\\source\\repos\\Nonamii\\wwwroot\\",
       "BasePath": "_content/Nonamii",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap.css",
       "AssetKind": "All",
@@ -2639,10 +2639,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css"
     },
     {
-      "Identity": "C:\\Users\\zondi\\source\\repos\\projects\\Nonamii007\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css.map",
+      "Identity": "C:\\Users\\zondi\\source\\repos\\Nonamii\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css.map",
       "SourceId": "Nonamii",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\zondi\\source\\repos\\projects\\Nonamii007\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\zondi\\source\\repos\\Nonamii\\wwwroot\\",
       "BasePath": "_content/Nonamii",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap.css.map",
       "AssetKind": "All",
@@ -2658,10 +2658,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css.map"
     },
     {
-      "Identity": "C:\\Users\\zondi\\source\\repos\\projects\\Nonamii007\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css",
+      "Identity": "C:\\Users\\zondi\\source\\repos\\Nonamii\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css",
       "SourceId": "Nonamii",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\zondi\\source\\repos\\projects\\Nonamii007\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\zondi\\source\\repos\\Nonamii\\wwwroot\\",
       "BasePath": "_content/Nonamii",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap.min.css",
       "AssetKind": "All",
@@ -2677,10 +2677,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css"
     },
     {
-      "Identity": "C:\\Users\\zondi\\source\\repos\\projects\\Nonamii007\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map",
+      "Identity": "C:\\Users\\zondi\\source\\repos\\Nonamii\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map",
       "SourceId": "Nonamii",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\zondi\\source\\repos\\projects\\Nonamii007\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\zondi\\source\\repos\\Nonamii\\wwwroot\\",
       "BasePath": "_content/Nonamii",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap.min.css.map",
       "AssetKind": "All",
@@ -2696,10 +2696,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map"
     },
     {
-      "Identity": "C:\\Users\\zondi\\source\\repos\\projects\\Nonamii007\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css",
+      "Identity": "C:\\Users\\zondi\\source\\repos\\Nonamii\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css",
       "SourceId": "Nonamii",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\zondi\\source\\repos\\projects\\Nonamii007\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\zondi\\source\\repos\\Nonamii\\wwwroot\\",
       "BasePath": "_content/Nonamii",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap.rtl.css",
       "AssetKind": "All",
@@ -2715,10 +2715,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css"
     },
     {
-      "Identity": "C:\\Users\\zondi\\source\\repos\\projects\\Nonamii007\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css.map",
+      "Identity": "C:\\Users\\zondi\\source\\repos\\Nonamii\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css.map",
       "SourceId": "Nonamii",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\zondi\\source\\repos\\projects\\Nonamii007\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\zondi\\source\\repos\\Nonamii\\wwwroot\\",
       "BasePath": "_content/Nonamii",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap.rtl.css.map",
       "AssetKind": "All",
@@ -2734,10 +2734,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css.map"
     },
     {
-      "Identity": "C:\\Users\\zondi\\source\\repos\\projects\\Nonamii007\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css",
+      "Identity": "C:\\Users\\zondi\\source\\repos\\Nonamii\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css",
       "SourceId": "Nonamii",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\zondi\\source\\repos\\projects\\Nonamii007\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\zondi\\source\\repos\\Nonamii\\wwwroot\\",
       "BasePath": "_content/Nonamii",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap.rtl.min.css",
       "AssetKind": "All",
@@ -2753,10 +2753,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css"
     },
     {
-      "Identity": "C:\\Users\\zondi\\source\\repos\\projects\\Nonamii007\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css.map",
+      "Identity": "C:\\Users\\zondi\\source\\repos\\Nonamii\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css.map",
       "SourceId": "Nonamii",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\zondi\\source\\repos\\projects\\Nonamii007\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\zondi\\source\\repos\\Nonamii\\wwwroot\\",
       "BasePath": "_content/Nonamii",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap.rtl.min.css.map",
       "AssetKind": "All",
@@ -2772,10 +2772,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css.map"
     },
     {
-      "Identity": "C:\\Users\\zondi\\source\\repos\\projects\\Nonamii007\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css",
+      "Identity": "C:\\Users\\zondi\\source\\repos\\Nonamii\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css",
       "SourceId": "Nonamii",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\zondi\\source\\repos\\projects\\Nonamii007\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\zondi\\source\\repos\\Nonamii\\wwwroot\\",
       "BasePath": "_content/Nonamii",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-grid.css",
       "AssetKind": "All",
@@ -2791,10 +2791,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css"
     },
     {
-      "Identity": "C:\\Users\\zondi\\source\\repos\\projects\\Nonamii007\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css.map",
+      "Identity": "C:\\Users\\zondi\\source\\repos\\Nonamii\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css.map",
       "SourceId": "Nonamii",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\zondi\\source\\repos\\projects\\Nonamii007\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\zondi\\source\\repos\\Nonamii\\wwwroot\\",
       "BasePath": "_content/Nonamii",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-grid.css.map",
       "AssetKind": "All",
@@ -2810,10 +2810,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css.map"
     },
     {
-      "Identity": "C:\\Users\\zondi\\source\\repos\\projects\\Nonamii007\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css",
+      "Identity": "C:\\Users\\zondi\\source\\repos\\Nonamii\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css",
       "SourceId": "Nonamii",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\zondi\\source\\repos\\projects\\Nonamii007\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\zondi\\source\\repos\\Nonamii\\wwwroot\\",
       "BasePath": "_content/Nonamii",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-grid.min.css",
       "AssetKind": "All",
@@ -2829,10 +2829,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css"
     },
     {
-      "Identity": "C:\\Users\\zondi\\source\\repos\\projects\\Nonamii007\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css.map",
+      "Identity": "C:\\Users\\zondi\\source\\repos\\Nonamii\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css.map",
       "SourceId": "Nonamii",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\zondi\\source\\repos\\projects\\Nonamii007\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\zondi\\source\\repos\\Nonamii\\wwwroot\\",
       "BasePath": "_content/Nonamii",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-grid.min.css.map",
       "AssetKind": "All",
@@ -2848,10 +2848,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css.map"
     },
     {
-      "Identity": "C:\\Users\\zondi\\source\\repos\\projects\\Nonamii007\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css",
+      "Identity": "C:\\Users\\zondi\\source\\repos\\Nonamii\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css",
       "SourceId": "Nonamii",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\zondi\\source\\repos\\projects\\Nonamii007\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\zondi\\source\\repos\\Nonamii\\wwwroot\\",
       "BasePath": "_content/Nonamii",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-grid.rtl.css",
       "AssetKind": "All",
@@ -2867,10 +2867,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css"
     },
     {
-      "Identity": "C:\\Users\\zondi\\source\\repos\\projects\\Nonamii007\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css.map",
+      "Identity": "C:\\Users\\zondi\\source\\repos\\Nonamii\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css.map",
       "SourceId": "Nonamii",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\zondi\\source\\repos\\projects\\Nonamii007\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\zondi\\source\\repos\\Nonamii\\wwwroot\\",
       "BasePath": "_content/Nonamii",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-grid.rtl.css.map",
       "AssetKind": "All",
@@ -2886,10 +2886,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css.map"
     },
     {
-      "Identity": "C:\\Users\\zondi\\source\\repos\\projects\\Nonamii007\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css",
+      "Identity": "C:\\Users\\zondi\\source\\repos\\Nonamii\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css",
       "SourceId": "Nonamii",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\zondi\\source\\repos\\projects\\Nonamii007\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\zondi\\source\\repos\\Nonamii\\wwwroot\\",
       "BasePath": "_content/Nonamii",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-grid.rtl.min.css",
       "AssetKind": "All",
@@ -2905,10 +2905,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css"
     },
     {
-      "Identity": "C:\\Users\\zondi\\source\\repos\\projects\\Nonamii007\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css.map",
+      "Identity": "C:\\Users\\zondi\\source\\repos\\Nonamii\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css.map",
       "SourceId": "Nonamii",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\zondi\\source\\repos\\projects\\Nonamii007\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\zondi\\source\\repos\\Nonamii\\wwwroot\\",
       "BasePath": "_content/Nonamii",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-grid.rtl.min.css.map",
       "AssetKind": "All",
@@ -2924,10 +2924,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css.map"
     },
     {
-      "Identity": "C:\\Users\\zondi\\source\\repos\\projects\\Nonamii007\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css",
+      "Identity": "C:\\Users\\zondi\\source\\repos\\Nonamii\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css",
       "SourceId": "Nonamii",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\zondi\\source\\repos\\projects\\Nonamii007\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\zondi\\source\\repos\\Nonamii\\wwwroot\\",
       "BasePath": "_content/Nonamii",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-reboot.css",
       "AssetKind": "All",
@@ -2943,10 +2943,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css"
     },
     {
-      "Identity": "C:\\Users\\zondi\\source\\repos\\projects\\Nonamii007\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css.map",
+      "Identity": "C:\\Users\\zondi\\source\\repos\\Nonamii\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css.map",
       "SourceId": "Nonamii",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\zondi\\source\\repos\\projects\\Nonamii007\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\zondi\\source\\repos\\Nonamii\\wwwroot\\",
       "BasePath": "_content/Nonamii",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-reboot.css.map",
       "AssetKind": "All",
@@ -2962,10 +2962,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css.map"
     },
     {
-      "Identity": "C:\\Users\\zondi\\source\\repos\\projects\\Nonamii007\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css",
+      "Identity": "C:\\Users\\zondi\\source\\repos\\Nonamii\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css",
       "SourceId": "Nonamii",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\zondi\\source\\repos\\projects\\Nonamii007\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\zondi\\source\\repos\\Nonamii\\wwwroot\\",
       "BasePath": "_content/Nonamii",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-reboot.min.css",
       "AssetKind": "All",
@@ -2981,10 +2981,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css"
     },
     {
-      "Identity": "C:\\Users\\zondi\\source\\repos\\projects\\Nonamii007\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css.map",
+      "Identity": "C:\\Users\\zondi\\source\\repos\\Nonamii\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css.map",
       "SourceId": "Nonamii",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\zondi\\source\\repos\\projects\\Nonamii007\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\zondi\\source\\repos\\Nonamii\\wwwroot\\",
       "BasePath": "_content/Nonamii",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-reboot.min.css.map",
       "AssetKind": "All",
@@ -3000,10 +3000,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css.map"
     },
     {
-      "Identity": "C:\\Users\\zondi\\source\\repos\\projects\\Nonamii007\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css",
+      "Identity": "C:\\Users\\zondi\\source\\repos\\Nonamii\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css",
       "SourceId": "Nonamii",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\zondi\\source\\repos\\projects\\Nonamii007\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\zondi\\source\\repos\\Nonamii\\wwwroot\\",
       "BasePath": "_content/Nonamii",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-reboot.rtl.css",
       "AssetKind": "All",
@@ -3019,10 +3019,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css"
     },
     {
-      "Identity": "C:\\Users\\zondi\\source\\repos\\projects\\Nonamii007\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css.map",
+      "Identity": "C:\\Users\\zondi\\source\\repos\\Nonamii\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css.map",
       "SourceId": "Nonamii",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\zondi\\source\\repos\\projects\\Nonamii007\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\zondi\\source\\repos\\Nonamii\\wwwroot\\",
       "BasePath": "_content/Nonamii",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-reboot.rtl.css.map",
       "AssetKind": "All",
@@ -3038,10 +3038,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css.map"
     },
     {
-      "Identity": "C:\\Users\\zondi\\source\\repos\\projects\\Nonamii007\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css",
+      "Identity": "C:\\Users\\zondi\\source\\repos\\Nonamii\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css",
       "SourceId": "Nonamii",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\zondi\\source\\repos\\projects\\Nonamii007\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\zondi\\source\\repos\\Nonamii\\wwwroot\\",
       "BasePath": "_content/Nonamii",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-reboot.rtl.min.css",
       "AssetKind": "All",
@@ -3057,10 +3057,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css"
     },
     {
-      "Identity": "C:\\Users\\zondi\\source\\repos\\projects\\Nonamii007\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css.map",
+      "Identity": "C:\\Users\\zondi\\source\\repos\\Nonamii\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css.map",
       "SourceId": "Nonamii",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\zondi\\source\\repos\\projects\\Nonamii007\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\zondi\\source\\repos\\Nonamii\\wwwroot\\",
       "BasePath": "_content/Nonamii",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-reboot.rtl.min.css.map",
       "AssetKind": "All",
@@ -3076,10 +3076,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css.map"
     },
     {
-      "Identity": "C:\\Users\\zondi\\source\\repos\\projects\\Nonamii007\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css",
+      "Identity": "C:\\Users\\zondi\\source\\repos\\Nonamii\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css",
       "SourceId": "Nonamii",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\zondi\\source\\repos\\projects\\Nonamii007\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\zondi\\source\\repos\\Nonamii\\wwwroot\\",
       "BasePath": "_content/Nonamii",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-utilities.css",
       "AssetKind": "All",
@@ -3095,10 +3095,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css"
     },
     {
-      "Identity": "C:\\Users\\zondi\\source\\repos\\projects\\Nonamii007\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css.map",
+      "Identity": "C:\\Users\\zondi\\source\\repos\\Nonamii\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css.map",
       "SourceId": "Nonamii",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\zondi\\source\\repos\\projects\\Nonamii007\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\zondi\\source\\repos\\Nonamii\\wwwroot\\",
       "BasePath": "_content/Nonamii",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-utilities.css.map",
       "AssetKind": "All",
@@ -3114,10 +3114,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css.map"
     },
     {
-      "Identity": "C:\\Users\\zondi\\source\\repos\\projects\\Nonamii007\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css",
+      "Identity": "C:\\Users\\zondi\\source\\repos\\Nonamii\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css",
       "SourceId": "Nonamii",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\zondi\\source\\repos\\projects\\Nonamii007\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\zondi\\source\\repos\\Nonamii\\wwwroot\\",
       "BasePath": "_content/Nonamii",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-utilities.min.css",
       "AssetKind": "All",
@@ -3133,10 +3133,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css"
     },
     {
-      "Identity": "C:\\Users\\zondi\\source\\repos\\projects\\Nonamii007\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css.map",
+      "Identity": "C:\\Users\\zondi\\source\\repos\\Nonamii\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css.map",
       "SourceId": "Nonamii",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\zondi\\source\\repos\\projects\\Nonamii007\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\zondi\\source\\repos\\Nonamii\\wwwroot\\",
       "BasePath": "_content/Nonamii",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-utilities.min.css.map",
       "AssetKind": "All",
@@ -3152,10 +3152,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css.map"
     },
     {
-      "Identity": "C:\\Users\\zondi\\source\\repos\\projects\\Nonamii007\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css",
+      "Identity": "C:\\Users\\zondi\\source\\repos\\Nonamii\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css",
       "SourceId": "Nonamii",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\zondi\\source\\repos\\projects\\Nonamii007\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\zondi\\source\\repos\\Nonamii\\wwwroot\\",
       "BasePath": "_content/Nonamii",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-utilities.rtl.css",
       "AssetKind": "All",
@@ -3171,10 +3171,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css"
     },
     {
-      "Identity": "C:\\Users\\zondi\\source\\repos\\projects\\Nonamii007\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css.map",
+      "Identity": "C:\\Users\\zondi\\source\\repos\\Nonamii\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css.map",
       "SourceId": "Nonamii",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\zondi\\source\\repos\\projects\\Nonamii007\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\zondi\\source\\repos\\Nonamii\\wwwroot\\",
       "BasePath": "_content/Nonamii",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-utilities.rtl.css.map",
       "AssetKind": "All",
@@ -3190,10 +3190,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css.map"
     },
     {
-      "Identity": "C:\\Users\\zondi\\source\\repos\\projects\\Nonamii007\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css",
+      "Identity": "C:\\Users\\zondi\\source\\repos\\Nonamii\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css",
       "SourceId": "Nonamii",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\zondi\\source\\repos\\projects\\Nonamii007\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\zondi\\source\\repos\\Nonamii\\wwwroot\\",
       "BasePath": "_content/Nonamii",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-utilities.rtl.min.css",
       "AssetKind": "All",
@@ -3209,10 +3209,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css"
     },
     {
-      "Identity": "C:\\Users\\zondi\\source\\repos\\projects\\Nonamii007\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css.map",
+      "Identity": "C:\\Users\\zondi\\source\\repos\\Nonamii\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css.map",
       "SourceId": "Nonamii",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\zondi\\source\\repos\\projects\\Nonamii007\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\zondi\\source\\repos\\Nonamii\\wwwroot\\",
       "BasePath": "_content/Nonamii",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-utilities.rtl.min.css.map",
       "AssetKind": "All",
@@ -3228,10 +3228,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css.map"
     },
     {
-      "Identity": "C:\\Users\\zondi\\source\\repos\\projects\\Nonamii007\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js",
+      "Identity": "C:\\Users\\zondi\\source\\repos\\Nonamii\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js",
       "SourceId": "Nonamii",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\zondi\\source\\repos\\projects\\Nonamii007\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\zondi\\source\\repos\\Nonamii\\wwwroot\\",
       "BasePath": "_content/Nonamii",
       "RelativePath": "lib/bootstrap/dist/js/bootstrap.bundle.js",
       "AssetKind": "All",
@@ -3247,10 +3247,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js"
     },
     {
-      "Identity": "C:\\Users\\zondi\\source\\repos\\projects\\Nonamii007\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js.map",
+      "Identity": "C:\\Users\\zondi\\source\\repos\\Nonamii\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js.map",
       "SourceId": "Nonamii",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\zondi\\source\\repos\\projects\\Nonamii007\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\zondi\\source\\repos\\Nonamii\\wwwroot\\",
       "BasePath": "_content/Nonamii",
       "RelativePath": "lib/bootstrap/dist/js/bootstrap.bundle.js.map",
       "AssetKind": "All",
@@ -3266,10 +3266,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js.map"
     },
     {
-      "Identity": "C:\\Users\\zondi\\source\\repos\\projects\\Nonamii007\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js",
+      "Identity": "C:\\Users\\zondi\\source\\repos\\Nonamii\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js",
       "SourceId": "Nonamii",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\zondi\\source\\repos\\projects\\Nonamii007\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\zondi\\source\\repos\\Nonamii\\wwwroot\\",
       "BasePath": "_content/Nonamii",
       "RelativePath": "lib/bootstrap/dist/js/bootstrap.bundle.min.js",
       "AssetKind": "All",
@@ -3285,10 +3285,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js"
     },
     {
-      "Identity": "C:\\Users\\zondi\\source\\repos\\projects\\Nonamii007\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js.map",
+      "Identity": "C:\\Users\\zondi\\source\\repos\\Nonamii\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js.map",
       "SourceId": "Nonamii",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\zondi\\source\\repos\\projects\\Nonamii007\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\zondi\\source\\repos\\Nonamii\\wwwroot\\",
       "BasePath": "_content/Nonamii",
       "RelativePath": "lib/bootstrap/dist/js/bootstrap.bundle.min.js.map",
       "AssetKind": "All",
@@ -3304,10 +3304,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js.map"
     },
     {
-      "Identity": "C:\\Users\\zondi\\source\\repos\\projects\\Nonamii007\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js",
+      "Identity": "C:\\Users\\zondi\\source\\repos\\Nonamii\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js",
       "SourceId": "Nonamii",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\zondi\\source\\repos\\projects\\Nonamii007\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\zondi\\source\\repos\\Nonamii\\wwwroot\\",
       "BasePath": "_content/Nonamii",
       "RelativePath": "lib/bootstrap/dist/js/bootstrap.esm.js",
       "AssetKind": "All",
@@ -3323,10 +3323,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js"
     },
     {
-      "Identity": "C:\\Users\\zondi\\source\\repos\\projects\\Nonamii007\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js.map",
+      "Identity": "C:\\Users\\zondi\\source\\repos\\Nonamii\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js.map",
       "SourceId": "Nonamii",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\zondi\\source\\repos\\projects\\Nonamii007\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\zondi\\source\\repos\\Nonamii\\wwwroot\\",
       "BasePath": "_content/Nonamii",
       "RelativePath": "lib/bootstrap/dist/js/bootstrap.esm.js.map",
       "AssetKind": "All",
@@ -3342,10 +3342,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js.map"
     },
     {
-      "Identity": "C:\\Users\\zondi\\source\\repos\\projects\\Nonamii007\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js",
+      "Identity": "C:\\Users\\zondi\\source\\repos\\Nonamii\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js",
       "SourceId": "Nonamii",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\zondi\\source\\repos\\projects\\Nonamii007\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\zondi\\source\\repos\\Nonamii\\wwwroot\\",
       "BasePath": "_content/Nonamii",
       "RelativePath": "lib/bootstrap/dist/js/bootstrap.esm.min.js",
       "AssetKind": "All",
@@ -3361,10 +3361,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js"
     },
     {
-      "Identity": "C:\\Users\\zondi\\source\\repos\\projects\\Nonamii007\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js.map",
+      "Identity": "C:\\Users\\zondi\\source\\repos\\Nonamii\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js.map",
       "SourceId": "Nonamii",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\zondi\\source\\repos\\projects\\Nonamii007\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\zondi\\source\\repos\\Nonamii\\wwwroot\\",
       "BasePath": "_content/Nonamii",
       "RelativePath": "lib/bootstrap/dist/js/bootstrap.esm.min.js.map",
       "AssetKind": "All",
@@ -3380,10 +3380,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js.map"
     },
     {
-      "Identity": "C:\\Users\\zondi\\source\\repos\\projects\\Nonamii007\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js",
+      "Identity": "C:\\Users\\zondi\\source\\repos\\Nonamii\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js",
       "SourceId": "Nonamii",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\zondi\\source\\repos\\projects\\Nonamii007\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\zondi\\source\\repos\\Nonamii\\wwwroot\\",
       "BasePath": "_content/Nonamii",
       "RelativePath": "lib/bootstrap/dist/js/bootstrap.js",
       "AssetKind": "All",
@@ -3399,10 +3399,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js"
     },
     {
-      "Identity": "C:\\Users\\zondi\\source\\repos\\projects\\Nonamii007\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js.map",
+      "Identity": "C:\\Users\\zondi\\source\\repos\\Nonamii\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js.map",
       "SourceId": "Nonamii",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\zondi\\source\\repos\\projects\\Nonamii007\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\zondi\\source\\repos\\Nonamii\\wwwroot\\",
       "BasePath": "_content/Nonamii",
       "RelativePath": "lib/bootstrap/dist/js/bootstrap.js.map",
       "AssetKind": "All",
@@ -3418,10 +3418,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js.map"
     },
     {
-      "Identity": "C:\\Users\\zondi\\source\\repos\\projects\\Nonamii007\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js",
+      "Identity": "C:\\Users\\zondi\\source\\repos\\Nonamii\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js",
       "SourceId": "Nonamii",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\zondi\\source\\repos\\projects\\Nonamii007\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\zondi\\source\\repos\\Nonamii\\wwwroot\\",
       "BasePath": "_content/Nonamii",
       "RelativePath": "lib/bootstrap/dist/js/bootstrap.min.js",
       "AssetKind": "All",
@@ -3437,10 +3437,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js"
     },
     {
-      "Identity": "C:\\Users\\zondi\\source\\repos\\projects\\Nonamii007\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.map",
+      "Identity": "C:\\Users\\zondi\\source\\repos\\Nonamii\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.map",
       "SourceId": "Nonamii",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\zondi\\source\\repos\\projects\\Nonamii007\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\zondi\\source\\repos\\Nonamii\\wwwroot\\",
       "BasePath": "_content/Nonamii",
       "RelativePath": "lib/bootstrap/dist/js/bootstrap.min.js.map",
       "AssetKind": "All",
@@ -3456,10 +3456,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.map"
     },
     {
-      "Identity": "C:\\Users\\zondi\\source\\repos\\projects\\Nonamii007\\wwwroot\\lib\\bootstrap\\LICENSE",
+      "Identity": "C:\\Users\\zondi\\source\\repos\\Nonamii\\wwwroot\\lib\\bootstrap\\LICENSE",
       "SourceId": "Nonamii",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\zondi\\source\\repos\\projects\\Nonamii007\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\zondi\\source\\repos\\Nonamii\\wwwroot\\",
       "BasePath": "_content/Nonamii",
       "RelativePath": "lib/bootstrap/LICENSE",
       "AssetKind": "All",
@@ -3475,10 +3475,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\LICENSE"
     },
     {
-      "Identity": "C:\\Users\\zondi\\source\\repos\\projects\\Nonamii007\\wwwroot\\lib\\jquery\\dist\\jquery.js",
+      "Identity": "C:\\Users\\zondi\\source\\repos\\Nonamii\\wwwroot\\lib\\jquery\\dist\\jquery.js",
       "SourceId": "Nonamii",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\zondi\\source\\repos\\projects\\Nonamii007\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\zondi\\source\\repos\\Nonamii\\wwwroot\\",
       "BasePath": "_content/Nonamii",
       "RelativePath": "lib/jquery/dist/jquery.js",
       "AssetKind": "All",
@@ -3494,10 +3494,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\jquery\\dist\\jquery.js"
     },
     {
-      "Identity": "C:\\Users\\zondi\\source\\repos\\projects\\Nonamii007\\wwwroot\\lib\\jquery\\dist\\jquery.min.js",
+      "Identity": "C:\\Users\\zondi\\source\\repos\\Nonamii\\wwwroot\\lib\\jquery\\dist\\jquery.min.js",
       "SourceId": "Nonamii",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\zondi\\source\\repos\\projects\\Nonamii007\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\zondi\\source\\repos\\Nonamii\\wwwroot\\",
       "BasePath": "_content/Nonamii",
       "RelativePath": "lib/jquery/dist/jquery.min.js",
       "AssetKind": "All",
@@ -3513,10 +3513,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\jquery\\dist\\jquery.min.js"
     },
     {
-      "Identity": "C:\\Users\\zondi\\source\\repos\\projects\\Nonamii007\\wwwroot\\lib\\jquery\\dist\\jquery.min.map",
+      "Identity": "C:\\Users\\zondi\\source\\repos\\Nonamii\\wwwroot\\lib\\jquery\\dist\\jquery.min.map",
       "SourceId": "Nonamii",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\zondi\\source\\repos\\projects\\Nonamii007\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\zondi\\source\\repos\\Nonamii\\wwwroot\\",
       "BasePath": "_content/Nonamii",
       "RelativePath": "lib/jquery/dist/jquery.min.map",
       "AssetKind": "All",
@@ -3532,10 +3532,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\jquery\\dist\\jquery.min.map"
     },
     {
-      "Identity": "C:\\Users\\zondi\\source\\repos\\projects\\Nonamii007\\wwwroot\\lib\\jquery\\LICENSE.txt",
+      "Identity": "C:\\Users\\zondi\\source\\repos\\Nonamii\\wwwroot\\lib\\jquery\\LICENSE.txt",
       "SourceId": "Nonamii",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\zondi\\source\\repos\\projects\\Nonamii007\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\zondi\\source\\repos\\Nonamii\\wwwroot\\",
       "BasePath": "_content/Nonamii",
       "RelativePath": "lib/jquery/LICENSE.txt",
       "AssetKind": "All",
@@ -3551,10 +3551,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\jquery\\LICENSE.txt"
     },
     {
-      "Identity": "C:\\Users\\zondi\\source\\repos\\projects\\Nonamii007\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.js",
+      "Identity": "C:\\Users\\zondi\\source\\repos\\Nonamii\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.js",
       "SourceId": "Nonamii",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\zondi\\source\\repos\\projects\\Nonamii007\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\zondi\\source\\repos\\Nonamii\\wwwroot\\",
       "BasePath": "_content/Nonamii",
       "RelativePath": "lib/jquery-validation/dist/additional-methods.js",
       "AssetKind": "All",
@@ -3570,10 +3570,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\jquery-validation\\dist\\additional-methods.js"
     },
     {
-      "Identity": "C:\\Users\\zondi\\source\\repos\\projects\\Nonamii007\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.min.js",
+      "Identity": "C:\\Users\\zondi\\source\\repos\\Nonamii\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.min.js",
       "SourceId": "Nonamii",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\zondi\\source\\repos\\projects\\Nonamii007\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\zondi\\source\\repos\\Nonamii\\wwwroot\\",
       "BasePath": "_content/Nonamii",
       "RelativePath": "lib/jquery-validation/dist/additional-methods.min.js",
       "AssetKind": "All",
@@ -3589,10 +3589,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\jquery-validation\\dist\\additional-methods.min.js"
     },
     {
-      "Identity": "C:\\Users\\zondi\\source\\repos\\projects\\Nonamii007\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.js",
+      "Identity": "C:\\Users\\zondi\\source\\repos\\Nonamii\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.js",
       "SourceId": "Nonamii",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\zondi\\source\\repos\\projects\\Nonamii007\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\zondi\\source\\repos\\Nonamii\\wwwroot\\",
       "BasePath": "_content/Nonamii",
       "RelativePath": "lib/jquery-validation/dist/jquery.validate.js",
       "AssetKind": "All",
@@ -3608,10 +3608,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.js"
     },
     {
-      "Identity": "C:\\Users\\zondi\\source\\repos\\projects\\Nonamii007\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.min.js",
+      "Identity": "C:\\Users\\zondi\\source\\repos\\Nonamii\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.min.js",
       "SourceId": "Nonamii",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\zondi\\source\\repos\\projects\\Nonamii007\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\zondi\\source\\repos\\Nonamii\\wwwroot\\",
       "BasePath": "_content/Nonamii",
       "RelativePath": "lib/jquery-validation/dist/jquery.validate.min.js",
       "AssetKind": "All",
@@ -3627,10 +3627,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.min.js"
     },
     {
-      "Identity": "C:\\Users\\zondi\\source\\repos\\projects\\Nonamii007\\wwwroot\\lib\\jquery-validation\\LICENSE.md",
+      "Identity": "C:\\Users\\zondi\\source\\repos\\Nonamii\\wwwroot\\lib\\jquery-validation\\LICENSE.md",
       "SourceId": "Nonamii",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\zondi\\source\\repos\\projects\\Nonamii007\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\zondi\\source\\repos\\Nonamii\\wwwroot\\",
       "BasePath": "_content/Nonamii",
       "RelativePath": "lib/jquery-validation/LICENSE.md",
       "AssetKind": "All",
@@ -3646,10 +3646,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\jquery-validation\\LICENSE.md"
     },
     {
-      "Identity": "C:\\Users\\zondi\\source\\repos\\projects\\Nonamii007\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js",
+      "Identity": "C:\\Users\\zondi\\source\\repos\\Nonamii\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js",
       "SourceId": "Nonamii",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\zondi\\source\\repos\\projects\\Nonamii007\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\zondi\\source\\repos\\Nonamii\\wwwroot\\",
       "BasePath": "_content/Nonamii",
       "RelativePath": "lib/jquery-validation-unobtrusive/jquery.validate.unobtrusive.js",
       "AssetKind": "All",
@@ -3665,10 +3665,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js"
     },
     {
-      "Identity": "C:\\Users\\zondi\\source\\repos\\projects\\Nonamii007\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js",
+      "Identity": "C:\\Users\\zondi\\source\\repos\\Nonamii\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js",
       "SourceId": "Nonamii",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\zondi\\source\\repos\\projects\\Nonamii007\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\zondi\\source\\repos\\Nonamii\\wwwroot\\",
       "BasePath": "_content/Nonamii",
       "RelativePath": "lib/jquery-validation-unobtrusive/jquery.validate.unobtrusive.min.js",
       "AssetKind": "All",
@@ -3684,10 +3684,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js"
     },
     {
-      "Identity": "C:\\Users\\zondi\\source\\repos\\projects\\Nonamii007\\wwwroot\\lib\\jquery-validation-unobtrusive\\LICENSE.txt",
+      "Identity": "C:\\Users\\zondi\\source\\repos\\Nonamii\\wwwroot\\lib\\jquery-validation-unobtrusive\\LICENSE.txt",
       "SourceId": "Nonamii",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\zondi\\source\\repos\\projects\\Nonamii007\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\zondi\\source\\repos\\Nonamii\\wwwroot\\",
       "BasePath": "_content/Nonamii",
       "RelativePath": "lib/jquery-validation-unobtrusive/LICENSE.txt",
       "AssetKind": "All",

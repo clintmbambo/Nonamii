@@ -1,6 +1,7 @@
 ﻿using Microsoft.AspNetCore.Identity.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore;
 using Nonamii.Models.UserDetails;
+using Nonamii.Models.Inventory;
 
 namespace Nonamii.Data
 {
@@ -27,5 +28,9 @@ namespace Nonamii.Data
         public DbSet<RecipeIngredient> RecipeIngredients { get; set; }
         public DbSet<Recipe> Recipes { get; set; }
         public DbSet<Ingredient> Ingredients { get; set; }
+        public DbSet<Nonamii.Models.Inventory.Menu> Menu { get; set; } = default!;
+        public DbSet<Nonamii.Models.Inventory.MenuType> MenuType { get; set; } = default!;
+        public DbSet<Nonamii.Models.Inventory.Category> Category { get; set; } = default!;
+        public DbSet<Nonamii.Models.Inventory.MenuCategory> MenuCategory { get; set; } = default!;
     }
 }

@@ -12,3 +12,4 @@ global using Stripe;
 global using Stripe.Checkout;
 global using Nonamii.Repository;
 global using Nonamii.Models.UserDetails;
+global using Nonamii.Controllers.MenuControllers;

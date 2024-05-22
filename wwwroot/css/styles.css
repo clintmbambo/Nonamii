@@ -34,7 +34,7 @@ body {
     justify-content: space-between;
     align-items: center;
     padding: 20px 20px 20px 20px;
-    margin-bottom: 30px;
+    margin-bottom: 15px;
 }
 
 .sidebar-title > span {
@@ -46,30 +46,37 @@ body {
 }
 
 .sidebar-brand {
-    margin-top: 15px;
+    margin-top: 10px;
     font-size: 20px;
     font-weight: 700;
 }
 
 .sidebar-list {
-    padding: 0;
-    margin-top: 15px;
+    margin-top: 10px;
     list-style-type: none;
+    text-align: left;
 }
 
 .sidebar-list-item {
-    padding: 20px 20px 20px 20px;
-}
-
-.sidebar-list-item a:hover {
-    background-color: rgba(255, 255, 255, 0.2);
-    cursor: pointer;
+    padding: 5%;
+    text-align: left;
 }
 
 .sidebar-responsive {
     display: inline !important;
     position: absolute;
 }
+
+.sidebar-list-item a {
+    text-decoration: none;
+    color: aliceblue;
+    text-align: left;
+}
+
+    .sidebar-list-item a:hover {
+        border-bottom: solid 2px darkcyan;
+        background: none;
+    }
 
 /*-------------- HEADER ----------------*/
 .header {
@@ -176,7 +183,7 @@ body {
 }
 
 .text-red {
-    color: cc3c43;
+    color: #cc3c43;
 }
 
 .text-green {
@@ -194,11 +201,4 @@ body {
 
 /*----------------- CONTENT -----------------*/
 
-.sidebar-list-item a {
-    text-decoration: none;
-    padding: 20px 20px 20px 20px;
-}
-.sidebar-list-item a:hover {
-    padding: 20px 20px 20px 20px;
-    background-color: blue;
-}
+

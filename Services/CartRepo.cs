@@ -29,7 +29,7 @@ namespace Nonamii.Services
         }
         public async Task<int> GetCartItemCount(string userId = "")
         {
-            if (!string.IsNullOrEmpty(userId))
+            if (string.IsNullOrEmpty(userId))
             {
                 userId = GetUserId();
             }
@@ -37,14 +37,15 @@ namespace Nonamii.Services
             var data = await (from cart in _db.Carts
                               join details in _db.CartsDetails
                               on cart.Id equals details.CartId
+                              where cart.UserId == userId
                               select new { details.Id }).ToListAsync();
             return data.Count;
         }
 
         public async Task<Cart> GetUserCart()
         {
-            var user = GetUserId();
-            if (user == null)
+            var userId = GetUserId();
+            if (userId == null)
             {
                 throw new Exception("Invalid user");
             }
@@ -54,7 +55,7 @@ namespace Nonamii.Services
                 .Include(x => x.Details)
                 .ThenInclude(x => x.MenuItem)
                 .ThenInclude(x => x.ItemSizes)
-                .Where(x => x.UserId == user).FirstOrDefaultAsync();
+                .Where(x => x.UserId == userId).FirstOrDefaultAsync();
 
             return cart;
         }

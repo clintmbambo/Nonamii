@@ -2,13 +2,14 @@
 var builder = WebApplication.CreateBuilder(args);
 
 // Add services to the container.
-var connectionString = builder.Configuration.GetConnectionString("Nonamii") ?? throw new InvalidOperationException("Connection string 'Nonamii' not found.");
+var connectionString = builder.Configuration.GetConnectionString("NonamiiConnection") ?? throw new InvalidOperationException("Connection string 'NonamiiConnection' not found.");
 builder.Services.AddDbContext<ApplicationDbContext>(options =>
     options.UseSqlServer(connectionString,
     optionsBuilder => optionsBuilder.EnableRetryOnFailure()));
 builder.Services.AddDatabaseDeveloperPageExceptionFilter();
 
 builder.Services.AddTransient<IUserOrdersRepo, UserOrdersRepo>();
+builder.Services.AddTransient<IMenuRepo, MenuRepo>();
 builder.Services.AddTransient<IHomeRepo, HomeRepo>();
 builder.Services.AddTransient<ICartRepo, CartRepo>();
 builder.Services.AddTransient<IRecipeRepo, RecipeRepo>();
