@@ -9,7 +9,11 @@ builder.Services.AddDbContext<ApplicationDbContext>(options =>
 builder.Services.AddDatabaseDeveloperPageExceptionFilter();
 
 builder.Services.AddTransient<IUserOrdersRepo, UserOrdersRepo>();
+builder.Services.AddTransient<IMeasurementRepo, MeasurementRepo>();
+builder.Services.AddTransient<IRecipeIngredientRepo, RecipeIngredientRepo>();
+builder.Services.AddTransient<IIngredientRepo, IngredientRepo>();
 builder.Services.AddTransient<IMenuItemExtrasRepo, MenuItemExtrasRepo>();
+builder.Services.AddTransient<IDeliveriesRepo, DeliveriesRepo>();
 builder.Services.AddTransient<IMenuTypesRepo, MenuTypesRepo>();
 builder.Services.AddTransient<IMenuRepo, MenuRepo>();
 builder.Services.AddTransient<IHomeRepo, HomeRepo>();

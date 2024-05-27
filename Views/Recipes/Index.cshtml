@@ -1,6 +1,5 @@
 ﻿@model IEnumerable<Nonamii.Models.Inventory.Recipe>
 
-
 @{
     Layout = null;
 }
@@ -10,7 +9,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Dashboard</title>
+    <title>Admin Dashboard</title>
     <link href="~/css/styles.css" rel="stylesheet" />
     <link href="~/css/bootstrap.min.css" rel="stylesheet" />
     <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -40,62 +39,24 @@
         <aside id="sidebar">
             <div class="sidebar-title">
                 <div class="sidebar-brand">
-                    <span class="material-symbols-outlined"></span> MenuItem Sizes
+                    <span class="material-symbols-outlined">inventory</span> RECIPES
                 </div>
                 <span class="material-symbols-outlined" onclick="closeSidebar()">close</span>
             </div>
             <ul class="sidebar-list">
                 <li class="sidebar-list-item">
-                    <p>
-                        <a asp-action="Index" asp-controller="Menus" class="btn btn-dark bg-transparent"
-                           style="width:100%;">
-                            Menu
-                        </a>
-                    </p>
-                </li>
-                <li class="sidebar-list-item">
-                    <a href="/MenuItems/Index" class="btn btn-transparent bg-transparent" style="width:100%;">
-                        <span class="material-symbols-outlined"></span> Menu Items
+                    <a href="/Inventory/Index" class="btn btn-dark bg-transparent" style="width:100%;">
+                        <span class="material-symbols-outlined">back</span> INVENTORY
                     </a>
                 </li>
                 <li class="sidebar-list-item">
-                    <a href="/Extras/Index" class="btn btn-transparent bg-transparent" style="width:100%;">
-                        <span class="material-symbols-outlined"></span> Extras
+                    <a class="btn btn-dark bg-transparent" style="width:100%;">
+                        <span class="material-symbols-outlined">dashboard</span> Recipe
                     </a>
                 </li>
                 <li class="sidebar-list-item">
-                    <a href="/MenuItemExtras/Index" class="btn btn-transparent bg-transparent" style="width:100%;">
-                        <span class="material-symbols-outlined"></span> MenuItem Extras
-                    </a>
-                </li>
-                <li class="sidebar-list-item">
-                    <a href="/Sizes/Index" class="btn btn-transparent bg-transparent" style="width:100%;">
-                        <span class="material-symbols-outlined"></span> Sizes
-                    </a>
-                </li>
-                <li class="sidebar-list-item">
-                    <a href="/MenuItemSizes" class="btn btn-transparent bg-transparent" style="width:100%;">
-                        <span class="material-symbols-outlined"></span> MenuItem Sizes
-                    </a>
-                </li>
-                <li class="sidebar-list-item">
-                    <a href="/Prices/Index" class="btn btn-transparent bg-transparent" style="width:100%;">
-                        <span class="material-symbols-outlined"></span> Prices
-                    </a>
-                </li>
-                <li class="sidebar-list-item">
-                    <a href="/Prices/Index" class="btn btn-transparent bg-transparent" style="width:100%;">
-                        <span class="material-symbols-outlined"></span> Pricing
-                    </a>
-                </li>
-                <li class="sidebar-list-item">
-                    <a class="btn btn-transparent bg-transparent" style="width:100%;">
-                        <span class="material-symbols-outlined"></span> Menu Categories
-                    </a>
-                </li>
-                <li class="sidebar-list-item">
-                    <a href="/MenuItemCategories/Index" class="btn btn-transparent bg-transparent" style="width:100%;">
-                        <span class="material-symbols-outlined"></span> Menu Item Categories
+                    <a href="/RecipeIngredients/Index" class="btn btn-dark bg-transparent" style="width:100%;">
+                        <span class="material-symbols-outlined">dashboard</span> Recipe Ingredients
                     </a>
                 </li>
             </ul>
@@ -104,69 +65,49 @@
 
         <main class="main-container">
             <div class="main-title">
-                <p class="font-weight-bold"> Menu Categories</p>
+                <p class="font-weight-bold">RECIPES</p>
             </div>
 
-
-
-            <table class="table table-dark table-striped table-borderless">
+            
+            <table class="table">
                 <thead>
-        <tr>
-            <th>
-                @Html.DisplayNameFor(model => model.UserId)
-            </th>
-            <th>
-                @Html.DisplayNameFor(model => model.MenuItem)
-            </th>
-            <th>
-                @Html.DisplayNameFor(model => model.MenuItem.Image)
-            </th>
-            <th>
-                @Html.DisplayNameFor(model => model.Title)
-            </th>
-            <th>
-                @Html.DisplayNameFor(model => model.Instructions)
-            </th>
-            <th>
-                @Html.DisplayNameFor(model => model.Cost)
-            </th>
-            <th></th>
-        </tr>
-    </thead>
-    <tbody>
-@foreach (var item in Model) {
-        <tr>
-            <td>
-                @Html.DisplayFor(modelItem => item.UserId)
-            </td>
-            <td>
-                <img src="@item.MenuItem.Image" alt="@item.MenuItem.Name" class="card-img" style="width:200px;height:200px;"/>
-                </td>
-                <td>
-                    @Html.DisplayFor(modelItem => item.MenuItem.Image)
-                </td>
-            <td>
-                @Html.DisplayFor(modelItem => item.Title)
-            </td>
-            <td>
-                @Html.DisplayFor(modelItem => item.Instructions)
-            </td>
-            <td>
-                @Html.DisplayFor(modelItem => item.Cost)
-            </td>
-            <td>
-                <a asp-action="Edit" asp-route-id="@item.Id">Edit</a> |
-                <a asp-action="Details" asp-route-id="@item.Id">Details</a> |
-                <a asp-action="Delete" asp-route-id="@item.Id">Delete</a>
-            </td>
-        </tr>
-}
-    </tbody>
+                    <tr>
+                        <th>
+                            @Html.DisplayNameFor(model => model.MenuItem)
+                        </th>
+                        <th>
+                            @Html.DisplayNameFor(model => model.Title)
+                        </th>
+                        <th>
+                            @Html.DisplayNameFor(model => model.Instructions)
+                        </th>
+                        <th></th>
+                    </tr>
+                </thead>
+                <tbody>
+                    @foreach (var item in Model)
+                    {
+                        <tr>
+                            <td>
+                                @Html.DisplayFor(modelItem => item.MenuItem.Name)
+                            </td>
+                            <td>
+                                @Html.DisplayFor(modelItem => item.Title)
+                            </td>
+                            <td>
+                                @Html.DisplayFor(modelItem => item.Instructions)
+                            </td>
+                            <td>
+                                <a asp-action="Edit" asp-route-id="@item.Id">Edit</a> |
+                                <a asp-action="Details" asp-route-id="@item.Id">Details</a> |
+                                <a asp-action="Delete" asp-route-id="@item.Id">Delete</a>
+                            </td>
+                        </tr>
+                    }
+                </tbody>
             </table>
-
-
             <p>
-                <a class="btn btn-primary" asp-action="Create">Create New</a>
+                <a asp-action="Create" class="btn btn-primary">Create New</a>
             </p>
 
         </main>
@@ -174,4 +115,4 @@
 
     <script src="/javascript/scripts.js"></script>
 </body>
-</html
+</html>

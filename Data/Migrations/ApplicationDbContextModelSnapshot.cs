@@ -317,6 +317,9 @@ namespace Nonamii.Data.Migrations
 
                     SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<int>("Id"));
 
+                    b.Property<decimal>("Cost")
+                        .HasColumnType("decimal(18,2)");
+
                     b.Property<decimal>("CostPerUnit")
                         .HasColumnType("decimal(18,2)");
 
@@ -329,7 +332,7 @@ namespace Nonamii.Data.Migrations
                     b.Property<string>("UnitOfMeasure")
                         .HasColumnType("nvarchar(max)");
 
-                    b.Property<decimal?>("UnitOfMeasureValue")
+                    b.Property<decimal>("UnitOfMeasureValue")
                         .HasColumnType("decimal(18,2)");
 
                     b.Property<string>("UserId")
@@ -338,6 +341,28 @@ namespace Nonamii.Data.Migrations
                     b.HasKey("Id");
 
                     b.ToTable("Ingredients");
+                });
+
+            modelBuilder.Entity("Nonamii.Models.Inventory.Measurement", b =>
+                {
+                    b.Property<int>("Id")
+                        .ValueGeneratedOnAdd()
+                        .HasColumnType("int");
+
+                    SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<int>("Id"));
+
+                    b.Property<string>("Abbreviation")
+                        .HasColumnType("nvarchar(max)");
+
+                    b.Property<string>("Title")
+                        .HasColumnType("nvarchar(max)");
+
+                    b.Property<string>("UserId")
+                        .HasColumnType("nvarchar(max)");
+
+                    b.HasKey("Id");
+
+                    b.ToTable("Measurement");
                 });
 
             modelBuilder.Entity("Nonamii.Models.Inventory.Menu", b =>
@@ -506,9 +531,6 @@ namespace Nonamii.Data.Migrations
 
                     SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<int>("Id"));
 
-                    b.Property<decimal?>("Cost")
-                        .HasColumnType("decimal(18,2)");
-
                     b.Property<string>("Instructions")
                         .HasColumnType("nvarchar(max)");
 
@@ -539,15 +561,23 @@ namespace Nonamii.Data.Migrations
                     b.Property<int>("IngredientId")
                         .HasColumnType("int");
 
+                    b.Property<int>("MeasurementId")
+                        .HasColumnType("int");
+
                     b.Property<int>("RecipeId")
                         .HasColumnType("int");
 
                     b.Property<string>("UserId")
                         .HasColumnType("nvarchar(max)");
 
+                    b.Property<decimal>("amntValue")
+                        .HasColumnType("decimal(18,2)");
+
                     b.HasKey("Id");
 
                     b.HasIndex("IngredientId");
+
+                    b.HasIndex("MeasurementId");
 
                     b.HasIndex("RecipeId");
 
@@ -701,6 +731,31 @@ namespace Nonamii.Data.Migrations
                     b.HasIndex("MenuItemId");
 
                     b.ToTable("MenuItemPromo");
+                });
+
+            modelBuilder.Entity("Nonamii.Models.Restaurant", b =>
+                {
+                    b.Property<int>("Id")
+                        .ValueGeneratedOnAdd()
+                        .HasColumnType("int");
+
+                    SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<int>("Id"));
+
+                    b.Property<string>("Address")
+                        .HasColumnType("nvarchar(max)");
+
+                    b.Property<string>("Name")
+                        .HasColumnType("nvarchar(max)");
+
+                    b.Property<string>("Phone")
+                        .HasColumnType("nvarchar(max)");
+
+                    b.Property<string>("UserId")
+                        .HasColumnType("nvarchar(max)");
+
+                    b.HasKey("Id");
+
+                    b.ToTable("Restaurant");
                 });
 
             modelBuilder.Entity("Nonamii.Models.UserDetails.Address", b =>
@@ -915,17 +970,29 @@ namespace Nonamii.Data.Migrations
 
             modelBuilder.Entity("Nonamii.Models.Inventory.RecipeIngredient", b =>
                 {
-                    b.HasOne("Nonamii.Models.Inventory.Ingredient", null)
+                    b.HasOne("Nonamii.Models.Inventory.Ingredient", "Ingredient")
                         .WithMany("Recipes")
                         .HasForeignKey("IngredientId")
                         .OnDelete(DeleteBehavior.Cascade)
                         .IsRequired();
 
-                    b.HasOne("Nonamii.Models.Inventory.Recipe", null)
+                    b.HasOne("Nonamii.Models.Inventory.Measurement", "Measurement")
+                        .WithMany()
+                        .HasForeignKey("MeasurementId")
+                        .OnDelete(DeleteBehavior.Cascade)
+                        .IsRequired();
+
+                    b.HasOne("Nonamii.Models.Inventory.Recipe", "Recipe")
                         .WithMany("Ingredients")
                         .HasForeignKey("RecipeId")
                         .OnDelete(DeleteBehavior.Cascade)
                         .IsRequired();
+
+                    b.Navigation("Ingredient");
+
+                    b.Navigation("Measurement");
+
+                    b.Navigation("Recipe");
                 });
 
             modelBuilder.Entity("Nonamii.Models.Order", b =>

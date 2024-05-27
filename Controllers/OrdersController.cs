@@ -27,6 +27,7 @@ namespace Nonamii.Controllers
         {
             var applicationDbContext = await _context.Orders
                 .Include(o => o.OrderStatus)
+                .Include(o => o.OrderDetails)
                 .Where(m => m.UserId == _userOrdersRepo.GetUserId())
                 .ToListAsync();
 
@@ -68,6 +69,7 @@ namespace Nonamii.Controllers
         {
             if (ModelState.IsValid)
             {
+                order.UserId = _userOrdersRepo.GetUserId();
                 _context.Add(order);
                 await _context.SaveChangesAsync();
                 return RedirectToAction(nameof(Index));
@@ -104,12 +106,10 @@ namespace Nonamii.Controllers
             {
                 return NotFound();
             }
-
             if (ModelState.IsValid)
             {
                 try
                 {
-                    order.UserId = _userOrdersRepo.GetUserId();
                     _context.Update(order);
                     await _context.SaveChangesAsync();
                 }
@@ -124,7 +124,7 @@ namespace Nonamii.Controllers
                         throw;
                     }
                 }
-                return RedirectToAction(nameof(Index));
+                return RedirectToAction("OrdersNav", "Vendor");
             }
             ViewData["OrderStatusId"] = new SelectList(_context.OrderStatuses, "Id", "Id", order.OrderStatusId);
             return View(order);
@@ -170,7 +170,7 @@ namespace Nonamii.Controllers
         }
 
         //Handling Pending Orders.
-        [Authorize(Roles = "Admin")]
+        [Authorize(Roles = "Restaurant")]
         public async Task<IActionResult> Pending()
         {
             var pendingOrders = await _userOrdersRepo.GetPendingOrders();
@@ -202,7 +202,7 @@ namespace Nonamii.Controllers
         }
 
         //Handling ALL Orders.
-        [Authorize(Roles = "Admin")]
+        [Authorize(Roles = "Restaurant")]
         public async Task<IActionResult> GetAllUserOrders()
         {
             var orders = await _userOrdersRepo.GetOrders();
@@ -216,7 +216,7 @@ namespace Nonamii.Controllers
         }
 
         //Handling Orders in Progress.
-        [Authorize(Roles = "Admin")]
+        [Authorize(Roles = "Restaurant")]
         public async Task<IActionResult> InProgress()
         {
             var ordersInProgress = await _userOrdersRepo.GetOrdersInProgress();
@@ -228,7 +228,7 @@ namespace Nonamii.Controllers
         }
 
         //Handling Orders that are ready.
-        [Authorize(Roles = "Admin")]
+        [Authorize(Roles = "Restaurant")]
         public async Task<IActionResult> Ready()
         {
             var ordersReady = await _userOrdersRepo.GetOrdersReady();
@@ -236,7 +236,7 @@ namespace Nonamii.Controllers
         }
 
         //Handling Orders that are cancelled.
-        [Authorize(Roles = "Admin")]
+        [Authorize(Roles = "Restaurant")]
         public async Task<IActionResult> Cancelled()
         {
             var cancelledOrders = await _userOrdersRepo.GetCancelledOrders();

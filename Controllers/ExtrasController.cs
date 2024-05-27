@@ -63,6 +63,7 @@ namespace Nonamii.Controllers
         {
             if (ModelState.IsValid)
             {
+                extra.UserId = _userManagement.GetUserId();
                 _context.Add(extra);
                 await _context.SaveChangesAsync();
                 return RedirectToAction(nameof(Index));

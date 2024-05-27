@@ -65,6 +65,7 @@ namespace Nonamii.Controllers
         {
             if (ModelState.IsValid)
             {
+                menuItemExtra.UserId = _menuItemExtrasRepo.GetUserId();
                 _context.Add(menuItemExtra);
                 await _context.SaveChangesAsync();
                 return RedirectToAction(nameof(Index));

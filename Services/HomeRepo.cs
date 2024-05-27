@@ -17,7 +17,7 @@
                                    join itemSize in _db.MenuItemSizes
                                    on menuItem.Id equals itemSize.MenuItemId
                                where (string.IsNullOrWhiteSpace(searchTerm) ||
-                               (menuItem != null && menuItem.Name.Contains(searchTerm))) && itemSize.SizeId == 1
+                               (menuItem != null && menuItem.Name.Contains(searchTerm))) && itemSize.Size.Name == "Regular"
 
 
                                select new MenuItem

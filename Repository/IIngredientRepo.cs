@@ -3,6 +3,6 @@
     public interface IIngredientRepo
     {
         string? GetUserId();
-        Task<IEnumerable<Ingredient>> GetIngredients();
+        Task<IEnumerable<Ingredient>> GetIngredientsAsync();
     }
 }

@@ -12,8 +12,6 @@
         //Capture recipe information
         public string? Title { get; set; }
         public string? Instructions { get; set; }
-        public decimal? Cost { get; set; } //Automatically calculated based on ingredient costs.
-
         public List<RecipeIngredient>? Ingredients { get; set; }
     }
 }

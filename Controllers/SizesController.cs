@@ -14,19 +14,19 @@ namespace Nonamii.Controllers
     public class SizesController : Controller
     {
         private readonly ApplicationDbContext _context;
-        private readonly IMenuItemExtrasRepo _menuItemExtrasRepo;
+        private readonly IUserManagement _userManagement;
 
-        public SizesController(ApplicationDbContext context, IMenuItemExtrasRepo menuItemExtrasRepo)
+        public SizesController(ApplicationDbContext context, IUserManagement userManagement)
         {
             _context = context;
-            _menuItemExtrasRepo = menuItemExtrasRepo;
+            _userManagement = userManagement;
         }
 
         // GET: Sizes
         public async Task<IActionResult> Index()
         {
             return View(await _context.Sizes
-                .Where(m => m.UserId == _menuItemExtrasRepo.GetUserId())
+                .Where(m => m.UserId == _userManagement.GetUserId())
                 .ToListAsync());
         }
 
@@ -63,6 +63,7 @@ namespace Nonamii.Controllers
         {
             if (ModelState.IsValid)
             {
+                size.UserId = _userManagement.GetUserId();
                 _context.Add(size);
                 await _context.SaveChangesAsync();
                 return RedirectToAction(nameof(Index));

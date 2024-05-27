@@ -20,15 +20,12 @@ namespace Nonamii.Repository
 
             return userId;
         }
-        public async Task<IEnumerable<Ingredient>> GetIngredients()
+        public async Task<IEnumerable<Ingredient>> GetIngredientsAsync()
         {
-            var ingredients = await (from ingredient in _db.Ingredients
-                                     join recipeIngredient in _db.RecipeIngredients
-                                     on ingredient.Id equals recipeIngredient.IngredientId
-
-                                     join recipe in _db.Recipes
-                                     on recipeIngredient.RecipeId equals recipe.Id
-                                     select ingredient).ToListAsync();
+            var ingredients = await _db.Ingredients
+                .Include(m => m.Recipes)
+                .Where(u => u.UserId == GetUserId())
+                .ToListAsync();
 
             return ingredients;
         }

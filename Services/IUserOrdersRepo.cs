@@ -10,5 +10,6 @@
         Task<IEnumerable<Order>> GetCancelledOrders();
         Task<IEnumerable<Order>> GetAllOrdersByUser();
         void CancelOrder(int id);
+        Task<IEnumerable<RecipeIngredient>> GetRecipeIngredientsAsync(List<MenuItem> list);
     }
 }

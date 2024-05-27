@@ -8,28 +8,26 @@ using Microsoft.EntityFrameworkCore;
 using Nonamii.Data;
 using Nonamii.Models.Inventory;
 
-namespace Nonamii.Controllers
+namespace Nonamii.Controllers.Stock
 {
-    [Authorize(Roles = "Restaurant")]
-    public class RecipesController : Controller
+    public class IngredientsController : Controller
     {
         private readonly ApplicationDbContext _context;
-        private readonly IRecipeRepo _recipeRepo;
+        private readonly IIngredientRepo _ingredientRepo;
 
-        public RecipesController(ApplicationDbContext context, IRecipeRepo recipeRepo)
+        public IngredientsController(ApplicationDbContext context, IIngredientRepo ingredientRepo)
         {
             _context = context;
-            _recipeRepo = recipeRepo;
+            _ingredientRepo = ingredientRepo;
         }
 
-        // GET: Recipes
+        // GET: Ingredients
         public async Task<IActionResult> Index()
         {
-            var applicationDbContext = _context.Recipes.Include(r => r.MenuItem);
-            return View(await applicationDbContext.ToListAsync());
+            return View(await _ingredientRepo.GetIngredientsAsync());
         }
 
-        // GET: Recipes/Details/5
+        // GET: Ingredients/Details/5
         public async Task<IActionResult> Details(int? id)
         {
             if (id == null)
@@ -37,43 +35,59 @@ namespace Nonamii.Controllers
                 return NotFound();
             }
 
-            var recipe = await _context.Recipes
-                .Include(r => r.MenuItem)
+            var ingredient = await _context.Ingredients
                 .FirstOrDefaultAsync(m => m.Id == id);
-            if (recipe == null)
+            if (ingredient == null)
             {
                 return NotFound();
             }
 
-            return View(recipe);
+            return View(ingredient);
         }
 
-        // GET: Recipes/Create
+        // GET: Ingredients/Create
         public IActionResult Create()
         {
-            ViewData["MenuItemId"] = new SelectList(_context.MenuItems, "Id", "Name");
+            var list = new List<string>();
+
+            foreach(var unitOfMeasure in _context.Measurement)
+            {
+                list.Add(unitOfMeasure.Abbreviation);
+            }
+            ViewBag.Options = list;
+
             return View();
         }
 
-        // POST: Recipes/Create
+        // POST: Ingredients/Create
         // To protect from overposting attacks, enable the specific properties you want to bind to.
         // For more details, see http://go.microsoft.com/fwlink/?LinkId=317598.
         [HttpPost]
         [ValidateAntiForgeryToken]
-        public async Task<IActionResult> Create([Bind("Id,UserId,MenuItemId,Title,Instructions,Cost")] Recipe recipe)
+        public async Task<IActionResult> Create([Bind("Id,UserId,Name,Description,UnitOfMeasure,UnitOfMeasureValue,Cost,CostPerUnit")] Ingredient ingredient)
         {
+            var list = new List<string>();
+
+            foreach (var unitOfMeasure in _context.Measurement)
+            {
+                list.Add(unitOfMeasure.Abbreviation);
+            }
+            ViewBag.Options = list;
+
             if (ModelState.IsValid)
             {
-                recipe.UserId = _recipeRepo.GetUserId();
-                _context.Add(recipe);
+                ingredient.UserId = _ingredientRepo.GetUserId();
+                ingredient.CostPerUnit = ingredient.Cost / ingredient.UnitOfMeasureValue;
+                ingredient.UnitOfMeasure = ingredient.UnitOfMeasure;
+
+                _context.Add(ingredient);
                 await _context.SaveChangesAsync();
                 return RedirectToAction(nameof(Index));
             }
-            ViewData["MenuItemId"] = new SelectList(_context.MenuItems, "Id", "Name", recipe.MenuItemId);
-            return View(recipe);
+            return View(ingredient);
         }
 
-        // GET: Recipes/Edit/5
+        // GET: Ingredients/Edit/5
         public async Task<IActionResult> Edit(int? id)
         {
             if (id == null)
@@ -81,23 +95,22 @@ namespace Nonamii.Controllers
                 return NotFound();
             }
 
-            var recipe = await _context.Recipes.FindAsync(id);
-            if (recipe == null)
+            var ingredient = await _context.Ingredients.FindAsync(id);
+            if (ingredient == null)
             {
                 return NotFound();
             }
-            ViewData["MenuItemId"] = new SelectList(_context.MenuItems, "Id", "Id", recipe.MenuItemId);
-            return View(recipe);
+            return View(ingredient);
         }
 
-        // POST: Recipes/Edit/5
+        // POST: Ingredients/Edit/5
         // To protect from overposting attacks, enable the specific properties you want to bind to.
         // For more details, see http://go.microsoft.com/fwlink/?LinkId=317598.
         [HttpPost]
         [ValidateAntiForgeryToken]
-        public async Task<IActionResult> Edit(int id, [Bind("Id,UserId,MenuItemId,Title,Instructions,Cost")] Recipe recipe)
+        public async Task<IActionResult> Edit(int id, [Bind("Id,UserId,Name,Description,UnitOfMeasure,UnitOfMeasureValue,Cost,CostPerUnit")] Ingredient ingredient)
         {
-            if (id != recipe.Id)
+            if (id != ingredient.Id)
             {
                 return NotFound();
             }
@@ -106,12 +119,12 @@ namespace Nonamii.Controllers
             {
                 try
                 {
-                    _context.Update(recipe);
+                    _context.Update(ingredient);
                     await _context.SaveChangesAsync();
                 }
                 catch (DbUpdateConcurrencyException)
                 {
-                    if (!RecipeExists(recipe.Id))
+                    if (!IngredientExists(ingredient.Id))
                     {
                         return NotFound();
                     }
@@ -122,11 +135,10 @@ namespace Nonamii.Controllers
                 }
                 return RedirectToAction(nameof(Index));
             }
-            ViewData["MenuItemId"] = new SelectList(_context.MenuItems, "Id", "Id", recipe.MenuItemId);
-            return View(recipe);
+            return View(ingredient);
         }
 
-        // GET: Recipes/Delete/5
+        // GET: Ingredients/Delete/5
         public async Task<IActionResult> Delete(int? id)
         {
             if (id == null)
@@ -134,35 +146,34 @@ namespace Nonamii.Controllers
                 return NotFound();
             }
 
-            var recipe = await _context.Recipes
-                .Include(r => r.MenuItem)
+            var ingredient = await _context.Ingredients
                 .FirstOrDefaultAsync(m => m.Id == id);
-            if (recipe == null)
+            if (ingredient == null)
             {
                 return NotFound();
             }
 
-            return View(recipe);
+            return View(ingredient);
         }
 
-        // POST: Recipes/Delete/5
+        // POST: Ingredients/Delete/5
         [HttpPost, ActionName("Delete")]
         [ValidateAntiForgeryToken]
         public async Task<IActionResult> DeleteConfirmed(int id)
         {
-            var recipe = await _context.Recipes.FindAsync(id);
-            if (recipe != null)
+            var ingredient = await _context.Ingredients.FindAsync(id);
+            if (ingredient != null)
             {
-                _context.Recipes.Remove(recipe);
+                _context.Ingredients.Remove(ingredient);
             }
 
             await _context.SaveChangesAsync();
             return RedirectToAction(nameof(Index));
         }
 
-        private bool RecipeExists(int id)
+        private bool IngredientExists(int id)
         {
-            return _context.Recipes.Any(e => e.Id == id);
+            return _context.Ingredients.Any(e => e.Id == id);
         }
     }
 }

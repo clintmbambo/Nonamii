@@ -1,0 +1,32 @@
+﻿@model IEnumerable<IdentityUser>
+
+
+<h1>GetDrivers</h1>
+
+<table class="table table-dark table-striped">
+    <tr>
+        <th>
+            Id
+        </th>
+        <th>
+            Name
+        </th>
+        <th>
+            Address
+        </th>
+    </tr>
+    @foreach(var driver in Model)
+    {
+        <tr>
+            <td>
+                @driver.Id
+            </td>
+            <td>
+                @driver.UserName
+            </td>
+            <td>
+                @driver.PhoneNumber
+            </td>
+        </tr>
+    }
+</table>

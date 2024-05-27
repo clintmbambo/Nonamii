@@ -75,23 +75,6 @@ namespace Nonamii.Areas.Identity.Pages.Account
             ///     directly from your code. This API may change or be removed in future releases.
             /// </summary>
             [Required]
-            [Display(Name = "Restaurant Name")]
-            public string Restaurant { get; set; }
-
-            [Required]
-            [Display(Name = "Street Address")]
-            public string Address { get; set; }
-
-            [Required]
-            [Display(Name = "Contact Person")]
-            public string FullName { get; set; }
-
-            [Required]
-            [Phone]
-            [Display(Name = "Phone Number")]
-            public string PhoneNumber { get; set; }
-
-            [Required]
             [EmailAddress]
             [Display(Name = "Email")]
             public string Email { get; set; }
@@ -140,7 +123,7 @@ namespace Nonamii.Areas.Identity.Pages.Account
                     await _userManager.AddToRoleAsync(user, "Restaurant"); //Assign every user a user role upon successful signup.
                     _logger.LogInformation("User created a new account with password.");
 
-                    returnUrl = Url.Content("~/Vendor/Index");
+                    returnUrl = Url.Content("~/Restaurants/Create");
 
                     var userId = await _userManager.GetUserIdAsync(user);
                     var code = await _userManager.GenerateEmailConfirmationTokenAsync(user);

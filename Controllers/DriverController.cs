@@ -3,12 +3,25 @@
 namespace Nonamii.Controllers
 {
 
-    [Authorize(Roles = "Driver")]
+    [Authorize]
     public class DriverController : Controller
     {
+        private readonly IDeliveriesRepo _deliveriesRepo;
+
+        public DriverController(IDeliveriesRepo deliveriesRepo)
+        {
+            _deliveriesRepo = deliveriesRepo;
+        }
+
         public IActionResult Index()
         {
             return View();
+        }
+
+        public async Task<IActionResult> FindDriver(int id)
+        {
+            var deliveryDetails = await _deliveriesRepo.FindDriver(id);
+            return View(deliveryDetails);
         }
     }
 }

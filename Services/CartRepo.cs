@@ -168,6 +168,50 @@ namespace Nonamii.Services
             var executionStrategy = _db.Database.CreateExecutionStrategy();
             bool returnValue = true;
 
+            //if (string.IsNullOrEmpty(userId))
+            //    throw new Exception("User is not logged in");
+
+            //var cart = await GetCart(userId);
+            //if (cart is null)
+            //{
+            //    throw new Exception("User does not have a cart");
+            //}
+
+            //var cartDetails = await _db.CartsDetails.Where(a => a.CartId == cart.Id).ToListAsync();
+            //if (cartDetails == null)
+            //{
+            //    throw new Exception("Null");
+            //}
+
+            //var order = new Order
+            //{
+            //    UserId = userId,
+            //    DateCreated = DateTime.Now,
+            //    IsActive = true,
+            //    OrderStatusId = 1
+            //};
+            //await _db.AddAsync(order);
+            //await _db.SaveChangesAsync();
+
+            //foreach (var item in cartDetails)
+            //{
+            //    var orderDetail = new OrderDetail
+            //    {
+            //        OrderId = order.Id,
+            //        MenuItemId = item.MenuItemId,
+            //        Price = item.Price,
+            //        Quantity = item.Quantity,
+            //    };
+            //    await _db.OrdersDetails.AddAsync(orderDetail);
+            //}
+            //await _db.SaveChangesAsync();
+
+            //_db.CartsDetails.RemoveRange(cartDetails);
+            //await _db.SaveChangesAsync();
+
+            //returnValue = true;
+
+            //return returnValue;
             await executionStrategy.Execute(async () =>
             {
                 using (var transaction = _db.Database.BeginTransaction())
@@ -183,7 +227,7 @@ namespace Nonamii.Services
                             throw new Exception("User does not have a cart");
                         }
 
-                        var cartDetails = _db.CartsDetails.Where(a => a.CartId == cart.Id).ToList();
+                        var cartDetails = await _db.CartsDetails.Where(a => a.CartId == cart.Id).ToListAsync();
                         if (cartDetails == null)
                         {
                             throw new Exception("Null");
@@ -225,7 +269,7 @@ namespace Nonamii.Services
                     }
                 }
             });
-             return returnValue;
+            return returnValue;
         }
     }
 }

@@ -33,5 +33,15 @@ namespace Nonamii.Repository
 
             return recipe;
         }
+
+        public async Task<IEnumerable<Recipe>> GetRecipesAsync()
+        {
+            var recipes = await _db.Recipes
+                .Include(x => x.Ingredients)
+                .Include(m => m.MenuItem)
+                .Where(x => x.UserId == GetUserId())
+                .ToListAsync();
+            return recipes;
+        }
     }
 }

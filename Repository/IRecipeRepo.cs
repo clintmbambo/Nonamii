@@ -4,5 +4,6 @@
     {
         string? GetUserId();
         Task<Recipe> GetRecipe(int Id);
+        Task<IEnumerable<Recipe>> GetRecipesAsync();
     }
 }

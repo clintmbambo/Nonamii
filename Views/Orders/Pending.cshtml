@@ -7,6 +7,7 @@
 <div class="w-100 flex-wrap">
     <table class="table table-boaderless table-striped">
         <tr>
+            <th>User Id</th>
             <th>Order Id</th>
             <th>Created Date</th>
             <th>Action</th>
@@ -14,6 +15,7 @@
         @foreach(var order in Model)
         {
             <tr>
+                <td>@order.UserId</td>
                 <td>@order.Id</td>
                 <td>@order.DateCreated</td>
                 <td><a class="btn btn-primary" asp-action="Edit" asp-route-id="@order?.Id">Process Order</a></td>

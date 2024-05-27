@@ -37,10 +37,6 @@
         }
         public async Task<IEnumerable<Order>> GetPendingOrders()
         {
-            var userId = GetUserId();
-            if (string.IsNullOrEmpty(userId))
-                throw new Exception("Invalid User");
-
             var orders = await _db.Orders
                 .Include(x => x.OrderStatus)
                 .Include(a => a.OrderDetails)
@@ -130,6 +126,48 @@
             order.OrderStatusId = 5;
             _db.Update(order);
             _db.SaveChanges();
+        }
+
+        public async Task<IEnumerable<RecipeIngredient>> GetRecipeIngredientsAsync(List<MenuItem> list)
+        {
+            var ingredients = new List<RecipeIngredient>();
+            foreach(var menuItem in list)
+            {
+                var recipes = await _db.Recipes
+                    .Include(m => m.MenuItem)
+                    .Where(m => m.MenuItemId == menuItem.Id)
+                    .ToListAsync();
+
+                foreach(var recipe in recipes)
+                {
+                    var recipeIngredientsList = await _db.RecipeIngredients
+                        .Include(m => m.Recipe)
+                        .Where(m => m.RecipeId == recipe.Id)
+                        .ToListAsync();
+
+                    foreach(var item in recipeIngredientsList)
+                    {
+                        ingredients.Add(item);
+                    }
+                }
+            }
+
+            return ingredients;
+        }
+
+        public async Task<IEnumerable<Ingredient>> UpdateIngredientsAsync(List<RecipeIngredient> list)
+        {
+            var ingredientList = new List<Ingredient>();
+            foreach(var recipeIngredient in list)
+            {
+                foreach(var ingredient in _db.Ingredients)
+                {
+                    if(ingredient.Id == recipeIngredient.IngredientId)
+                        ingredientList.Add(ingredient);
+                }
+            }
+
+            return ingredientList;
         }
     }
 }

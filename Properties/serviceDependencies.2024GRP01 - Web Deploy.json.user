@@ -3,22 +3,7 @@
     "mssql2": {
       "restored": true,
       "restoreTime": "2024-05-21T00:19:29.0847891Z"
-    },
-    "mssql1": {
-      "restored": true,
-      "restoreTime": "2024-05-21T00:19:18.7520909Z"
     }
   },
-  "parameters": {
-    "mssql1.subscriptionId": {
-      "Name": "mssql1.subscriptionId",
-      "Type": "subscription",
-      "Value": "edd73ae5-0f90-4966-beee-46bb2c363d04"
-    },
-    "mssql1.resourceGroupName": {
-      "Name": "mssql1.resourceGroupName",
-      "Type": "resourceGroup",
-      "Value": "2024GRP01_group"
-    }
-  }
+  "parameters": {}
 }

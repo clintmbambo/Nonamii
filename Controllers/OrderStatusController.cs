@@ -9,7 +9,7 @@ using Nonamii.Data;
 
 namespace Nonamii.Controllers
 {
-    [Authorize(Roles = "Restaurant")]
+    [Authorize(Roles = "Admin")]
     public class OrderStatusController : Controller
     {
         private readonly ApplicationDbContext _context;

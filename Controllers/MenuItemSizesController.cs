@@ -56,8 +56,10 @@ namespace Nonamii.Controllers
         // GET: MenuItemSizes/Create
         public IActionResult Create()
         {
-            ViewData["MenuItemId"] = new SelectList(_context.MenuItems, "Id", "Name");
-            ViewData["SizeId"] = new SelectList(_context.Sizes, "Id", "Name");
+            ViewData["MenuItemId"] = new SelectList(_context.MenuItems.Where(m =>
+            m.UserId == _menuItemExtrasRepo.GetUserId()), "Id", "Name");
+            ViewData["SizeId"] = new SelectList(_context.Sizes.Where(m =>
+            m.UserId == _menuItemExtrasRepo.GetUserId()), "Id", "Name");
             return View();
         }
 
@@ -70,12 +72,14 @@ namespace Nonamii.Controllers
         {
             if (ModelState.IsValid)
             {
+                menuItemSize.UserId = _menuItemExtrasRepo.GetUserId();
                 _context.Add(menuItemSize);
                 await _context.SaveChangesAsync();
                 return RedirectToAction(nameof(Index));
             }
-            ViewData["MenuItemId"] = new SelectList(_context.MenuItems, "Id", "Name", menuItemSize.MenuItemId);
-            ViewData["SizeId"] = new SelectList(_context.Sizes, "Id", "Name", menuItemSize.SizeId);
+            ViewData["MenuItemId"] = new SelectList(_context.MenuItems.Where(m => m.UserId == _menuItemExtrasRepo.GetUserId()), "Id", "Name", menuItemSize.MenuItemId);
+            ViewData["SizeId"] = new SelectList(_context.Sizes.Where(m =>
+            m.UserId == _menuItemExtrasRepo.GetUserId()), "Id", "Name", menuItemSize.SizeId);
             return View(menuItemSize);
         }
 

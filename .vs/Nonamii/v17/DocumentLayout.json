@@ -1,12 +1,182 @@
 {
   "Version": 1,
   "WorkspaceRootPath": "C:\\Users\\zondi\\source\\repos\\Nonamii\\",
-  "Documents": [],
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{1C32385C-B204-42D4-AF8A-CD0809C2E71B}|Nonamii.csproj|c:\\users\\zondi\\source\\repos\\nonamii\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1C32385C-B204-42D4-AF8A-CD0809C2E71B}|Nonamii.csproj|solutionrelative:controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1C32385C-B204-42D4-AF8A-CD0809C2E71B}|Nonamii.csproj|c:\\users\\zondi\\source\\repos\\nonamii\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1C32385C-B204-42D4-AF8A-CD0809C2E71B}|Nonamii.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1C32385C-B204-42D4-AF8A-CD0809C2E71B}|Nonamii.csproj|c:\\users\\zondi\\source\\repos\\nonamii\\services\\userordersrepo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1C32385C-B204-42D4-AF8A-CD0809C2E71B}|Nonamii.csproj|solutionrelative:services\\userordersrepo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1C32385C-B204-42D4-AF8A-CD0809C2E71B}|Nonamii.csproj|c:\\users\\zondi\\source\\repos\\nonamii\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{1C32385C-B204-42D4-AF8A-CD0809C2E71B}|Nonamii.csproj|solutionrelative:views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1C32385C-B204-42D4-AF8A-CD0809C2E71B}|Nonamii.csproj|c:\\users\\zondi\\source\\repos\\nonamii\\controllers\\orderscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1C32385C-B204-42D4-AF8A-CD0809C2E71B}|Nonamii.csproj|solutionrelative:controllers\\orderscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1C32385C-B204-42D4-AF8A-CD0809C2E71B}|Nonamii.csproj|c:\\users\\zondi\\source\\repos\\nonamii\\models\\order.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1C32385C-B204-42D4-AF8A-CD0809C2E71B}|Nonamii.csproj|solutionrelative:models\\order.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1C32385C-B204-42D4-AF8A-CD0809C2E71B}|Nonamii.csproj|c:\\users\\zondi\\source\\repos\\nonamii\\views\\restaurants\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{1C32385C-B204-42D4-AF8A-CD0809C2E71B}|Nonamii.csproj|solutionrelative:views\\restaurants\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1C32385C-B204-42D4-AF8A-CD0809C2E71B}|Nonamii.csproj|c:\\users\\zondi\\source\\repos\\nonamii\\models\\restaurantscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1C32385C-B204-42D4-AF8A-CD0809C2E71B}|Nonamii.csproj|solutionrelative:models\\restaurantscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1C32385C-B204-42D4-AF8A-CD0809C2E71B}|Nonamii.csproj|c:\\users\\zondi\\source\\repos\\nonamii\\areas\\identity\\pages\\account\\registerrestaurant.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1C32385C-B204-42D4-AF8A-CD0809C2E71B}|Nonamii.csproj|solutionrelative:areas\\identity\\pages\\account\\registerrestaurant.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1C32385C-B204-42D4-AF8A-CD0809C2E71B}|Nonamii.csproj|c:\\users\\zondi\\source\\repos\\nonamii\\models\\restaurant.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1C32385C-B204-42D4-AF8A-CD0809C2E71B}|Nonamii.csproj|solutionrelative:models\\restaurant.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
   "DocumentGroupContainers": [
     {
       "Orientation": 0,
       "VerticalTabListWidth": 256,
-      "DocumentGroups": []
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 1,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\zondi\\source\\repos\\Nonamii\\Program.cs",
+              "RelativeDocumentMoniker": "Program.cs",
+              "ToolTip": "C:\\Users\\zondi\\source\\repos\\Nonamii\\Program.cs",
+              "RelativeToolTip": "Program.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAQAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-22T14:26:02.301Z",
+              "IsPinned": true
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "HomeController.cs",
+              "DocumentMoniker": "C:\\Users\\zondi\\source\\repos\\Nonamii\\Controllers\\HomeController.cs",
+              "RelativeDocumentMoniker": "Controllers\\HomeController.cs",
+              "ToolTip": "C:\\Users\\zondi\\source\\repos\\Nonamii\\Controllers\\HomeController.cs",
+              "RelativeToolTip": "Controllers\\HomeController.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAD4AAAAIAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-26T13:14:53.081Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "UserOrdersRepo.cs",
+              "DocumentMoniker": "C:\\Users\\zondi\\source\\repos\\Nonamii\\Services\\UserOrdersRepo.cs",
+              "RelativeDocumentMoniker": "Services\\UserOrdersRepo.cs",
+              "ToolTip": "C:\\Users\\zondi\\source\\repos\\Nonamii\\Services\\UserOrdersRepo.cs",
+              "RelativeToolTip": "Services\\UserOrdersRepo.cs",
+              "ViewState": "AQIAAAIAAAAAAAAAAAAxwC0AAAAfAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-26T09:18:21.567Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "Order.cs",
+              "DocumentMoniker": "C:\\Users\\zondi\\source\\repos\\Nonamii\\Models\\Order.cs",
+              "RelativeDocumentMoniker": "Models\\Order.cs",
+              "ToolTip": "C:\\Users\\zondi\\source\\repos\\Nonamii\\Models\\Order.cs",
+              "RelativeToolTip": "Models\\Order.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAUAAAArAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-26T09:16:53.905Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "OrdersController.cs",
+              "DocumentMoniker": "C:\\Users\\zondi\\source\\repos\\Nonamii\\Controllers\\OrdersController.cs",
+              "RelativeDocumentMoniker": "Controllers\\OrdersController.cs",
+              "ToolTip": "C:\\Users\\zondi\\source\\repos\\Nonamii\\Controllers\\OrdersController.cs",
+              "RelativeToolTip": "Controllers\\OrdersController.cs",
+              "ViewState": "AQIAABEAAAAAAAAAAAAAwAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-26T09:16:27.602Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\zondi\\source\\repos\\Nonamii\\Views\\Home\\Index.cshtml",
+              "RelativeDocumentMoniker": "Views\\Home\\Index.cshtml",
+              "ToolTip": "C:\\Users\\zondi\\source\\repos\\Nonamii\\Views\\Home\\Index.cshtml",
+              "RelativeToolTip": "Views\\Home\\Index.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAADoAAAAQAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-05-26T08:52:21.447Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "Create.cshtml",
+              "DocumentMoniker": "C:\\Users\\zondi\\source\\repos\\Nonamii\\Views\\Restaurants\\Create.cshtml",
+              "RelativeDocumentMoniker": "Views\\Restaurants\\Create.cshtml",
+              "ToolTip": "C:\\Users\\zondi\\source\\repos\\Nonamii\\Views\\Restaurants\\Create.cshtml",
+              "RelativeToolTip": "Views\\Restaurants\\Create.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA0AAABOAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-05-25T23:35:53.315Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "RegisterRestaurant.cshtml.cs",
+              "DocumentMoniker": "C:\\Users\\zondi\\source\\repos\\Nonamii\\Areas\\Identity\\Pages\\Account\\RegisterRestaurant.cshtml.cs",
+              "RelativeDocumentMoniker": "Areas\\Identity\\Pages\\Account\\RegisterRestaurant.cshtml.cs",
+              "ToolTip": "C:\\Users\\zondi\\source\\repos\\Nonamii\\Areas\\Identity\\Pages\\Account\\RegisterRestaurant.cshtml.cs",
+              "RelativeToolTip": "Areas\\Identity\\Pages\\Account\\RegisterRestaurant.cshtml.cs",
+              "ViewState": "AQIAAEAAAAAAAAAAAAAgwH0AAABBAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-25T23:29:53.515Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "RestaurantsController.cs",
+              "DocumentMoniker": "C:\\Users\\zondi\\source\\repos\\Nonamii\\Models\\RestaurantsController.cs",
+              "RelativeDocumentMoniker": "Models\\RestaurantsController.cs",
+              "ToolTip": "C:\\Users\\zondi\\source\\repos\\Nonamii\\Models\\RestaurantsController.cs",
+              "RelativeToolTip": "Models\\RestaurantsController.cs",
+              "ViewState": "AQIAAC0AAAAAAAAAAAAgwEAAAAA7AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-25T23:28:39.248Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "Restaurant.cs",
+              "DocumentMoniker": "C:\\Users\\zondi\\source\\repos\\Nonamii\\Models\\Restaurant.cs",
+              "RelativeDocumentMoniker": "Models\\Restaurant.cs",
+              "ToolTip": "C:\\Users\\zondi\\source\\repos\\Nonamii\\Models\\Restaurant.cs",
+              "RelativeToolTip": "Models\\Restaurant.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAkAAAAqAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-25T23:26:02.098Z"
+            }
+          ]
+        }
+      ]
     }
   ]
 }

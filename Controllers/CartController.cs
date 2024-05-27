@@ -1,7 +1,7 @@
 ﻿
 namespace Nonamii.Controllers
 {
-    [Authorize(Roles = "Restaurant, Admin")]
+    [Authorize(Roles = "Restaurant, Admin, User")]
     public class CartController : Controller
     {
         private readonly ICartRepo _cartRepo;
@@ -97,7 +97,7 @@ namespace Nonamii.Controllers
             var isCheckedOut = await _cartRepo.Checkout();
             if(!isCheckedOut)
             {
-                throw new Exception("Server side error");
+                return View();
             }
 
             return RedirectToAction("Index", "Home");
@@ -111,7 +111,7 @@ namespace Nonamii.Controllers
 
             var options = new SessionCreateOptions()
             {
-                SuccessUrl = domain + $"Cart/Checkout",
+                SuccessUrl = domain + "Cart/Checkout",
                 LineItems = new List<SessionLineItemOptions>(),
                 Mode = "payment"
             };
