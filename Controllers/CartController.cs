@@ -107,7 +107,7 @@ namespace Nonamii.Controllers
         public async Task<IActionResult> CheckoutSession()
         {
             var cart = _cartRepo.GetUserCart();
-            var domain = "https://2024grp01.azurewebsites.net/";
+            var domain = "https://2024group01.azurewebsites.net/";
 
             var options = new SessionCreateOptions()
             {
