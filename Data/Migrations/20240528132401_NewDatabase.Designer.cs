@@ -3,6 +3,7 @@ using System;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore.Infrastructure;
 using Microsoft.EntityFrameworkCore.Metadata;
+using Microsoft.EntityFrameworkCore.Migrations;
 using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 using Nonamii.Data;
 
@@ -11,9 +12,11 @@ using Nonamii.Data;
 namespace Nonamii.Data.Migrations
 {
     [DbContext(typeof(ApplicationDbContext))]
-    partial class ApplicationDbContextModelSnapshot : ModelSnapshot
+    [Migration("20240528132401_NewDatabase")]
+    partial class NewDatabase
     {
-        protected override void BuildModel(ModelBuilder modelBuilder)
+        /// <inheritdoc />
+        protected override void BuildTargetModel(ModelBuilder modelBuilder)
         {
 #pragma warning disable 612, 618
             modelBuilder
@@ -269,37 +272,6 @@ namespace Nonamii.Data.Migrations
                     b.HasIndex("MenuItemId");
 
                     b.ToTable("CartsDetails");
-                });
-
-            modelBuilder.Entity("Nonamii.Models.Delivery", b =>
-                {
-                    b.Property<int>("Id")
-                        .ValueGeneratedOnAdd()
-                        .HasColumnType("int");
-
-                    SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<int>("Id"));
-
-                    b.Property<string>("CustomerAddress")
-                        .HasColumnType("nvarchar(max)");
-
-                    b.Property<int>("Key")
-                        .HasColumnType("int");
-
-                    b.Property<decimal>("PackageWeight")
-                        .HasColumnType("decimal(18,2)");
-
-                    b.Property<string>("RestaurantAddress")
-                        .HasColumnType("nvarchar(max)");
-
-                    b.Property<string>("RestaurantId")
-                        .HasColumnType("nvarchar(max)");
-
-                    b.Property<string>("RestaurantName")
-                        .HasColumnType("nvarchar(max)");
-
-                    b.HasKey("Id");
-
-                    b.ToTable("Delivery");
                 });
 
             modelBuilder.Entity("Nonamii.Models.Inventory.Category", b =>
@@ -650,9 +622,6 @@ namespace Nonamii.Data.Migrations
 
                     b.Property<int>("OrderStatusId")
                         .HasColumnType("int");
-
-                    b.Property<string>("RestaurantId")
-                        .HasColumnType("nvarchar(max)");
 
                     b.Property<string>("UserId")
                         .HasColumnType("nvarchar(max)");

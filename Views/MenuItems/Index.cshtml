@@ -116,12 +116,6 @@
                 <thead>
                     <tr>
                         <th>
-                            @Html.DisplayNameFor(model => model.Id)
-                        </th>
-                        <th>
-                            @Html.DisplayNameFor(model => model.UserId)
-                        </th>
-                        <th>
                             @Html.DisplayNameFor(model => model.Image)
                         </th>
                         <th>
@@ -141,13 +135,14 @@
                     {
                         <tr>
                             <td>
-                                @Html.DisplayFor(modelItem => item.Id)
-                            </td>
-                            <td>
-                                @Html.DisplayFor(modelItem => item.UserId)
-                            </td>
-                            <td>
-                                @Html.DisplayFor(modelItem => item.Image)
+                                @if (string.IsNullOrEmpty(item.Image))
+                                {
+                                    @Html.DisplayFor(modelItem => item.Image)
+                                }
+                                else
+                                {
+                                    <img src="@item.Image" alt="@item.Name" style="width:120px;height:120px;" />
+                                }
                             </td>
                             <td>
                                 @Html.DisplayFor(modelItem => item.Name)

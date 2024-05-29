@@ -14,11 +14,15 @@ namespace Nonamii.Controllers
     {
         private readonly ApplicationDbContext _context;
         private readonly IUserOrdersRepo _userOrdersRepo;
+        private readonly IUserManagement _userManagement;
+        private readonly IDeliveriesRepo _deliveriesRepo;
 
-        public OrdersController(ApplicationDbContext context, IUserOrdersRepo userOrdersRepo)
+        public OrdersController(ApplicationDbContext context, IUserOrdersRepo userOrdersRepo, IDeliveriesRepo deliveriesRepo, IUserManagement userManagement)
         {
             _context = context;
             _userOrdersRepo = userOrdersRepo;
+            _deliveriesRepo = deliveriesRepo;
+            _userManagement = userManagement;
         }
 
         // GET: Orders
@@ -69,7 +73,11 @@ namespace Nonamii.Controllers
         {
             if (ModelState.IsValid)
             {
-                order.UserId = _userOrdersRepo.GetUserId();
+                var restaurant = await _deliveriesRepo.GetRestaurantAsync(order.Id);
+
+                order.UserId = _userManagement.GetUserId();
+                order.RestaurantId = restaurant.Id;
+
                 _context.Add(order);
                 await _context.SaveChangesAsync();
                 return RedirectToAction(nameof(Index));
@@ -124,7 +132,17 @@ namespace Nonamii.Controllers
                         throw;
                     }
                 }
-                return RedirectToAction("OrdersNav", "Vendor");
+
+                if(order.OrderStatusId == 2)
+                {
+                    _deliveriesRepo.CreateDeliveryAsync(order.Id);
+                    return RedirectToAction("OrdersNav", "Vendor");
+                }
+                else
+                {
+                    return RedirectToAction("OrdersNav", "Vendor");
+                }
+
             }
             ViewData["OrderStatusId"] = new SelectList(_context.OrderStatuses, "Id", "Id", order.OrderStatusId);
             return View(order);
@@ -176,16 +194,19 @@ namespace Nonamii.Controllers
             var pendingOrders = await _userOrdersRepo.GetPendingOrders();
             return View(pendingOrders);
         }
+        
         public async Task<IActionResult> GetPendingUserOrders()
         {
             var orders = await _userOrdersRepo.GetPendingOrders();
             return View(orders);
         }
+        
         public async Task<IActionResult> Confirm(int id)
         {
             var order = _context.Orders.Find(id);
             return View(order);
         }
+        
         public async Task<IActionResult> CancelOrder(int id)
         {
             if(id > 0)
@@ -196,6 +217,7 @@ namespace Nonamii.Controllers
 
             return RedirectToAction("GetPendingUserOrders");
         }
+        
         public async Task<IActionResult> Success()
         {
             return View();
@@ -222,6 +244,7 @@ namespace Nonamii.Controllers
             var ordersInProgress = await _userOrdersRepo.GetOrdersInProgress();
             return View(ordersInProgress);
         }
+        
         public async Task<IActionResult> GetUserOrdersInProgress()
         {
             return View();

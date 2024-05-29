@@ -7,7 +7,8 @@
 <div class="w-100 flex-wrap">
     <table class="table table-boaderless table-striped">
         <tr>
-            <th>User Id</th>
+            <th>Customer</th>
+            <th>Restaurant</th>
             <th>Order Id</th>
             <th>Created Date</th>
             <th>Action</th>
@@ -16,9 +17,10 @@
         {
             <tr>
                 <td>@order.UserId</td>
+                <td>@order.RestaurantId</td>
                 <td>@order.Id</td>
                 <td>@order.DateCreated</td>
-                <td><a class="btn btn-primary" asp-action="Edit" asp-route-id="@order?.Id">Process Order</a></td>
+                <td><a class="btn btn-primary" asp-action="Edit" asp-route-id="@order?.Id">View</a></td>
             </tr>
         }
     </table>

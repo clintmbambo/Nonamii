@@ -35,5 +35,6 @@ namespace Nonamii.Data
         public DbSet<Nonamii.Models.Inventory.Measurement> Measurement { get; set; } = default!;
         public DbSet<Nonamii.Models.Inventory.Ingredient> Ingredients { get; set; } = default!;
         public DbSet<Nonamii.Models.Restaurant> Restaurant { get; set; } = default!;
+        public DbSet<Nonamii.Models.Delivery> Delivery { get; set; } = default!;
     }
 }

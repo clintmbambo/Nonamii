@@ -13,6 +13,7 @@ namespace Nonamii.Repository
             _contextAccessor = contextAccessor;
             _userManager = userManager;
         }
+        
         public string GetUserId()
         {
             var principal = _contextAccessor.HttpContext.User;
@@ -20,6 +21,7 @@ namespace Nonamii.Repository
 
             return userId;
         }
+        
         public async Task<IEnumerable<IdentityUser>> GetDriversAsync()
         {
             //There's only one role.
@@ -48,6 +50,7 @@ namespace Nonamii.Repository
             }
             return drivers;
         }
+        
         public async Task<IEnumerable<IdentityUser>> GetRestaurantsAsync()
         {
             //There's only one role.
@@ -76,6 +79,26 @@ namespace Nonamii.Repository
             }
             return restaurants;
         }
+
+        public async Task<IdentityUser> GetRestaurantAsync(int orderId)
+        {
+            if(orderId <= 0)
+            {
+                throw new Exception("Invalid order");
+            }
+
+            var orderDetails = await _db.OrdersDetails
+                .FirstOrDefaultAsync(m => m.OrderId == orderId);
+
+            var menuItem = await _db.MenuItems
+                .FirstOrDefaultAsync(m => m.Id == orderDetails.MenuItemId);
+
+            var restaurant = await _db.Users
+                .FindAsync(menuItem.UserId);
+
+            return restaurant;
+        }
+        
         public async Task<IEnumerable<IdentityUser>> GetCustomersAsync()
         {
             //There's only one role.
@@ -104,6 +127,50 @@ namespace Nonamii.Repository
             }
             return customers;
         }
+        
+        public async Task<IdentityUser> GetCustomerAsync(int orderId)
+        {
+            if (orderId <= 0)
+                throw new Exception("Invalid order");
+
+            var order = await _db.Orders
+                .FindAsync(orderId);
+
+            var customer = await _db.Users
+                .FindAsync(order.UserId);
+
+            return customer;
+        }
+
+        public async void CreateDeliveryAsync(int orderId)
+        {
+            if(orderId <= 0)
+            {
+                throw new Exception("Invalid order");
+            }
+
+            var customer = await GetCustomerAsync(orderId);
+            var customerDetails = await _db.Address
+                .FirstOrDefaultAsync(m => m.UserId == customer.Id);
+
+            var restaurant = await GetRestaurantAsync(orderId);
+            var restaurantDetails = await _db.Restaurant
+                .FirstOrDefaultAsync(m => m.UserId == restaurant.Id);
+
+            var delivery = new Delivery()
+            {
+                Key = orderId,
+                CustomerAddress = customerDetails.Street,
+                RestaurantId = restaurant.Id,
+                RestaurantName = restaurantDetails.Name,
+                RestaurantAddress = restaurantDetails.Address,
+                PackageWeight = 5
+            };
+
+            await _db.AddAsync(delivery);
+            await _db.SaveChangesAsync();
+        }
+
         public async Task<DeliveryVM> SendDeliveryRequest(int id)
         {
             if(id <= 0)
@@ -117,25 +184,11 @@ namespace Nonamii.Repository
                 .Include(m => m.OrderStatus)
                 .FirstOrDefaultAsync(m => m.Id == id);
 
-            string? restaurantId = "";
-            while(string.IsNullOrEmpty(restaurantId) && order.OrderDetails.Count > 0)
-            {
-                foreach(var item in  order.OrderDetails)
-                {
-                    restaurantId = item.MenuItem.UserId;
-                }
-            }
-
-            if (string.IsNullOrEmpty(restaurantId))
-            {
-                throw new Exception("Invalid restaurant id");
-            }
-
             var customer = await _db.Users
                 .FirstOrDefaultAsync(m => m.Id == order.UserId);
 
             var restaurant = await _db.Users
-                .FirstOrDefaultAsync(m => m.Id == restaurantId);
+                .FirstOrDefaultAsync(m => m.Id == order.RestaurantId);
 
             var delivery = new DeliveryVM
             {
@@ -151,6 +204,7 @@ namespace Nonamii.Repository
 
             return delivery;
         }
+        
         public async Task<DeliveryVM> FindDriver(int id)
         {
             var deliveryDetails = await SendDeliveryRequest(id);

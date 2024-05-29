@@ -8,13 +8,16 @@ namespace Nonamii.Services
         private readonly ApplicationDbContext _db;
         private readonly UserManager<IdentityUser> _userManager;
         private readonly IHttpContextAccessor _contextAccessor;
+        private readonly IDeliveriesRepo _deliveriesRepo;
 
-        public CartRepo(ApplicationDbContext db, IHttpContextAccessor contextAccessor, UserManager<IdentityUser> userManager)
+        public CartRepo(ApplicationDbContext db, IHttpContextAccessor contextAccessor, UserManager<IdentityUser> userManager, IDeliveriesRepo deliveriesRepo)
         {
             _db = db;
             _contextAccessor = contextAccessor;
             _userManager = userManager;
+            _deliveriesRepo = deliveriesRepo;
         }
+
         public string GetUserId()
         {
             var principal = _contextAccessor.HttpContext.User;
@@ -27,6 +30,7 @@ namespace Nonamii.Services
             var cart = _db.Carts.FirstOrDefault(x => x.UserId == userId);
             return cart;
         }
+        
         public async Task<int> GetCartItemCount(string userId = "")
         {
             if (string.IsNullOrEmpty(userId))
@@ -168,50 +172,6 @@ namespace Nonamii.Services
             var executionStrategy = _db.Database.CreateExecutionStrategy();
             bool returnValue = true;
 
-            //if (string.IsNullOrEmpty(userId))
-            //    throw new Exception("User is not logged in");
-
-            //var cart = await GetCart(userId);
-            //if (cart is null)
-            //{
-            //    throw new Exception("User does not have a cart");
-            //}
-
-            //var cartDetails = await _db.CartsDetails.Where(a => a.CartId == cart.Id).ToListAsync();
-            //if (cartDetails == null)
-            //{
-            //    throw new Exception("Null");
-            //}
-
-            //var order = new Order
-            //{
-            //    UserId = userId,
-            //    DateCreated = DateTime.Now,
-            //    IsActive = true,
-            //    OrderStatusId = 1
-            //};
-            //await _db.AddAsync(order);
-            //await _db.SaveChangesAsync();
-
-            //foreach (var item in cartDetails)
-            //{
-            //    var orderDetail = new OrderDetail
-            //    {
-            //        OrderId = order.Id,
-            //        MenuItemId = item.MenuItemId,
-            //        Price = item.Price,
-            //        Quantity = item.Quantity,
-            //    };
-            //    await _db.OrdersDetails.AddAsync(orderDetail);
-            //}
-            //await _db.SaveChangesAsync();
-
-            //_db.CartsDetails.RemoveRange(cartDetails);
-            //await _db.SaveChangesAsync();
-
-            //returnValue = true;
-
-            //return returnValue;
             await executionStrategy.Execute(async () =>
             {
                 using (var transaction = _db.Database.BeginTransaction())
@@ -236,6 +196,7 @@ namespace Nonamii.Services
                         var order = new Order
                         {
                             UserId = userId,
+                            RestaurantId = "",
                             DateCreated = DateTime.Now,
                             IsActive = true,
                             OrderStatusId = 1
@@ -254,6 +215,12 @@ namespace Nonamii.Services
                             };
                             await _db.OrdersDetails.AddAsync(orderDetail);
                         }
+                        await _db.SaveChangesAsync();
+
+
+                        var restaurant = await _deliveriesRepo.GetRestaurantAsync(order.Id);
+                        order.RestaurantId = restaurant.Id;
+                        _db.Update(order);
                         await _db.SaveChangesAsync();
 
                         _db.CartsDetails.RemoveRange(cartDetails);

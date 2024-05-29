@@ -7,7 +7,7 @@ using Microsoft.AspNetCore.Mvc.Rendering;
 using Microsoft.EntityFrameworkCore;
 using Nonamii.Data;
 
-namespace Nonamii.Models
+namespace Nonamii.Controllers
 {
     public class RestaurantsController : Controller
     {
